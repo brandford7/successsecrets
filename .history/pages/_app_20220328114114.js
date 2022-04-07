@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Layout>
-        <Component {...pageProps} />
+        <Component {...pageProps} />;
       </Layout>
     </ChakraProvider>
   );
