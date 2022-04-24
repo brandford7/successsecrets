@@ -1,0 +1,17 @@
+import { Box } from "@chakra-ui/react";
+import { useRouter } from "next/router";
+import React from "react";
+import UpdateMatchForm from "../../components/UpdateMatchForm";
+
+
+const UpdateMatch = () => {
+     const router = useRouterr();
+     const { predictionId } = router.query;
+  return (
+    <Box h="100vh">
+      <UpdateMatchForm />
+    </Box>
+  );
+};
+
+export default UpdateMatch;

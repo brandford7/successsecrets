@@ -1,0 +1,21 @@
+import { Box } from "@chakra-ui/react";
+import React from "react";
+import Forms from "../../components/PostMatchForm";
+import UpdateMatchForm from "../../components/UpdateMatchForm";
+
+const UpdateTrick = () => {
+  return (
+    <>
+      <Box h="100vh">
+        <UpdateMatchForm />
+      </Box>
+    </>
+  );
+};
+
+export default UpdateTrick;
+
+UpdateTrick.getLayout = function getLayout(page) {
+  return <>{page}</>;
+};
+

@@ -1,0 +1,11 @@
+import{createSlice} from "@reduxjs/toolkit"
+
+const initialState = {
+    isOpen: false,
+}
+
+export const menuSlice = createSlice({
+    name:''
+    initialState,
+    reducers:
+})
