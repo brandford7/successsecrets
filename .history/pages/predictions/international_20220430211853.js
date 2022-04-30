@@ -4,7 +4,7 @@ import { endOfDay, startOfDay } from "date-fns";
 import PredictionTable from "../../components/tables/PredictionTable";
 import dbConnect from '../../lib/dbConnect';
 import Prediction from '../../models/Prediction';
-import Title from '../../components/titles/Title';
+import Title from '../../components/tits/Title';
 
 const International = ({predictions}) => {
   return (

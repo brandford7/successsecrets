@@ -6,7 +6,7 @@ import {
 } from "@chakra-ui/react";
 
 import PredictionTable from "../tables/PredictionTable";
-import Title from "../titles/Title";
+import Title from "../headings/Title";
 
 const MidSection = ({ predictions }) => {
  
