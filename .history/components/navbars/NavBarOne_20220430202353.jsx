@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, chakra,} from "@chakra-ui/react";
+import { Stack, chakra, Box } from "@chakra-ui/react";
 import Link from "next/link";
 
 

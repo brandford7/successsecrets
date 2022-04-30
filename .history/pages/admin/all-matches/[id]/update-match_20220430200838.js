@@ -2,6 +2,7 @@ import { Box } from "@chakra-ui/react";
 import { format } from "date-fns";
 import { useRouter } from "next/router";
 import React from "react";
+import useSWR from "swr";
 import UpdateMatchForm from "../../../../components/forms/UpdateMatchForm";
 import dbConnect from "../../../../lib/dbConnect";
 import Prediction from "../../../../models/Prediction";

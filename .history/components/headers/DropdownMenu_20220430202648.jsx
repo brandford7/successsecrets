@@ -17,13 +17,13 @@ const DropdownMenu = () => {
           <IconButton
             bg="inherit"
             onClick={() => dispatch(closeMenu())}
-            icon={<GrFormClose />}
+            icon={</>}
           />
         ) : (
           <IconButton
             bg="inherit"
             onClick={() => dispatch(openMenu())}
-            icon={<GiHamburgerMenu />}
+            icon={< GiHamburgerMenu  />}
           />
         )}
       </Box>
