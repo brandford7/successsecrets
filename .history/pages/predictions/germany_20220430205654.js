@@ -1,29 +1,29 @@
 import { Box } from '@chakra-ui/react';
 import { endOfDay, startOfDay } from 'date-fns';
 import React from 'react'
-import PredictionTable from '../../components//tables/PredictionTable';
-import Title from '../../components/headings/Title';
+import Title from '../../components/eadings/Title';
+import PredictionTable from '../../components/tables/PredictionTable';
 import dbConnect from '../../lib/dbConnect';
 import Prediction from '../../models/Prediction';
 
-const Spain = ({predictions}) => {
+const Germany = ({predictions}) => {
   return (
     <>
       <Box overflow="hidden" h="100vh">
-        <Title name="Spain" />
+        <Title name="Germany" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
 }
 
-export default Spain
+export default Germany
 
 export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    country: "Spain",
+    country: "Germany",
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
