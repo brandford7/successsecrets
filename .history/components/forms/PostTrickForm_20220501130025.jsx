@@ -36,7 +36,7 @@ const PostTrickForm = () => {
           setTimeout(async () => {
             try {
               const res = await fetch(
-                "/api/tricks",
+                "https://successsecrets.vercel.app/api/tricks",
                 {
                   method: "POST",
                   headers: {
