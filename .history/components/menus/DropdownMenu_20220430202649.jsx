@@ -15,7 +15,7 @@ const DropdownMenu = () => {
       <Box h="auto" display={["inline-block", "inline-block", "none"]} p="0">
         {open ? (
           <IconButton
-            bg="whitesmoke"
+            bg="inherit"
             onClick={() => dispatch(closeMenu())}
             icon={<GrFormClose />}
           />

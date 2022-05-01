@@ -37,7 +37,7 @@ const PredictionTable = ({ predictions }) => {
           {predictions.map((prediction) => (
             <Tr key={prediction._id}>
               <Td>
-                {/*<Img src={prediction.image_url} alt="" />*/} {prediction.country}
+                {<Img src={prediction.image_url} alt="" />*/} {prediction.country}
               </Td>
 
               <Td>{prediction.match}</Td>

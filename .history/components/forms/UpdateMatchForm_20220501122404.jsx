@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Button,
@@ -11,29 +11,22 @@ import {
 } from "@chakra-ui/react";
 import { Formik } from "formik";
 import * as Yup from "yup";
+import { mutate } from "swr";
 import { useRouter } from "next/router";
 
-const PostMatchForm = () => {
-  
+const UpdateMatchForm = ({ Values }) => {
+  const [message, setMessage] = useState("");
   const router = useRouter();
- 
+  const id = router.query.id;
 
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="center" mb="5">
-        <Heading>Post a Match</Heading>
+        <Heading color="white">Update Match</Heading>
       </Box>
 
       <Formik
-        initialValues={{
-          country: "England",
-          odd: "",
-          match: "",
-          bet: "",
-          image_url: "",
-          start_date: null,
-          result: "",
-        }}
+        initialValues={Values}
         validationSchema={Yup.object({
           country: Yup.string()
             .max(15, "Must be 15 characters or less")
@@ -48,17 +41,16 @@ const PostMatchForm = () => {
           image_url: Yup.string()
             .max(1000, "Must be a string")
             .required("Required"),
-          start_date: Yup.date().required("Required").nullable(),
+          start_date: Yup.date().required("Required"),
           result: Yup.string().max(10, "Must be 10 characters or less"),
         })}
         onSubmit={(values, { setSubmitting }) => {
-          console.log(values);
           setTimeout(async () => {
             try {
               const res = await fetch(
-                "https://successsecrets.vercel.app/api/predictions",
+                `/${id}`,
                 {
-                  method: "POST",
+                  method: "PUT",
                   headers: {
                     Accept: "application/json",
                     "Content-Type": "application/json",
@@ -69,13 +61,21 @@ const PostMatchForm = () => {
 
               // Throw error with status code in case Fetch API req failed
               if (!res.ok) {
-                throw new Error("error");
+                throw new Error(res.status);
               }
 
+              const { data } = await res.json();
+
+              mutate(
+                `http://localhost:3000/api/predictions/${id}`,
+                data,
+                false
+              ); // Update the local data without a revalidation
               router.push("/");
             } catch (error) {
-              console.error("error");
+              setMessage("Failed to update prediction");
             }
+
             setSubmitting(false);
           }, 400);
         }}
@@ -100,7 +100,6 @@ const PostMatchForm = () => {
               <FormControl
                 isInvalid={formik.errors.match && formik.touched.match}
               >
-                
                 <FormLabel htmlFor="match">Match</FormLabel>
                 <Input
                   w="auto"
@@ -154,7 +153,7 @@ const PostMatchForm = () => {
                   formik.errors.start_date && formik.touched.start_date
                 }
               >
-                <FormLabel htmlFor="date">Date</FormLabel>
+                <FormLabel htmlFor="result">Result</FormLabel>
                 <Input
                   id="date"
                   type="date"
@@ -182,10 +181,9 @@ const PostMatchForm = () => {
               <Button
                 mt="5"
                 _hover={{ bg: "brand.700", color: "white" }}
-              
                 type="submit"
               >
-                Submit
+                Update
               </Button>
             </form>
           </Stack>
@@ -195,4 +193,4 @@ const PostMatchForm = () => {
   );
 };
 
-export default PostMatchForm;
+export default UpdateMatchForm;

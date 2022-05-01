@@ -55,17 +55,14 @@ const PostMatchForm = () => {
           console.log(values);
           setTimeout(async () => {
             try {
-              const res = await fetch(
-                "https://successsecrets.vercel.app/api/predictions",
-                {
-                  method: "POST",
-                  headers: {
-                    Accept: "application/json",
-                    "Content-Type": "application/json",
-                  },
-                  body: JSON.stringify(values),
-                }
-              );
+              const res = await fetch("http://localhost:3000/api/predictions", {
+                method: "POST",
+                headers: {
+                  Accept: "application/json",
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(values),
+              });
 
               // Throw error with status code in case Fetch API req failed
               if (!res.ok) {

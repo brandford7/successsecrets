@@ -1,21 +1,36 @@
-import React, { useEffect, useState } from "react";
-import useSWR from 'swr'
-import { Box, IconButton, Stack,Flex } from "@chakra-ui/react";
+import React from "react";
+import useSWR from "swr";
+import { Box, IconButton, Stack, Flex } from "@chakra-ui/react";
 import { ImArrowLeft, ImArrowRight } from "react-icons/im";
 import Carousel from "nuka-carousel";
+import Trick from "../../models/Trick"
+import dbConnect from "../../lib/dbConnect";
 
-
-
-const fetcher =(url) => fetch(url).then(res => res.json())
-
+const fetcher = async () => {
+  
+  const res = await Trick.find()
+  const data = await res.json()
+  return data
+};
 
 const Tricks = () => {
-  const { data:tricks, error } = useSWR('https://successsecrets.vercel.app/api/tricks', fetcher);
-   if (error) return <Flex align="center" justify='center'>Failed to load</Flex>;
-  if (!tricks) return <Flex align='center justify='center>Loading...</Flex>;
+  const { data: tricks, error } = useSWR(
+    "tricks",
+    fetcher
+  );
+  if (error)
+    return (
+      <Flex align="center" justify="center">
+        Failed to load
+      </Flex>
+    );
+  if (!tricks)
+    return (
+      <Flex align="center justify=" center>
+        Loading...
+      </Flex>
+    );
 
-  
- 
   return (
     <>
       <Stack direction="row">
@@ -56,4 +71,3 @@ const Tricks = () => {
 };
 
 export default Tricks;
-
