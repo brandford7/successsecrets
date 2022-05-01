@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <chakra.footer bg="#23272e" w="100%" h="200px" >
-        <Stack direction="column" justify="center" align="center" p='10'>
+        <Stack direction="column" justify="center" align="center" p=''>
           <MainLogo />
           <Text rounded="full" color="white">
             18+
