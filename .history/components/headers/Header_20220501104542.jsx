@@ -25,7 +25,8 @@ const Header = () => {
           {session && (
             <Stack direction="row" align="center" cursor="pointer">
               <UserMenu
-               
+                name={}
+                image={session?.user.image}
               />
             </Stack>
           )}

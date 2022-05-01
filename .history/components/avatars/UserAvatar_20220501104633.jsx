@@ -1,4 +1,4 @@
-import { Avatar} from "@chakra-ui/react";
+import { Avatar, Menu, MenuButton, MenuItem, MenuList,IconButton } from "@chakra-ui/react";
 
 
 const UserAvatar = ({ name, image }) => {

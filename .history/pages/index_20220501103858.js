@@ -6,7 +6,7 @@ import dbConnect from "../lib/dbConnect";
 import Prediction from "../models/Prediction";
 
 export default function Home({ predictions }) {
-  
+  console.log(session)
   console.log(predictions)
   return (
     <Box overflow="hidden" h="auto">

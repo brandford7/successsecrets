@@ -18,10 +18,12 @@ const UserMenu = () => {
   return (
     <>
       <Menu isLazy>
-        <MenuButton variant="outline">
-          <UserAvatar name={session?.username} image={session?.user.image} />
-        </MenuButton>
-
+        <MenuButton
+         
+          
+          
+          variant="outline"
+        />
         <MenuList>
           <MenuItem>Admin</MenuItem>
           <MenuItem onClick={() => signOut()}>Sign Out</MenuItem>

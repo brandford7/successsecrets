@@ -1,7 +1,6 @@
 import { Box, Flex, Stack } from "@chakra-ui/react";
 import React from "react";
 import { useSelector } from "react-redux";
-import { useSession } from "next-auth/react";
 import UserMenu from "../menus/UserMenu";
 import NavBarOne from "../navbars/NavBarOne";
 import NavBarTwo from "../navbars/NavBarTwo";

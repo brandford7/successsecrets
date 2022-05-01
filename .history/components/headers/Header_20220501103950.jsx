@@ -11,7 +11,7 @@ import MainLogo from "../sections/MainLogo";
 const Header = () => {
   const { data: session } = useSession();
   const open = useSelector((state) => state.menu.isOpen);
-  console.log(session)
+  console.l
 
   return (
     <>
@@ -25,7 +25,8 @@ const Header = () => {
           {session && (
             <Stack direction="row" align="center" cursor="pointer">
               <UserMenu
-               
+                name={session?.username}
+                image={session?.user.image}
               />
             </Stack>
           )}
