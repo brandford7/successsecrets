@@ -10,7 +10,7 @@ const fetcher =(url) => fetch(url).then(res => res.json())
 
 
 const Tricks = () => {
-  const { data:tricks, error } = useSWR("http://localhost:3000/api/tricks" || "https://sucesssecrets.vercel.app/api/tricks", fetcher);
+  const { data:tricks, error } = useSWR("http://localhost:3000/api/tricks" ||, fetcher);
    if (error) return <Flex align="center" justify='center'>Failed to load</Flex>;
   if (!tricks) return <Flex align='center justify='center>Loading...</Flex>;
 

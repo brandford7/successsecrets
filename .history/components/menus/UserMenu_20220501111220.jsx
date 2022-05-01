@@ -3,7 +3,7 @@ import {
   Menu,
   MenuButton,
   MenuItem,
-  MenuList, Link
+  MenuList,IconButton, Link
   
 } from "@chakra-ui/react";
 import { signOut } from "next-auth/react";
@@ -23,7 +23,7 @@ const UserMenu = () => {
         </MenuButton>
 
         <MenuList>
-          <MenuItem as={Link} href='/admin'>Admin</MenuItem>
+          <MenuItem as={Link} to='/admin'>Admin</MenuItem>
           <MenuItem onClick={() => signOut()}>Sign Out</MenuItem>
         </MenuList>
       </Menu>
