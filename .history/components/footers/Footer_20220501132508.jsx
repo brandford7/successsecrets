@@ -13,7 +13,7 @@ const Footer = () => {
           <Text rounded="full" color="white">
             18+
           </Text>
-          <Stack direction="row" spacing="5" p='10'>
+          <Stack direction="row" spacing="5" p=>
             <a href="https://www.youtube.com/channel/UC9zkTKufmG2LTiaael9zovw" target="blank">
               <Image
                 src="/youtube.png"
