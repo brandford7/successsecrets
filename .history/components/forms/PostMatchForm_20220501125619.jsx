@@ -55,7 +55,7 @@ const PostMatchForm = () => {
           console.log(values);
           setTimeout(async () => {
             try {
-              const res = await fetch("https://successsecrets.vercel.app/api/predictions", {
+              const res = await fetch("http://localhost:3000/api/predictions", {
                 method: "POST",
                 headers: {
                   Accept: "application/json",
