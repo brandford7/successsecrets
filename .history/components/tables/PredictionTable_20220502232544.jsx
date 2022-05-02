@@ -1,5 +1,7 @@
 import {
- 
+  IconButton,
+  Img,
+  Stack,
   Table,
   TableContainer,
   Tbody,
@@ -9,15 +11,20 @@ import {
   Tr,
 } from "@chakra-ui/react";
 
+
 import React, { useState } from "react";
 
+
 const PredictionTable = ({ predictions }) => {
+ 
+
+
   return (
     <>
+      {" "}
       {predictions.length > 0 && (
         <TableContainer bg="bg.200" maxW="100%">
-          <Table
-            fontSize={["12px", "12px", "16px"]}
+          <Table fontSize={["12px","12px","16px"]}
             size="sm"
             variant="striped"
             colorScheme=""
@@ -35,7 +42,10 @@ const PredictionTable = ({ predictions }) => {
             <Tbody>
               {predictions.map((prediction) => (
                 <Tr key={prediction._id}>
-                  <Td>{prediction.country}</Td>
+                  <Td>
+                    {/*<Img src={prediction.image_url} alt="" />*/}{" "}
+                    {prediction.country}
+                  </Td>
 
                   <Td>{prediction.match}</Td>
                   <Td>{prediction.bet}</Td>

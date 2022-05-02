@@ -14,7 +14,7 @@ const Advert = () => {
           borderStyle: "none",
         }}
         width="1519"
-        height="120"
+        height="59"
         loading="lazy"
         src="https://refbanners.com/I?tag=d_1532459m_53371c_&site=1532459&ad=53371"
       ></iframe>

@@ -1,6 +1,6 @@
 import React,{lazy, Suspense} from "react";
 import { Box, Heading,  Stack } from "@chakra-ui/react";
-//import Tricks from "./Tricks"
+import Tricks from "./Tricks"
 import Advert from "../avatars/Advert";
 //itconst Tricks = lazy(() => import("./Tricks"));
 
@@ -23,9 +23,9 @@ const TopSection = () => {
             1xBet Tricks
           </Heading>
 <Advert/>
-        {/* <Stack direction="row" w="auto" p="10px">
+         {/* <Stack direction="row" w="auto" p="10px">
             <Tricks />
-  </Stack>*/}
+          </Stack>
         </Box>
       {/* </Suspense> */}
     </>

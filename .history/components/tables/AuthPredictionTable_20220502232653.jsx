@@ -18,6 +18,7 @@ import { BiEdit } from "react-icons/bi";
 
 const AuthPredictionTable = ({ predictions }) => {
   const router = useRouter();
+console.log(predictions)
 
   return (
     <TableContainer bg="bg.200" maxW="100%">

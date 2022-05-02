@@ -1,5 +1,6 @@
 import {
   IconButton,
+  Img,
   Stack,
   Table,
   TableContainer,
@@ -11,13 +12,14 @@ import {
 } from "@chakra-ui/react";
 import Link from "next/link";
 
-import React from "react";
+import Reactfrom "react";
 import { useRouter } from "next/router";
 import { GrFormView } from "react-icons/gr";
 import { BiEdit } from "react-icons/bi";
 
 const AuthPredictionTable = ({ predictions }) => {
   const router = useRouter();
+console.log(predictions)
 
   return (
     <TableContainer bg="bg.200" maxW="100%">
