@@ -11,7 +11,7 @@ const AllMatches = ({ predictions }) => {
 
   return (
     <>
-      <Box overflow='hidden' h="100vh">
+      <Box h="100vh">
         <Box display="flex" alignItems="center" justifyContent="center" mb="5">
           <Heading color="white">All Matches</Heading>
         </Box>
