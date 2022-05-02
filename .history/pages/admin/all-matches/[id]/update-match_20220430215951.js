@@ -18,7 +18,7 @@ const UpdateMatch = ({prediction}) => {
     odd: prediction.odd,
     start_date: format(new Date(prediction.start_date), "yyyy do MMMM"),
     result: prediction.result,
-    
+    image_url: prediction.image_url,
   };
 
   console.log(predictionForm);

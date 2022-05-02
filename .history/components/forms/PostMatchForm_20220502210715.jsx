@@ -30,6 +30,7 @@ const PostMatchForm = () => {
           odd: "",
           match: "",
           bet: "",
+          image_url: "",
           start_date: null,
           result: "",
         }}
@@ -130,7 +131,19 @@ const PostMatchForm = () => {
                   <FormErrorMessage>{formik.errors.odd}</FormErrorMessage>
                 ) : null}
               </FormControl>
-           
+              <FormControl
+                isInvalid={formik.errors.image_url && formik.touched.image_url}
+              >
+                <FormLabel htmlFor="image">Image</FormLabel>
+                <Input
+                  id="image"
+                  type="text"
+                  {...formik.getFieldProps("image_url")}
+                />
+                {formik.touched.image_url && formik.errors.image_url ? (
+                  <FormErrorMessage>{formik.errors.image_url}</FormErrorMessage>
+                ) : null}
+              </FormControl>
               <FormControl
                 isInvalid={
                   formik.errors.start_date && formik.touched.start_date

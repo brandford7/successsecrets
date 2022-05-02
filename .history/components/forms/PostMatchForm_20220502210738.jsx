@@ -30,6 +30,7 @@ const PostMatchForm = () => {
           odd: "",
           match: "",
           bet: "",
+          image_url: "",
           start_date: null,
           result: "",
         }}
