@@ -4,10 +4,10 @@ import { Box, Heading,  Stack } from "@chakra-ui/react";
 const Tricks = lazy(() => import("./Tricks"));
 
 const TopSection = () => {
-const Loader =<p>Loading...</p>
+//const Loader =<p>Loading...</p>
   return (
     <>
-       <Suspense fallback={Loader}>
+      {/* <Suspense fallback={Loader}>*/}
         
         <Box
           w="100%"
@@ -26,7 +26,7 @@ const Loader =<p>Loading...</p>
             <Tricks />
           </Stack>
         </Box>
-       </Suspense> 
+      {/* </Suspense> */}
     </>
   );
 };
