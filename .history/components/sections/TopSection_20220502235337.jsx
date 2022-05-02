@@ -1,8 +1,8 @@
 import React,{lazy, Suspense} from "react";
 import { Box, Heading,  Stack } from "@chakra-ui/react";
-import Tricks from "./Tricks"
+//import Tricks from "./Tricks"
 import Advert from "../avatars/Advert";
-//const Tricks = lazy(() => import("./Tricks"));
+//itconst Tricks = lazy(() => import("./Tricks"));
 
 const TopSection = () => {
 //const Loader =<p>Loading...</p>

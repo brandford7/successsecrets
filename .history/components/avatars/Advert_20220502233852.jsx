@@ -15,7 +15,7 @@ const Advert = () => {
         }}
         width="1519"
               height="120"
-              title='1xbet ad'
+              tit
         loading="lazy"
         src="https://refbanners.com/I?tag=d_1532459m_53371c_&site=1532459&ad=53371"
       ></iframe>
