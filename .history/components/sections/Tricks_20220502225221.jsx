@@ -48,7 +48,7 @@ const Tricks = () => {
                 loading='lazy'
           /> */}
               <lite-youtube
-                videoid={trick.video_Link}
+                videoid="guJLfqTFfIw"
                 videotitle="This is a video title"
               ></lite-youtube>
             </Box>

@@ -27,9 +27,9 @@ const PredictionTable = ({ predictions }) => {
       {predictions.length > 0 && (
         <TableContainer bg="bg.200" maxW="100%">
           <Table fontSize={["12px","12px","16px"]}
-            size="sm"
-            variant="striped"
-            colorScheme=""
+            size="md"
+            variant=""
+            colorScheme="blue"
             color="whitesmoke"
           >
             <Thead>

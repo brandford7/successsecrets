@@ -29,7 +29,7 @@ const PredictionTable = ({ predictions }) => {
           <Table fontSize={["12px","12px","16px"]}
             size="sm"
             variant="striped"
-            colorScheme=""
+            colorScheme="red"
             color="whitesmoke"
           >
             <Thead>

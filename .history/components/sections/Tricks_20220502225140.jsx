@@ -39,18 +39,14 @@ const Tricks = () => {
               key={trick._id}
               h="auto"
             >
-              {/*   <iframe
+           {/*   <iframe
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 src={trick.video_Link}
                 loading='lazy'
-          /> */}
-              <lite-youtube
-                videoid={trick.video_Link}
-                videotitle="This is a video title"
-              ></lite-youtube>
+              />
             </Box>
           ))}
         </Carousel>

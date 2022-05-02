@@ -47,10 +47,7 @@ const Tricks = () => {
                 src={trick.video_Link}
                 loading='lazy'
           /> */}
-              <lite-youtube
-                videoid={trick.video_Link}
-                videotitle="This is a video title"
-              ></lite-youtube>
+              
             </Box>
           ))}
         </Carousel>
