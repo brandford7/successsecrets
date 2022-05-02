@@ -31,6 +31,7 @@ export default async function handler(req, res) {
             match: req.body.match,
             bet: req.body.bet,
             odd: req.body.odd,
+            image_url: req.body.image_url,
             result: req.body.result,
             start_date: req.body.start_date,
           },
