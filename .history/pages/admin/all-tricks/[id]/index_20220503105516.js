@@ -14,7 +14,7 @@ const ViewTrick = ({ trick }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`https:successsecrets.vercel.app/api/tricks/${id}`, {
+      await fetch(`http:successsecrets.vercel.app/api/tricks/${id}`, {
         method: "Delete",
       });
       router.push("/admin/all-tricks");
