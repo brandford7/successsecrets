@@ -8,7 +8,7 @@ const Advert = () => {
         scrolling="no"
         frameBorder="0"
         style={{
-          padding: "15px",
+          padding: "1px",
           margin: "0px",
           border: "0px",
           borderStyle: "none",

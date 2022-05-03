@@ -3,21 +3,21 @@ import React from "react";
 
 const Advert = () => {
   return (
-    <Box display="flex" justifyContent="center" alignItems="center">
+    <Box display="flex" justifyContent="flex-end">
       <iframe
         scrolling="no"
         frameBorder="0"
         style={{
-          padding: "15px",
+          padding: "0px",
           margin: "0px",
           border: "0px",
           borderStyle: "none",
         }}
-        width="300"
-        height="250"
-        title="1xbet ad"
+        width="100vh"
+              height="120"
+              title='1xbet ad'
         loading="lazy"
-        src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"
+        src="https://refbanners.com/I?tag=d_1532459m_53371c_&site=1532459&ad=53371"
       ></iframe>
     </Box>
   );

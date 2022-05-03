@@ -20,9 +20,9 @@ const TopSection = () => {
         >
          
 <Advert/>
-        {/* <Stack direction="row" w="auto" p="10px">
+        <Stack direction="row" w="auto" p="10px">
             <Tricks />
-  </Stack> */}
+  </Stack>
         </Box>
       
     </>
