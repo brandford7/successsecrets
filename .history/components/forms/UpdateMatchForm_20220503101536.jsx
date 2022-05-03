@@ -127,7 +127,6 @@ const UpdateMatchForm = ({ Values }) => {
                 <Input
                   id="odd"
                   type="number"
-                step='any'
                   {...formik.getFieldProps("odd")}
                 />
                 {formik.touched.odd && formik.errors.odd ? (
