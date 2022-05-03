@@ -8,7 +8,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Tricks = () => {
   const { data: tricks, error } = useSWR(
-    "https://successsecrets.vercel.app/api/tricks",
+    "http://localhost:3000/api/tricks",
     fetcher
   );
   if (error)
@@ -48,9 +48,8 @@ const Tricks = () => {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                 loading="lazy"
                 src={trick.video_Link}
-               
+                loading="lazy"
               />
             </Box>
           ))}
