@@ -21,14 +21,14 @@ const Tricks = () => {
 
   return (
     <>
-      <Stack direction="row" px={['0','0','150px']}>
+      <Stack direction="row">
         <Carousel
           wrapAround="true"
           renderCenterLeftControls={({ previousSlide }) => (
             <IconButton  icon={<ImArrowLeft />} onClick={previousSlide} />
           )}
           renderCenterRightControls={({ nextSlide }) => (
-            <IconButton  icon={<ImArrowRight />} onClick={nextSlide} />
+            <IconButton p='0' icon={<ImArrowRight />} onClick={nextSlide} />
           )}
           autoplay="true"
           easing="easeInOutElastic"

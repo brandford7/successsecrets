@@ -21,7 +21,7 @@ const Advert = () => {
         loading="lazy"
         src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"
           ></iframe>
-          
+          /a>
     </Box>
     </>
   );

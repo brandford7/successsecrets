@@ -1,5 +1,4 @@
 import { Box, Heading } from "@chakra-ui/react";
-import Head from "next/head";
 import React from "react";
 import Advert from "../components/avatars/Advert";
 import Tricks from "../components/sections/Tricks";
@@ -7,7 +6,7 @@ import Tricks from "../components/sections/Tricks";
 const OneXbet = () => {
   return (
     <>
-      
+      {" "}
       <Head>
         <title>Success Secrets bet</title>
         <meta

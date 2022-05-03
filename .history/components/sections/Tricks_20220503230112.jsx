@@ -21,7 +21,7 @@ const Tricks = () => {
 
   return (
     <>
-      <Stack direction="row" px={['0','0','150px']}>
+      <Stack direction="row">
         <Carousel
           wrapAround="true"
           renderCenterLeftControls={({ previousSlide }) => (

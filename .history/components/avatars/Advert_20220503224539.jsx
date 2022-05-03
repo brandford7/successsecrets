@@ -1,11 +1,9 @@
 import { Box } from "@chakra-ui/react";
-import Image from "next/image";
 import React from "react";
 
 const Advert = () => {
   return (
-      <>
-          <Box display="flex" justifyContent="center" alignItems="center">
+    <Box display="flex" justifyContent="center" alignItems="center">
       <iframe
         scrolling="no"
         frameBorder="0"
@@ -23,7 +21,6 @@ const Advert = () => {
           ></iframe>
           
     </Box>
-    </>
   );
 };
 

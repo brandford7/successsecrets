@@ -7,7 +7,7 @@ import Tricks from "../components/sections/Tricks";
 const OneXbet = () => {
   return (
     <>
-      
+      {" "}
       <Head>
         <title>Success Secrets bet</title>
         <meta
