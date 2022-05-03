@@ -1,7 +1,6 @@
 import { Box, Container } from "@chakra-ui/react";
 import React from "react";
 import Footer from "../footers/Footer";
-import ScrollToTop from "../footers/ScrollToTop";
 
 import MainLogo from "../sections/MainLogo";
 
@@ -16,7 +15,7 @@ const AuthLayout = ({ children }) => {
           {children}
           <Footer />
         </Container>
-        <ScrollToTop/>
+        <Scr
       </Box>
     </>
   );

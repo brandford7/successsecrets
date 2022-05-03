@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
           <main>{children}</main>
           <Footer />
         </Container>
-        <ScrollToTop/>
+        <ScrollToTop/
       </Box>
     </>
   );

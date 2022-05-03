@@ -16,7 +16,7 @@ const AuthLayout = ({ children }) => {
           {children}
           <Footer />
         </Container>
-        <ScrollToTop/>
+        <ScrollToTop
       </Box>
     </>
   );

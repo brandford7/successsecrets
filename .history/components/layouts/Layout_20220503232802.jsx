@@ -2,7 +2,6 @@ import React from "react";
 import { Box, Container } from "@chakra-ui/react";
 import Header from "../headers/Header";
 import Footer from "../footers/Footer";
-import ScrollToTop from "../footers/ScrollToTop";
 
 
 const Layout = ({ children }) => {
@@ -14,7 +13,7 @@ const Layout = ({ children }) => {
           <main>{children}</main>
           <Footer />
         </Container>
-        <ScrollToTop/>
+        
       </Box>
     </>
   );
