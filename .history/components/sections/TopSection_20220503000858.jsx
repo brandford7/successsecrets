@@ -13,7 +13,7 @@ const TopSection = () => {
         <Box
           w="100%"
           bg="white"
-          bgImage="url(/bg-image.webp)"
+          bgImage="url(/bgimage1.webp)"
           bgPosition="center"
           bgRepeat="no-repeat"
           bgSize="cover"
