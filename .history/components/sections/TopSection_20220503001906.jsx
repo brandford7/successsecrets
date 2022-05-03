@@ -26,7 +26,7 @@ const TopSection = () => {
             <Tricks />
   </Stack>
         </Box>
-      
+      {/* </Suspense> */}
     </>
   );
 };

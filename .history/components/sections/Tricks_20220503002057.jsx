@@ -1,6 +1,6 @@
 import React from "react";
 import useSWR from "swr";
-import { Box, IconButton, Stack,  } from "@chakra-ui/react";
+import { Box, IconButton, Stack, Flex } from "@chakra-ui/react";
 import { ImArrowLeft, ImArrowRight } from "react-icons/im";
 import Carousel from "nuka-carousel";
 

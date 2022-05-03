@@ -7,7 +7,7 @@ import Advert from "../avatars/Advert";
 const TopSection = () => {
   return (
     <>
-      
+      {/* <Suspense fallback={Loader}>*/}
         
         <Box
           w="100%"
@@ -26,7 +26,7 @@ const TopSection = () => {
             <Tricks />
   </Stack>
         </Box>
-      
+      {/* </Suspense> */}
     </>
   );
 };
