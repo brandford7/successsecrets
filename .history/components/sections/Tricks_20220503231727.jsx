@@ -8,7 +8,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Tricks = () => {
   const { data: tricks, error } = useSWR(
-    "https://successsecrets.vercel.app/api/tricks",
+    "http://localhost:3000/api/tricks",
     fetcher
   );
   if (error)
@@ -21,7 +21,7 @@ const Tricks = () => {
 
   return (
     <>
-      <Stack direction="row" px={['0','0','150px']}>
+      <Stack direction="row" p={['0','0'150px']}>
         <Carousel
           wrapAround="true"
           renderCenterLeftControls={({ previousSlide }) => (
