@@ -18,7 +18,7 @@ const UserMenu = () => {
   return (
     <>
       <Menu isLazy>
-        <MenuButton variant="outline" aria-label="user Options">
+        <MenuButton variant="outline" aria-label="Options">
           <UserAvatar name={session?.username} image={session?.user.image} />
         </MenuButton>
 

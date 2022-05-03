@@ -16,7 +16,7 @@ const DropdownMenu = () => {
         {open ? (
           <IconButton
             bg="whitesmoke"
-            aria-label="open"
+            aria-label="menu"
             onClick={() => dispatch(closeMenu())}
             icon={<GrFormClose />}
           />

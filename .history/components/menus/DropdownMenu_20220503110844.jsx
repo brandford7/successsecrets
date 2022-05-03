@@ -16,14 +16,14 @@ const DropdownMenu = () => {
         {open ? (
           <IconButton
             bg="whitesmoke"
-            aria-label="open"
+            aria-label="Options"
             onClick={() => dispatch(closeMenu())}
             icon={<GrFormClose />}
           />
         ) : (
           <IconButton
-            bg="whitesmoke"
-            aria-label="close"
+            bg="white"
+            aria-label="Options"
             onClick={() => dispatch(openMenu())}
             icon={<GiHamburgerMenu />}
           />
