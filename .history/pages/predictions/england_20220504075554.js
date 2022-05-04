@@ -8,7 +8,7 @@ import Prediction from "../../models/Prediction"
 import Head from 'next/head'
 
 const England = ({ predictions }) => {
-  console.log(predictions)
+  
   return (
     <>
       
@@ -19,7 +19,7 @@ const England = ({ predictions }) => {
           name="description"
           content="The best site for football predictions"
         />
-        <link rel="icon" href="/success-image.webp" />
+        <link rel="icon" href="/success-image.jpg" />
       </Head>
         <Title name="England" />
         <PredictionTable predictions={predictions} />
@@ -28,9 +28,9 @@ const England = ({ predictions }) => {
   );
 }
 
-export default England;
+export default England
 
-export async function getStaticProps() {
+export async function getStaticProps(){
   await dbConnect();
 
   const predictions = await Prediction.find({
@@ -40,6 +40,7 @@ export async function getStaticProps() {
       $lte: endOfDay(new Date()),
     },
   });
+  
 
   return {
     props: {
@@ -47,4 +48,5 @@ export async function getStaticProps() {
     },
     revalidate: 10,
   };
+
 }

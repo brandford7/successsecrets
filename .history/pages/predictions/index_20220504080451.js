@@ -12,7 +12,7 @@ const Predictions = ({ predictions }) => {
   const todayDate = format(new Date(), "do MMMM");
   
   return (
-    <Box overflow="hidden" h="auto" bg="bg.200">
+    <Box overflow="hidden" h="100vh" bg="bg.200">
       <Head>
         <title>Predictions</title>
         <meta

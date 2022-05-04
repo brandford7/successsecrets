@@ -1,33 +1,34 @@
-import { Box } from '@chakra-ui/react';
-import { endOfDay, startOfDay } from 'date-fns';
+import { Box } from '@chakra-ui/react'
+import { endOfDay, startOfDay } from 'date-fns'
 import React from 'react'
-import Title from '../../components/titles/Title';
-import PredictionTable from '../../components/tables/PredictionTable';
-import dbConnect from '../../lib/dbConnect';
-import Prediction from '../../models/Prediction';
-import Head from 'next/head';
+import Title from '../../components/titles/Title'
+import PredictionTable from '../../components/tables/PredictionTable'
+import dbConnect from '../../lib/dbConnect'
+import Prediction from "../../models/Prediction"
+import Head from 'next/head'
 
-const Ucl = ({ predictions }) => {
-
+const England = ({ predictions }) => {
+  console.log(predictions)
   return (
     <>
-      <Head>
-        <title>Champions League</title>
+      
+      <Box overflow="hidden" h="100vh">
+        <Head>
+        <title>England</title>
         <meta
           name="description"
           content="The best site for football predictions"
         />
-        <link rel="icon" href="/success-image.webp" />
+        <link rel="icon" href="/success-image.jpg" />
       </Head>
-      <Box overflow="hidden" h="100vh">
-        <Title name="Uefa Champions League" />
+        <Title name="England" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
 }
 
-export default Ucl
+export default England;
 
 export async function getStaticProps() {
   await dbConnect();
@@ -39,7 +40,6 @@ export async function getStaticProps() {
       $lte: endOfDay(new Date()),
     },
   });
-
 
   return {
     props: {

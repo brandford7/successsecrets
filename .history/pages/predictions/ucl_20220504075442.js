@@ -7,8 +7,7 @@ import dbConnect from '../../lib/dbConnect';
 import Prediction from '../../models/Prediction';
 import Head from 'next/head';
 
-const Ucl = ({ predictions }) => {
-
+const Ucl = ({predictions}) => {
   return (
     <>
       <Head>
@@ -17,7 +16,7 @@ const Ucl = ({ predictions }) => {
           name="description"
           content="The best site for football predictions"
         />
-        <link rel="icon" href="/success-image.webp" />
+        <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h="100vh">
         <Title name="Uefa Champions League" />
