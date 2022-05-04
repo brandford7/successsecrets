@@ -26,7 +26,7 @@ const Results = ({ predictions }) => {
             Latest Results
           </Heading>
           <ResultTable predictions={predictions} />
-        </Box>
+        </Box>)}
     </>
   );
 }
@@ -37,7 +37,7 @@ export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    
+    "result.1": { $exists: true },
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),

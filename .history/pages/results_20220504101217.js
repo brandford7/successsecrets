@@ -12,21 +12,21 @@ const Results = ({ predictions }) => {
   return (
     <>
       
-        <Box overflow="hidden" h={["auto", "auto,",'100vh']} bg="bg.200">
-          <Head>
-            <title>Results</title>
-            <meta
-              name="description"
-              content="The best site for football predictions"
-            />
-            <link rel="icon" href="/success-image.webp" />
-          </Head>
+      <Box overflow="hidden" h="auto" bg="bg.200">
+        <Head>
+          <title>Results</title>
+          <meta
+            name="description"
+            content="The best site for football predictions"
+          />
+          <link rel="icon" href="/success-image.webp" />
+        </Head>
        
-          <Heading p="10" color="white">
-            Latest Results
-          </Heading>
-          <ResultTable predictions={predictions} />
-        </Box>
+        <Heading p="10" color="white">
+          Latest Results
+        </Heading>
+        <ResultTable predictions={predictions} />
+      </Box>
     </>
   );
 }
@@ -37,7 +37,7 @@ export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    
+    "result.0": { $exists: true },
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),

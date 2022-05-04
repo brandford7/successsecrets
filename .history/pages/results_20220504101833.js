@@ -37,7 +37,7 @@ export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    
+    "result.": { $exists: true },
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
