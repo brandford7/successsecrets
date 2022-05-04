@@ -19,7 +19,7 @@ const England = ({ predictions }) => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" >
         <Title name="England" />
         <PredictionTable predictions={predictions} />
       </Box>
