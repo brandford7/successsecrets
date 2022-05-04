@@ -22,7 +22,7 @@ const Results = ({ predictions }) => {
         </Head>
        
         <Heading p="10" color="white">
-          Latest Results
+          Latesesults
         </Heading>
         <PredictionTable predictions={predictions} />
       </Box>
