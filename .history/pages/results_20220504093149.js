@@ -1,10 +1,9 @@
 import { Box, Flex, Heading } from '@chakra-ui/react';
-import { endOfDay, startOfDay } from 'date-fns';
+import { startOfDay } from 'date-fns';
 import Head from 'next/head';
 import React from 'react'
 import NavBarThree from '../components/navbars/NavBarThree';
 import PredictionTable from '../components/tables/PredictionTable';
-import dbConnect from '../lib/dbConnect'
 
 const Results = () => {
   return (

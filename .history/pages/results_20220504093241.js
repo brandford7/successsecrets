@@ -4,7 +4,7 @@ import Head from 'next/head';
 import React from 'react'
 import NavBarThree from '../components/navbars/NavBarThree';
 import PredictionTable from '../components/tables/PredictionTable';
-import dbConnect from '../lib/dbConnect'
+import db
 
 const Results = () => {
   return (
