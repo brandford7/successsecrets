@@ -12,7 +12,7 @@ const England = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>England</title>
+        <title></title>
         <meta
           name="description"
           content="The best site for football predictions"

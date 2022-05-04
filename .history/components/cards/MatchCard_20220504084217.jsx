@@ -17,7 +17,7 @@ const MatchCard = ({ prediction,deletePrediction }) => {
   return (
     <>
       <TableContainer>
-        <Table variant ='unstyled' color='white' >
+        <Table variant ='unstyled' colo >
           <Thead>
             <Tr>
               <Th>Country</Th>

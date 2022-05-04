@@ -11,7 +11,9 @@ const England = ({ predictions }) => {
   console.log(predictions)
   return (
     <>
-      <Head>
+      
+      <Box overflow="hidden" h="auto">
+        <Head>
         <title>England</title>
         <meta
           name="description"
@@ -19,7 +21,6 @@ const England = ({ predictions }) => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h="100vh">
         <Title name="England" />
         <PredictionTable predictions={predictions} />
       </Box>

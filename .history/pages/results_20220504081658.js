@@ -1,8 +1,6 @@
-import { Box, Flex, Heading } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 import React from 'react'
-import NavBarThree from '../components/navbars/NavBarThree';
-import PredictionTable from '../components/tables/PredictionTable';
 
 const Results = () => {
   return (
@@ -21,7 +19,7 @@ const Results = () => {
           <NavBarThree />
         </Flex>
         <Heading p="10" color="white">
-          Results
+          Predictions for {todayDate}
         </Heading>
         <PredictionTable predictions={predictions} />
       </Box>
@@ -30,19 +28,3 @@ const Results = () => {
 }
 
 export default Results
-
-export async function getStaticProps() {
-  await dbConnect();
-
-  const predictions = await Prediction.find({
-    start_date: {
-      $gte: startOfDay(new Date()),
-      $lte: endOfDay(new Date()),
-    },
-  });
-
-  return {
-    props: { predictions: JSON.parse(JSON.stringify(predictions)) },
-    revalidate: 10,
-  };
-}

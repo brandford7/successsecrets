@@ -4,7 +4,6 @@ import TopSection from "../components/sections/TopSection";
 import MidSection from "../components/sections/MidSection";
 import dbConnect from "../lib/dbConnect";
 import Prediction from "../models/Prediction";
-import { endOfDay, startOfDay } from "date-fns";
 
 export default function Home({ predictions }) {
   

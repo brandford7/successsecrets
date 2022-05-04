@@ -12,7 +12,7 @@ import {
 import React, { useState } from "react";
 
 const PredictionTable = ({ predictions }) => {
-  console.log(predictions)
+  console.log
   return (
     <>
       {predictions.length > 0 && (

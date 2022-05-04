@@ -7,9 +7,6 @@ import { store } from "../lib/redux/store";
 import AuthLayout from "../components/layouts/AuthLayout";
 import Layout from "../components/layouts/Layout";
 import Script from "next/script";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
-import * as gtag from "../lib/gtag";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
 

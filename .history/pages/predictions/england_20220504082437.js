@@ -12,7 +12,7 @@ const England = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>England</title>
+        <title>Champions League</title>
         <meta
           name="description"
           content="The best site for football predictions"
@@ -20,7 +20,7 @@ const England = ({ predictions }) => {
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h="100vh">
-        <Title name="England" />
+        <Title name="Uefa Champions League" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
