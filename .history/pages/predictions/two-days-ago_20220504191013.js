@@ -1,5 +1,5 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
-import { subDays, format } from "date-fns";
+import { format,subDays } from "date-fns";
 import Head from "next/head";
 import React from "react";
 import NavBarThree from "../../components/navbars/NavBarThree";
@@ -8,12 +8,13 @@ import PredictionTable from "../../components/tables/PredictionTable";
 import dbConnect from "../../lib/dbConnect";
 import Prediction from "../../models/Prediction";
 
-const ThreeDaysAgo = ({ predictions }) => {
-  const threeDaysAgoDate = format(subDays(new Date(), 3), "do MMMM");
+const TwoDaysAgo = ({ predictions }) => {
 
-  
+const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
+
+  console.log(predictions);
   return (
-    <Box h="auto" overflow="hidden" bg="bg.200">
+    <Box h="auto" bg="bg.200">
       <Head>
         <title>Predictions</title>
         <meta
@@ -26,22 +27,23 @@ const ThreeDaysAgo = ({ predictions }) => {
         <NavBarThree />
       </Flex>
       <Heading p="10" color="white">
-        Predictions for {threeDaysAgoDate}
+        Predictions for {twoDaysAgoDate}
       </Heading>
       <PredictionTable predictions={predictions} />
     </Box>
   );
 };
 
-export default ThreeDaysAgo;
+export default TwoDaysAgo;
 
 export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
     start_date: {
-      $gt: subDays(new Date(), 4),
-      $lte: subDays(new Date(), 3),
+          $gt: subDays(new Date(), 3),
+          $lte:  subDays(new Date(),2)
+     
     },
   });
 

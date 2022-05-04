@@ -15,7 +15,7 @@ const Ucl = ({ predictions }) => {
         <title>Champions League</title>
         <meta
           name="description"
-          content="The best site for football predictions"
+          content="Predictions for c"
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>

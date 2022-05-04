@@ -11,7 +11,7 @@ import Prediction from "../../models/Prediction";
 const ThreeDaysAgo = ({ predictions }) => {
   const threeDaysAgoDate = format(subDays(new Date(), 3), "do MMMM");
 
-  
+  c
   return (
     <Box h="auto" overflow="hidden" bg="bg.200">
       <Head>
