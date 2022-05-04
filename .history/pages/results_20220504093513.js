@@ -5,7 +5,7 @@ import React from 'react'
 import NavBarThree from '../components/navbars/NavBarThree';
 import PredictionTable from '../components/tables/PredictionTable';
 import dbConnect from '../lib/dbConnect'
-import Prediction from '../models/Prediction'
+import P
 
 const Results = () => {
   return (
