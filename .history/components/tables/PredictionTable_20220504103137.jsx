@@ -12,7 +12,7 @@ import {
 import React, { useState } from "react";
 
 const PredictionTable = ({ predictions }) => {
-  
+  console.log(predictions)
   return (
     <>
       {predictions.length > 0 && (
@@ -31,7 +31,7 @@ const PredictionTable = ({ predictions }) => {
                 <Th>Match</Th>
                 <Th>Bet</Th>
                 <Th>Odd</Th>
-               
+                <Th></Th>
               </Tr>
             </Thead>
             <Tbody>
@@ -42,7 +42,7 @@ const PredictionTable = ({ predictions }) => {
                   <Td>{prediction.match}</Td>
                   <Td>{prediction.bet}</Td>
                   <Td isNumeric>{prediction.odd}</Td>
-                 
+                  <Td>prediction.result </Td>
                 </Tr>
               ))}
             </Tbody>

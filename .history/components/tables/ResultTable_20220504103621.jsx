@@ -1,21 +1,10 @@
-import {
- 
-  Table,
-  TableContainer,
-  Tbody,
-  Td,
-  Th,
-  Thead,
-  Tr,
-} from "@chakra-ui/react";
+import { Table, TableContainer, Tbody, Td, Th, Thead, Tr } from '@chakra-ui/react';
+import React from 'react'
 
-import React, { useState } from "react";
-
-const PredictionTable = ({ predictions }) => {
-  
+const ResultTable = ({predictions}) => {
   return (
     <>
-      {predictions.length > 0 && (
+      {predictions.length || predictions.result  && (
         <TableContainer bg="bg.200" maxW="100%">
           <Table
             fontSize={["12px", "12px", "16px"]}
@@ -27,11 +16,8 @@ const PredictionTable = ({ predictions }) => {
             <Thead>
               <Tr color="whitesmoke">
                 <Th>Country</Th>
-
                 <Th>Match</Th>
-                <Th>Bet</Th>
-                <Th>Odd</Th>
-               
+                <Th>Result</Th>
               </Tr>
             </Thead>
             <Tbody>
@@ -40,9 +26,7 @@ const PredictionTable = ({ predictions }) => {
                   <Td>{prediction.country}</Td>
 
                   <Td>{prediction.match}</Td>
-                  <Td>{prediction.bet}</Td>
-                  <Td isNumeric>{prediction.odd}</Td>
-                 
+                  <Td>{prediction.result !== null && prediction.result}</Td>
                 </Tr>
               ))}
             </Tbody>
@@ -51,6 +35,6 @@ const PredictionTable = ({ predictions }) => {
       )}
     </>
   );
-};
+}
 
-export default PredictionTable;
+export default ResultTable

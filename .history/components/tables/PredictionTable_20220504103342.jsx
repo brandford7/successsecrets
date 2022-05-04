@@ -31,7 +31,7 @@ const PredictionTable = ({ predictions }) => {
                 <Th>Match</Th>
                 <Th>Bet</Th>
                 <Th>Odd</Th>
-               
+                <Th>Result</Th>
               </Tr>
             </Thead>
             <Tbody>

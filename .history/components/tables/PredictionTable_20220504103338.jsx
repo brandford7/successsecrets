@@ -31,7 +31,7 @@ const PredictionTable = ({ predictions }) => {
                 <Th>Match</Th>
                 <Th>Bet</Th>
                 <Th>Odd</Th>
-               
+                <Th>Result</Th>
               </Tr>
             </Thead>
             <Tbody>
@@ -42,7 +42,7 @@ const PredictionTable = ({ predictions }) => {
                   <Td>{prediction.match}</Td>
                   <Td>{prediction.bet}</Td>
                   <Td isNumeric>{prediction.odd}</Td>
-                 
+                  <Td></Td>
                 </Tr>
               ))}
             </Tbody>

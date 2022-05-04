@@ -140,7 +140,7 @@ const UpdateMatchForm = ({ Values }) => {
                   formik.errors.start_date && formik.touched.start_date
                 }
               >
-                <FormLabel htmlFor="result">Date</FormLabel>
+                <FormLabel htmlFor="result"></FormLabel>
                 <Input
                   id="date"
                   type="date"
