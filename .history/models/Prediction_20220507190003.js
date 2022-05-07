@@ -5,14 +5,13 @@ const PredictionSchema = new mongoose.Schema(
     country: {
       type: String,
       required: [true, "please provide the name of the country."],
-      maxlength: [40, "cannot be more than 40 characters."],
+      maxlength: [40, "cannot be more than 10 characters."],
       minlength: [3, "cannot be less than 3 characters"],
     },
    
     odd: {
       type: Number,
       required: [true, "please provide an odd for the prediction"],
-      max:1000
     },
     match: {
       type: String,
@@ -26,7 +25,7 @@ const PredictionSchema = new mongoose.Schema(
     
     result: {
       type: String,
-      maxLength: 20,
+      maxLength: 10,
     },
   },
   { timestamps: true }

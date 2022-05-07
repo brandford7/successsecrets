@@ -44,7 +44,7 @@ const PostMatchForm = () => {
           odd: Yup.number().max(1000, "Number is too big").required("Required"),
          
           start_date: Yup.date().required("Required").nullable(),
-          result: Yup.string().max(20, "Must be 20 characters or less"),
+          result: Yup.string().max(20, "Must be 10 characters or less"),
         })}
         onSubmit={(values, { setSubmitting }) => {
           console.log(values);

@@ -35,16 +35,17 @@ const PostMatchForm = () => {
         }}
         validationSchema={Yup.object({
           country: Yup.string()
-            .max(40, "Must be 40 characters or less")
+            .max(15, "Must be 15 characters or less")
             .required("Required"),
           bet: Yup.string()
             .required("Required"),
           match: Yup.string()
+            .max(100, "Must be 100 characters or less")
             .required("Required"),
           odd: Yup.number().max(1000, "Number is too big").required("Required"),
          
           start_date: Yup.date().required("Required").nullable(),
-          result: Yup.string().max(20, "Must be 20 characters or less"),
+          result: Yup.string().max(10, "Must be 10 characters or less"),
         })}
         onSubmit={(values, { setSubmitting }) => {
           console.log(values);

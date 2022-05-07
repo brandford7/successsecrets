@@ -12,7 +12,7 @@ const PredictionSchema = new mongoose.Schema(
     odd: {
       type: Number,
       required: [true, "please provide an odd for the prediction"],
-      max:1000
+      max:
     },
     match: {
       type: String,
