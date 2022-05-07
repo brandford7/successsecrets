@@ -26,7 +26,7 @@ AllTricks.getLayout = function getLayout(page) {
 export async function getServerSideProps() {
   await dbConnect();
 
-  const tricks = await Trick.find().sort({createdAt:-1});
+  const tricks = await Trick.find().sort({createdAt:});
 
   return { props: { tricks: JSON.parse(JSON.stringify(tricks)) } };
 }

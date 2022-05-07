@@ -30,7 +30,7 @@ AllMatches.getLayout = function getLayout(page) {
 export async function getServerSideProps() {
   await dbConnect();
 
-  const predictions = await Prediction.find().sort({start_date:-1,createdAt:-1,updatedAt:-1});
+  const predictions = await Prediction.find().sort({crea:-1});
   
 
   return { props: { predictions: JSON.parse(JSON.stringify(predictions)) } };

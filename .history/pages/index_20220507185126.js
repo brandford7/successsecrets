@@ -34,7 +34,7 @@ export async function getStaticProps() {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
     },
-  }).sort({country:1});
+  }).sort({country});
 
   return {
     props: { predictions: JSON.parse(JSON.stringify(predictions)) },
