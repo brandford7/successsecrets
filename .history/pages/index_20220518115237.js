@@ -19,7 +19,7 @@ export default function Home({ predictions }) {
         <link rel="icon" href="/success-image.webp" />
          
       </Head>
-       
+        <Script 
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

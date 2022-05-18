@@ -1,7 +1,8 @@
-import React, { lazy, Suspense } from "react";
-import { Box, Heading, Stack } from "@chakra-ui/react";
-import Tricks from "./Tricks";
+import React,{lazy, Suspense} from "react";
+import { Box, Heading,  Stack } from "@chakra-ui/react";
+import Tricks from "./Tricks"
 import Advert from "../adverts/Advert";
+
 
 const TopSection = () => {
   return (
@@ -19,6 +20,7 @@ const TopSection = () => {
       >
         <Advert
           src="https://secure.betwaypartnersafrica.com/imagehandler/b4fdfc86-a6f9-499c-bb7e-a7f8ca1c45f0/"
+        
           title="betway ad"
         />
         <Advert

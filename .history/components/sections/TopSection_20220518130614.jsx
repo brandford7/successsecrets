@@ -1,13 +1,14 @@
-import React, { lazy, Suspense } from "react";
-import { Box, Heading, Stack } from "@chakra-ui/react";
-import Tricks from "./Tricks";
+import React,{lazy, Suspense} from "react";
+import { Box, Heading,  Stack } from "@chakra-ui/react";
+import Tricks from "./Tricks"
 import Advert from "../adverts/Advert";
+
 
 const TopSection = () => {
   return (
     <>
       <Box
-        display="column"
+        display={["column", "column", "flex"]}
         justifyContent="center"
         w="100%"
         bg="white"
@@ -18,12 +19,14 @@ const TopSection = () => {
         h="400px"
       >
         <Advert
-          src="https://secure.betwaypartnersafrica.com/imagehandler/b4fdfc86-a6f9-499c-bb7e-a7f8ca1c45f0/"
-          title="betway ad"
-        />
-        <Advert
           src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"
           title="1xbet ad"
+        />
+        <Advert
+          src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24771-CM76119-TS1943921"
+          width="320px"
+          height="250px"
+          title="betway ad"
         />
       </Box>
     </>

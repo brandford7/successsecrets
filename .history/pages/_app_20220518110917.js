@@ -79,7 +79,7 @@ useEffect(() => {
           `,
               }}
             />
-           
+            <Script type="text/javascript" src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"/>
             <Layout>
               <Component {...pageProps} />
             </Layout>

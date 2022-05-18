@@ -17,9 +17,23 @@ export default function Home({ predictions }) {
           content="The best site for football predictions"
         />
         <link rel="icon" href="/success-image.webp" />
-         
+         <script
+        type='text/javascript'
+        src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"
+          strategy="lazyOnload"
+        onLoad={() =>
+          console.log(`script loaded correctly, window.FB has been populated`)
+        }
+      />
       </Head>
-       
+      <Script
+        
+        src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"
+          strategy="lazyOnload"
+        onLoad={() =>
+          console.log(`script loaded correctly, window.FB has been populated`)
+        }
+      />
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

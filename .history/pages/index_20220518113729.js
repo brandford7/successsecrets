@@ -17,9 +17,8 @@ export default function Home({ predictions }) {
           content="The best site for football predictions"
         />
         <link rel="icon" href="/success-image.webp" />
-         
       </Head>
-       
+     
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

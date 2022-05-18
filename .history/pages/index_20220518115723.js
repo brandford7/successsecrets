@@ -19,7 +19,13 @@ export default function Home({ predictions }) {
         <link rel="icon" href="/success-image.webp" />
          
       </Head>
-       
+         <Script
+      
+          strategy="afterInteractive"
+        onLoad={() =>
+          console.log(`script loaded correctly, window.FB has been populated`)
+        }
+      /> 
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

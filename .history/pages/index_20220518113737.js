@@ -12,14 +12,20 @@ export default function Home({ predictions }) {
     <Box overflow="hidden" h="auto">
       <Head>
         <title>Success Secrets bet</title>
+        <Script
+          src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"
+          strategy="lazyOnload"
+          onLoad={() =>
+            console.log(`script loaded correctly, window.FB has been populated`)
+          }
+        />
         <meta
           name="description"
           content="The best site for football predictions"
         />
         <link rel="icon" href="/success-image.webp" />
-         
       </Head>
-       
+
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

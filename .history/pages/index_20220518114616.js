@@ -19,7 +19,14 @@ export default function Home({ predictions }) {
         <link rel="icon" href="/success-image.webp" />
          
       </Head>
-       
+         <Script
+        
+        src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"
+          strategy="afterI"
+        onLoad={() =>
+          console.log(`script loaded correctly, window.FB has been populated`)
+        }
+      /> 
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>

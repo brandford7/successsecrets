@@ -17,9 +17,11 @@ export default function Home({ predictions }) {
           content="The best site for football predictions"
         />
         <link rel="icon" href="/success-image.webp" />
-         
-      </Head>
-       
+      </Head>{" "}
+      <Script
+        type="text/javascript"
+        src="https://secure.betwaypartnersafrica.com/mediahandler/btag-P86636-PR24943-CM78244-TS1951529/"
+      />
       <TopSection />
       <MidSection predictions={predictions} />
     </Box>
