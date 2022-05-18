@@ -7,6 +7,7 @@ import Tricks from "../components/sections/Tricks";
 const OneXbet = () => {
   return (
     <>
+      
       <Head>
         <title>Success Secrets bet</title>
         <meta
@@ -16,7 +17,7 @@ const OneXbet = () => {
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h="100vh">
-        <Advert
+         <Advert
           src="https://secure.betwaypartnersafrica.com/imagehandler/b4fdfc86-a6f9-499c-bb7e-a7f8ca1c45f0/"
           title="betway ad"
         />
