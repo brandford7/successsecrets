@@ -20,6 +20,7 @@ const TopSection = () => {
         <Flex align="center" justify='center' pt='10'>
           <Link
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
+            
             rel="nofollow"
           >
             <Img

@@ -1,4 +1,4 @@
-import { Box, Heading,Flex,Img,Link } from "@chakra-ui/react";
+import { Box, Heading,Flex,Img } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
 import Advert from "../components/adverts/Advert";
@@ -17,8 +17,7 @@ const OneXbet = () => {
       </Head>
       <Box overflow="hidden" h="100vh">
         <Flex align="center" justify='center' pt='10'>
-          <Link
-            
+          <
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
             target="_blank"
             rel="nofollow"
@@ -28,7 +27,7 @@ const OneXbet = () => {
               title="betway ad"
               alt="betway ad"
             />
-          </Link>
+          </a>
         </Flex>
         <Advert
           src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"

@@ -18,7 +18,7 @@ const OneXbet = () => {
       <Box overflow="hidden" h="100vh">
         <Flex align="center" justify='center' pt='10'>
           <Link
-            
+            display
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
             target="_blank"
             rel="nofollow"
