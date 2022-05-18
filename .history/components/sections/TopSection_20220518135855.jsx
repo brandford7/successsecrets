@@ -18,7 +18,7 @@ const TopSection = () => {
         bgSize="cover"
         h="400px"
       >
-        <Flex align="center" justify='center' pt='10'>
+        <Flex align="center" justify='center' pt=>
           <a
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
             target="_blank"

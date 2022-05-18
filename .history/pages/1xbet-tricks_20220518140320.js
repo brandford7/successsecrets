@@ -1,4 +1,4 @@
-import { Box, Heading,Flex,Img } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
 import Advert from "../components/adverts/Advert";
@@ -25,7 +25,7 @@ const OneXbet = () => {
             <Img
               src="https://secure.betwaypartnersafrica.com/imagehandler/b4fdfc86-a6f9-499c-bb7e-a7f8ca1c45f0/"
               title="betway ad"
-              alt="betway ad"
+              alt="ad"
             />
           </a>
         </Flex>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Heading,Img, Stack,Flex } from "@chakra-ui/react";
+import { Box, Heading,Img, Stack } from "@chakra-ui/react";
 import Tricks from "./Tricks";
 import Advert from "../adverts/Advert";
 
@@ -18,7 +18,7 @@ const TopSection = () => {
         bgSize="cover"
         h="400px"
       >
-        <Flex align="center" justify='center' pt='10'>
+        <Flex align="center">
           <a
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
             target="_blank"
