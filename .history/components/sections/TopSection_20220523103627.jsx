@@ -17,18 +17,13 @@ const TopSection = () => {
         bgSize="cover"
         h="400px"
       >
-        <Flex align="center" justify="center" pt='5'>
-          <Link href="https://one.exnesslink.com/intl/en/a/c_qw50jrywd0">
-            <Img
-              src="https://d3dpet1g0ty5ed.cloudfront.net/EN_1221_lower_your_trading_costs_with_Exn_320x50px.jpg"
-              width="320"
-              height="50"
-              alt=""
-            />
-          </Link>
-        </Flex>
+<Flex><Link href="https://one.exnesslink.com/intl/en/a/c_qw50jrywd0">
+          <Img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_1221_lower_your_trading_costs_with_Exn_320x50px.jpg" width="320" height="50" alt="" />
+        </Link></Flex>
+        
+        <Flex  align="center" justify='center' pt='10'>
 
-        <Flex align="center" justify="center" pt="10">
+
           <Link
             href="https://www.betway.co.mz/desporto/?btag=P86636-PR23149-CM61678-TS1943921&"
             rel="nofollow"

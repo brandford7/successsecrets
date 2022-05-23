@@ -17,7 +17,7 @@ const TopSection = () => {
         bgSize="cover"
         h="400px"
       >
-        <Flex align="center" justify="center" pt='5'>
+        <Flex >
           <Link href="https://one.exnesslink.com/intl/en/a/c_qw50jrywd0">
             <Img
               src="https://d3dpet1g0ty5ed.cloudfront.net/EN_1221_lower_your_trading_costs_with_Exn_320x50px.jpg"
