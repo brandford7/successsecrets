@@ -18,7 +18,7 @@ const OneXbet = () => {
       <Box overflow="hidden" h="100vh">
         <Flex align="center" justify="center" pt="5">
           <Link href="https://bit.ly/38ZyOyX">
-            <Img src="/melbetAd2.jpg"  alt="melbetAd2" />
+            <Img src="/melbetAd2.jpg" width="320px" height="50" alt="melbetAd2" />
           </Link>
         </Flex>
 

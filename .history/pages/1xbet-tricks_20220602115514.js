@@ -17,11 +17,16 @@ const OneXbet = () => {
       </Head>
       <Box overflow="hidden" h="100vh">
         <Flex align="center" justify="center" pt="5">
-          <Link href="https://bit.ly/38ZyOyX">
-            <Img src="/melbetAd2.jpg"  alt="melbetAd2" />
+          <Link href="">
+            <Img
+              src="/melbetAd2"
+              width="320"
+              height="50"
+              alt=""
+            />
           </Link>
         </Flex>
-
+       
         <Advert
           src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"
           title="1xbet ad"

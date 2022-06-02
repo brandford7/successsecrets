@@ -15,7 +15,7 @@ const TopSection = () => {
         bgPosition="center"
         bgRepeat="no-repeat"
         bgSize="cover"
-        h="auto"
+        h="400px"
       >
         <Flex align="center" justify="center" pt="5">
           <Link href="https://bit.ly/38ZyOyX">
