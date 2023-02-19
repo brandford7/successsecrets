@@ -18,12 +18,12 @@ const PredictionSchema = new mongoose.Schema(
     match: {
       type: String,
       required: [true, "please provide a match"],
-      trim: true,
+       trim:true
     },
     bet: {
       type: String,
       required: [true, "please provide a bet"],
-      trim: true,
+      trim:true
     },
     start_date: { type: Date, required: true },
 

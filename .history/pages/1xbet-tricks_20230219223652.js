@@ -8,7 +8,7 @@ const OneXbet = () => {
   return (
     <>
       <Head>
-        <title>Success Secrets bet- Football Predictions</title>
+        <title>Success Secrets bet- Soccer </title>
         <meta
           name="description"
           content="The best site for football predictions"
