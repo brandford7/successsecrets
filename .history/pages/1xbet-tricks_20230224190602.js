@@ -11,7 +11,7 @@ const OneXbet = () => {
         <title>Success Secrets bet- Football Predictions</title>
         <meta
           name="description"
-          content="Free Video Tricks"
+          content="Free Tricks"
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>

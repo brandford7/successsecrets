@@ -1,42 +1,44 @@
-import { Box } from '@chakra-ui/react';
-import { endOfDay, startOfDay } from 'date-fns';
-import React from 'react'
-import Title from '../../components/titles/Title';
+import { Box } from "@chakra-ui/react";
+import { endOfDay, startOfDay } from "date-fns";
+import React from "react";
+import Title from "../../components/titles/Title";
 import PredictionTable from "../../components/tables/PredictionTable";
-import dbConnect from '../../lib/dbConnect';
-import Prediction from '../../models/Prediction';
-import Head from 'next/head';
+import dbConnect from "../../lib/dbConnect";
+import Prediction from "../../models/Prediction";
+import Head from "next/head";
 
-const France = ({predictions}) => {
+const Europe = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>France</title>
-        <meta name="description" content="Predicitions for France" />
+        <title>Europe</title>
+        <meta
+          name="description"
+          content="Predictions for champions league, europa league, conference league, and other european matches"
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
-        <Title name="France" />
+        <Title name="Europe" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
-}
+};
 
-export default France
+export default Europe;
 
 export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    country: "France",
+    country: {"UEFA",
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
     },
   });
 
-  console.log(predictions);
   return {
     props: {
       predictions: JSON.parse(JSON.stringify(predictions)),

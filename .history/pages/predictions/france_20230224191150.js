@@ -1,40 +1,40 @@
 import { Box } from '@chakra-ui/react';
+import { endOfDay, startOfDay } from 'date-fns';
 import React from 'react'
-import { endOfDay, startOfDay } from "date-fns";
+import Title from '../../components/titles/Title';
 import PredictionTable from "../../components/tables/PredictionTable";
 import dbConnect from '../../lib/dbConnect';
 import Prediction from '../../models/Prediction';
-import Title from '../../components/titles/Title';
 import Head from 'next/head';
 
-const International = ({predictions}) => {
+const France = ({predictions}) => {
   return (
     <>
       <Head>
-        <title>International</title>
-        <meta
-          name="description"
-          content="Predicitions for International matches"
-        />
-        <link rel="icon" href="/success-image.webp" />
+        <title>France</title>
+        <meta name="description" content="Predicitions for France" />
+       
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
-        <Title name="International" />
+        <Title name="France" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
 }
 
-export default International
+export default France
 
 export async function getStaticProps() {
   await dbConnect();
 
-  const predictions = await Prediction.find({ country: "International",start_date: {
-   $gte: startOfDay(new Date()),
-      $lte:endOfDay(new Date()),
-  } });
+  const predictions = await Prediction.find({
+    country: "France",
+    start_date: {
+      $gte: startOfDay(new Date()),
+      $lte: endOfDay(new Date()),
+    },
+  });
 
   console.log(predictions);
   return {

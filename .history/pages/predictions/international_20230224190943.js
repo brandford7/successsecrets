@@ -16,7 +16,7 @@ const International = ({predictions}) => {
           name="description"
           content="Predicitions for International matches"
         />
-        <link rel="icon" href="/success-image.webp" />
+        <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="International" />

@@ -1,35 +1,35 @@
-import { Box } from '@chakra-ui/react';
-import { endOfDay, startOfDay } from 'date-fns';
-import React from 'react'
-import Title from '../../components/titles/Title';
+import { Box } from "@chakra-ui/react";
+import { endOfDay, startOfDay } from "date-fns";
+import React from "react";
+import Title from "../../components/titles/Title";
 import PredictionTable from "../../components/tables/PredictionTable";
-import dbConnect from '../../lib/dbConnect';
-import Prediction from '../../models/Prediction';
-import Head from 'next/head';
+import dbConnect from "../../lib/dbConnect";
+import Prediction from "../../models/Prediction";
+import Head from "next/head";
 
-const France = ({predictions}) => {
+const Portugal = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>France</title>
+        <title>Portugal</title>
         <meta name="description" content="Predicitions for France" />
-        <link rel="icon" href="/success-image.webp" />
+        <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
-        <Title name="France" />
+        <Title name="Portugal" />
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
-}
+};
 
-export default France
+export default Portugal;
 
 export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    country: "France",
+    country: "Portugal",
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
