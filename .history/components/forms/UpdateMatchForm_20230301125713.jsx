@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Button,
@@ -11,63 +11,64 @@ import {
 } from "@chakra-ui/react";
 import { Formik } from "formik";
 import * as Yup from "yup";
+import { mutate } from "swr";
 import { useRouter } from "next/router";
 
-const PostMatchForm = () => {
-  
+const UpdateMatchForm = ({ Values }) => {
+  const [message, setMessage] = useState("");
   const router = useRouter();
- 
+  const id = router.query.id;
 
   return (
     <>
       <Box display="flex" alignItems="center" justifyContent="center" mb="5">
-        <Heading>Post a Match</Heading>
+        <Heading color="white">Update Match</Heading>
       </Box>
 
       <Formik
-        initialValues={{
-          country: "",
-          odd: "",
-          match: "",
-          bet: "",
-          start_date: null,
-          result: "",
-        }}
+        initialValues={Values}
         validationSchema={Yup.object({
           country: Yup.string()
             .max(40, "Must be 40 characters or less")
             .required("Required"),
-          bet: Yup.string()
-            .required("Required"),
-          match: Yup.string()
-            .required("Required"),
+          bet: Yup.string().required("Required"),
+          match: Yup.string().required("Required"),
           odd: Yup.number().max(1000, "Number is too big").required("Required"),
-         
-          start_date: Yup.date().required("Required").nullable(),
+
+          start_date: Yup.date().required("Required"),
           result: Yup.string().max(20, "Must be 20 characters or less"),
         })}
         onSubmit={(values, { setSubmitting }) => {
-          console.log(values);
           setTimeout(async () => {
             try {
-              const res = await fetch(`successsecretsbet.vercel.app/predictions`, {
-                method: "POST",
-                headers: {
-                  Accept: "application/json",
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(values),
-              });
+              const res = await fetch(
+                `successsecrets..com/predictions/${id}`,
+                {
+                  method: "PUT",
+                  headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify(values),
+                }
+              );
 
-           
               if (!res.ok) {
-                throw new Error("error");
+                throw new Error(res.status);
               }
 
+              const { data } = await res.json();
+
+              mutate(
+                `https://successsecrets.vercel.app/api/predictions/${id}`,
+                data,
+                false
+              );
               router.push("/");
             } catch (error) {
-              console.error("error");
+              setMessage("Failed to update prediction");
             }
+
             setSubmitting(false);
           }, 400);
         }}
@@ -92,7 +93,6 @@ const PostMatchForm = () => {
               <FormControl
                 isInvalid={formik.errors.match && formik.touched.match}
               >
-                
                 <FormLabel htmlFor="match">Match</FormLabel>
                 <Input
                   w="auto"
@@ -105,7 +105,7 @@ const PostMatchForm = () => {
                 ) : null}
               </FormControl>
               <FormControl isInvalid={formik.errors.bet && formik.touched.bet}>
-                
+                {" "}
                 <FormLabel htmlFor="bet">Bet</FormLabel>
                 <Input
                   w="auto"
@@ -122,20 +122,20 @@ const PostMatchForm = () => {
                 <Input
                   id="odd"
                   type="number"
-                step='any'
+                  step="any"
                   {...formik.getFieldProps("odd")}
                 />
                 {formik.touched.odd && formik.errors.odd ? (
                   <FormErrorMessage>{formik.errors.odd}</FormErrorMessage>
                 ) : null}
               </FormControl>
-           
+
               <FormControl
                 isInvalid={
                   formik.errors.start_date && formik.touched.start_date
                 }
               >
-                <FormLabel htmlFor="date">Date</FormLabel>
+                <FormLabel htmlFor="result">Date</FormLabel>
                 <Input
                   id="date"
                   type="date"
@@ -163,10 +163,9 @@ const PostMatchForm = () => {
               <Button
                 mt="5"
                 _hover={{ bg: "brand.700", color: "white" }}
-              
                 type="submit"
               >
-                Submit
+                Update
               </Button>
             </form>
           </Stack>
@@ -176,4 +175,4 @@ const PostMatchForm = () => {
   );
 };
 
-export default PostMatchForm;
+export default UpdateMatchForm;
