@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Button,
@@ -13,9 +13,12 @@ import {
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { useRouter } from "next/router";
+import { mutate } from "swr";
 
-const PostTrickForm = () => {
+const UpdateTrickForm = ({ Values }) => {
+  const [message, setMessage] = useState();
   const router = useRouter();
+  const id = router.query.id
 
   return (
     <>
@@ -24,10 +27,7 @@ const PostTrickForm = () => {
       </Box>
 
       <Formik
-        initialValues={{
-          title: "",
-          video_Link: "",
-        }}
+        initialValues={Values}
         validationSchema={Yup.object({
           title: Yup.string().required("Required"),
           video_Link: Yup.string().required("Required"),
@@ -35,24 +35,36 @@ const PostTrickForm = () => {
         onSubmit={(values, { setSubmitting }) => {
           setTimeout(async () => {
             try {
-              const res = await fetch(`successsecretsbet.com/tricks`, {
-                method: "POST",
-                headers: {
-                  Accept: "application/json",
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(values),
-              });
+              const res = await fetch(
+                `/tricks/${id}`,
+                {
+                  method: "PUT",
+                  headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify(values),
+                }
+              );
 
-              
+            
               if (!res.ok) {
-                throw new Error("error");
+                throw new Error(res.status);
               }
 
-              router.push("/");
+              const { data } = await res.json();
+
+              mutate(
+                `https://successsecrets.vercel.app/api/tricks/${id}`,
+                data,
+                false
+              ); 
+                router.push("/admin/all-tricks");
+                
             } catch (error) {
-              console.error("error");
+              setMessage("Failed to update trick");
             }
+
             setSubmitting(false);
           }, 400);
         }}
@@ -93,11 +105,13 @@ const PostTrickForm = () => {
                 ) : null}
               </FormControl>
 
-              <Flex justify="center">
-                <Button mt="5" type="submit">
-                  Submit
-                </Button>
-              </Flex>
+              <Button
+                mt="5"
+                _hover={{ bg: "brand.700", color: "white" }}
+                type="submit"
+              >
+                Update
+              </Button>
             </form>
           </Stack>
         )}
@@ -106,4 +120,4 @@ const PostTrickForm = () => {
   );
 };
 
-export default PostTrickForm;
+export default UpdateTrickForm;

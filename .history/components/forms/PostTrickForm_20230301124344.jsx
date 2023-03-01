@@ -35,14 +35,17 @@ const PostTrickForm = () => {
         onSubmit={(values, { setSubmitting }) => {
           setTimeout(async () => {
             try {
-              const res = await fetch(`successsecretsbet.com/tricks`, {
-                method: "POST",
-                headers: {
-                  Accept: "application/json",
-                  "Content-Type": "application/json",
-                },
-                body: JSON.stringify(values),
-              });
+              const res = await fetch(
+                `${pr/tricks`,
+                {
+                  method: "POST",
+                  headers: {
+                    Accept: "application/json",
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify(values),
+                }
+              );
 
               
               if (!res.ok) {

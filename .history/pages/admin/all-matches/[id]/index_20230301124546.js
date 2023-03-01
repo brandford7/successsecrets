@@ -14,7 +14,7 @@ const ViewMatch = ({ prediction }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`${process.env.PRODUCTION_URL}/${id}`, {
+      await fetch(`/${id}`, {
         method: "Delete",
       });
       router.push("/");
