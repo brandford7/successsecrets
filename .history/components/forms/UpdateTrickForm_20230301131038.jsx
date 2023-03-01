@@ -35,7 +35,7 @@ const UpdateTrickForm = ({ Values }) => {
         onSubmit={(values, { setSubmitting }) => {
           setTimeout(async () => {
             try {
-              const res = await fetch(`successsecrets.vercel.app/api/tricks/${id}`, {
+              const res = await fetch(`successsecrets.vercel.app/tricks/${id}`, {
                 method: "PUT",
                 headers: {
                   Accept: "application/json",
