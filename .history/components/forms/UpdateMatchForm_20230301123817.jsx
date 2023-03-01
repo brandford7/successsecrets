@@ -31,10 +31,12 @@ const UpdateMatchForm = ({ Values }) => {
           country: Yup.string()
             .max(40, "Must be 40 characters or less")
             .required("Required"),
-          bet: Yup.string().required("Required"),
-          match: Yup.string().required("Required"),
+          bet: Yup.string()
+            .required("Required"),
+          match: Yup.string()
+            .required("Required"),
           odd: Yup.number().max(1000, "Number is too big").required("Required"),
-
+         
           start_date: Yup.date().required("Required"),
           result: Yup.string().max(20, "Must be 20 characters or less"),
         })}
@@ -53,6 +55,7 @@ const UpdateMatchForm = ({ Values }) => {
                 }
               );
 
+              
               if (!res.ok) {
                 throw new Error(res.status);
               }
@@ -63,7 +66,7 @@ const UpdateMatchForm = ({ Values }) => {
                 `https://successsecrets.vercel.app/api/predictions/${id}`,
                 data,
                 false
-              );
+              ); 
               router.push("/");
             } catch (error) {
               setMessage("Failed to update prediction");
@@ -122,14 +125,14 @@ const UpdateMatchForm = ({ Values }) => {
                 <Input
                   id="odd"
                   type="number"
-                  step="any"
+                step='any'
                   {...formik.getFieldProps("odd")}
                 />
                 {formik.touched.odd && formik.errors.odd ? (
                   <FormErrorMessage>{formik.errors.odd}</FormErrorMessage>
                 ) : null}
               </FormControl>
-
+             
               <FormControl
                 isInvalid={
                   formik.errors.start_date && formik.touched.start_date
