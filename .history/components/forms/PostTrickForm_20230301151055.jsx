@@ -35,7 +35,7 @@ const PostTrickForm = () => {
         onSubmit={(values, { setSubmitting }) => {
           setTimeout(async () => {
             try {
-              const res = await fetch(`successsecretsbet.com/api//tricks`, {
+              const res = await fetch(`successsecrets.vercelp/api//tricks`, {
                 method: "POST",
                 headers: {
                   Accept: "application/json",
