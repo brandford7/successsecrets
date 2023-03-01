@@ -14,7 +14,7 @@ const ViewMatch = ({ prediction }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`https://successsecretsbet.com/${id}`, {
+      await fetch(`successsecretsbet.com/${id}`, {
         method: "Delete",
       });
       router.push("/");
