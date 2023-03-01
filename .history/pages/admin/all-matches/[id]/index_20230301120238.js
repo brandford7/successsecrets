@@ -14,7 +14,7 @@ const ViewMatch = ({ prediction }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`${process.env.PRODUCTION_URL}/${id}`, {
+      await fetch(`${process.env.PRODUCTION_URL}`/${id}`, {
         method: "Delete",
       });
       router.push("/");
@@ -22,10 +22,10 @@ const ViewMatch = ({ prediction }) => {
       setMessage("Failed to delete the match.");
     }
   };
-  console.log(prediction);
+console.log(prediction)
 
   return (
-    <Box overflow="hidden" h="100vh">
+    <Box overflow='hidden' h="100vh">
       <Box display="flex" alignItems="center" justifyContent="center" mb="5">
         <Heading color="white">Delete Match</Heading>
       </Box>
@@ -40,15 +40,16 @@ ViewMatch.getLayout = function getLayout(page) {
   return <>{page}</>;
 };
 
-export async function getServerSideProps({ params }) {
+export async function getServerSideProps({params}) {
   await dbConnect();
 
-  const id = params.id;
+  const id = params.id
 
   const prediction = await Prediction.findById(id);
   return {
     props: {
-      prediction: JSON.parse(JSON.stringify(prediction)),
+    prediction: JSON.parse(JSON.stringify(prediction)),
     },
+    
   };
 }

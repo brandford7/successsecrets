@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const PredictionSchema = new mongoose.Schema(
   {
     country: {
-      type: String,
+      type: [String,
       required: [true, "please provide the name of the country."],
       maxlength: [40, "cannot be more than 40 characters."],
       minlength: [3, "cannot be less than 3 characters"],

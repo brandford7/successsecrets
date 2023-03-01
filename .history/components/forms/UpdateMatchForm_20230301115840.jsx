@@ -44,7 +44,7 @@ const UpdateMatchForm = ({ Values }) => {
           setTimeout(async () => {
             try {
               const res = await fetch(
-                `${process.env.PRODUCTION_URL}/${id}`,
+                ``${process.env.PRODUCTION_URL}/${id}`,
                 {
                   method: "PUT",
                   headers: {

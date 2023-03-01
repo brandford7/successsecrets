@@ -36,7 +36,7 @@ const UpdateTrickForm = ({ Values }) => {
           setTimeout(async () => {
             try {
               const res = await fetch(
-                `${process.env.PRODUCTION_URL}/${id}`,
+                /${id}`,
                 {
                   method: "PUT",
                   headers: {
