@@ -1,7 +1,10 @@
 import dbConnect from "../../../lib/dbConnect";
 import Prediction from "../../../models/Prediction";
 
+
 export default async function handler(req, res) {
+
+await cors(req,res)
   const {
     query: { id },
     method,

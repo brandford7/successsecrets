@@ -1,7 +1,7 @@
 import dbConnect from "../../../lib/dbConnect";
 
 import Trick from "../../../models/Trick";
-
+import Cors from "cors";
 
 
 export default async function handler(req, res) {

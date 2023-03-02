@@ -14,7 +14,7 @@ const ViewMatch = ({ prediction }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`https://www.successsecretsbet.com/api/predictions/${id}`, {
+      await fetch(`https://wwwsuccesssecrets.vercel.app/api/predictions/${id}`, {
         method: "Delete",
       });
       router.push("/");

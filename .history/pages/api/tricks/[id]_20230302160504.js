@@ -1,7 +1,20 @@
 import dbConnect from "../../../lib/dbConnect";
 import Trick from "../../../models/Trick";
+import Cors from "cors";
+import initMiddleware from "../../../lib/initMiddleware";
+
+const cors = initMiddleware(
+  Cors({
+    origin: "*",
+    // Only allow requests with GET, POST , OPTIONS,DELETE, AND PUT
+    methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
+  })
+);
 
 export default async function handler(req, res) {
+  
+  await cors(req, res)
+
   const {
     query: { id },
     method,
@@ -10,7 +23,7 @@ export default async function handler(req, res) {
   await dbConnect();
 
   switch (method) {
-    case "GET":
+    case "GET" :
       try {
         const trick = await Trick.findById(id);
         if (!trick) {
@@ -22,7 +35,7 @@ export default async function handler(req, res) {
       }
       break;
 
-    case "PUT":
+    case "PUT" :
       try {
         const trick = await Trick.findByIdAndUpdate(id, req.body, {
           new: true,
@@ -37,7 +50,7 @@ export default async function handler(req, res) {
       }
       break;
 
-    case "DELETE":
+    case "DELETE" :
       try {
         const deletedTrick = await Trick.deleteOne({ _id: id });
         if (!deletedTrick) {

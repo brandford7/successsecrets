@@ -1,10 +1,13 @@
 import dbConnect from "../../../lib/dbConnect";
 
 import Trick from "../../../models/Trick";
+import Cors from "cors";
+import initMiddleware from "../../../lib/initMiddleware";
 
 
 
 export default async function handler(req, res) {
+  
   const { method } = req;
 
   await dbConnect();

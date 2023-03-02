@@ -1,7 +1,19 @@
 import dbConnect from "../../../lib/dbConnect";
 import Prediction from "../../../models/Prediction";
+import Cors from "cors";
+import initMiddleware from "../../../lib/initMiddleware";
+
+const cors = initMiddleware(
+  Cors({
+    origin: "*",
+    // Only allow requests with GET, POST , OPTIONS,DELETE, AND PUT
+    methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
+  })
+);
 
 export default async function handler(req, res) {
+
+await cors(req,res)
   const {
     query: { id },
     method,
