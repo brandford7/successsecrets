@@ -6,9 +6,9 @@ import initMiddleware from "../../../lib/initMiddleware";
 
 const cors = initMiddleware(
   Cors({
-    origin: "*",
-    // Only allow requests with GET, POST ,AND OPTIONS
-    methods: ["GET", "POST", "OPTIONS"],
+    origin: "https://successsecretsbet.com",
+    // Only allow requests with GET, POST , OPTIONS
+    methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
   })
 );
 

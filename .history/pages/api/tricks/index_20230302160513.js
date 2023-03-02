@@ -6,7 +6,7 @@ import initMiddleware from "../../../lib/initMiddleware";
 
 const cors = initMiddleware(
   Cors({
-    origin: "*",
+    origin: "",
     // Only allow requests with GET, POST ,AND OPTIONS
     methods: ["GET", "POST", "OPTIONS"],
   })

@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  compress: false,
+  compress: true,
 };
 
-module.exports = nextConfig
+
