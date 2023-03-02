@@ -12,12 +12,9 @@ export default function Home({ predictions }) {
     <Box overflow="hidden" h="auto">
       <Head>
         <title>
-          Success Secrets bet- Best football predictions site, and tricks
+          Success Secrets bet- Best football predictions site, and  tricks
         </title>
-        <meta
-          name="description"
-          content="The best site for football predictions"
-        />
+        <meta name="description" content="The best site for football predictions" />
         <link rel="icon" href="/success-image.webp" />
       </Head>
 
