@@ -17,9 +17,9 @@ const NavBarOne = () => {
 
         {/*   <Link href="/results" passHref>
           <chakra.a _hover={{ color: "yellow.400" }}>Results</chakra.a>
-  </Link> 
+  </Link> */}
         <Link href="/1xbet-tricks" passHref>
-          <chakra.a _hover={{ color: "yellow.400" }}>1xBet Tricks</chakra.a>
+          <chakra.a _hover={{ color: "yellow.400" }}>Tricks</chakra.a>
         </Link>
       </Stack>
     </>

@@ -9,11 +9,14 @@ const OneXbet = () => {
     <>
       <Head>
         <title>Free Video tricks</title>
-        <meta name="description" content="Free Video Tricks" />
+        <meta
+          name="description"
+          content="Free Video Tricks"
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h="auto">
-        {/* <Flex align="center" justify="center" pt="5">
+      {/* <Box overflow="hidden" h="auto">
+        <Flex align="center" justify="center" pt="5">
           <Link href="https://bit.ly/38ZyOyX">
             <Img src="/melbetAd2.jpg"  alt="melbetAd2" />
           </Link>
@@ -24,7 +27,7 @@ const OneXbet = () => {
           title="1xbet ad"
   />*/}
         <Heading color="white" p="10px">
-          Mini Games Tricks
+          Tricks on Mini Games
         </Heading>
         <Tricks />
       </Box>

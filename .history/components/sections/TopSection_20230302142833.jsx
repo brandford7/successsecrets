@@ -17,7 +17,7 @@ const TopSection = () => {
         bgSize="cover"
         h="auto"
       >
-        {/* <Flex align="center" justify="center" pt="5">
+        <Flex align="center" justify="center" pt="5">
           <Link href="https://bit.ly/3fQPzA0">
             <Image
               src="/melbetAd.jpg"
