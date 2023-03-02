@@ -1,8 +1,7 @@
 import dbConnect from "../../../lib/dbConnect";
 import Prediction from "../../../models/Prediction";
 import Cors from "cors";
-import initMiddleware from '../../../lib/inti-cors-middleware'
-
+init-C
 const cors = initMiddleware(
   Cors({
     origin: "https://successsecretsbet.com",

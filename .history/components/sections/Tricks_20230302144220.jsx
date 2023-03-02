@@ -8,7 +8,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Tricks = () => {
   const { data: tricks, error } = useSWR(
-    "http://localhost:3000/api/tricks",
+    "http/api/tricks",
     fetcher
   );
   if (error)
