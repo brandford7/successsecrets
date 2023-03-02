@@ -1,7 +1,7 @@
 import dbConnect from "../../../lib/dbConnect";
 
-import Prediction from "../../../models/Prediction";
-import Cors from 'cors'
+import Trick from "../../../models/Trick";
+import Cors from "cors";
 
 const cors = initMiddleware(
   Cors({
@@ -12,8 +12,7 @@ const cors = initMiddleware(
 
 export default async function handler(req, res) {
 
-  await cors(req, res)
-
+  await
   const { method } = req;
 
   await dbConnect();
@@ -21,23 +20,16 @@ export default async function handler(req, res) {
   switch (method) {
     case "GET":
       try {
-        const predictions = await Prediction.find();
-        res.status(200).json({ success: true, data: predictions });
+        const tricks = await Trick.find();
+        res.status(200).json({ success: true, data: tricks });
       } catch (error) {
         res.status(400).json({ success: false });
       }
       break;
     case "POST":
       try {
-        const prediction = await Prediction.create({
-          country: req.body.country,
-          match: req.body.match,
-          bet: req.body.bet,
-          odd: req.body.odd,
-          result: req.body.result,
-          start_date: req.body.start_date,
-        });
-        res.status(201).json({ success: true, data: prediction });
+        const trick = await Trick.create(req.body);
+        res.status(201).json({ success: true, data: trick });
       } catch (error) {
         res.status(400).json({ success: false });
       }

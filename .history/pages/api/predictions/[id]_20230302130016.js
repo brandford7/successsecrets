@@ -11,7 +11,7 @@ const cors = initMiddleware(
 
 export default async function handler(req, res) {
 
-await cors(req,res)
+awai
   const {
     query: { id },
     method,

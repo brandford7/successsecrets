@@ -1,17 +1,9 @@
 import dbConnect from "../../../lib/dbConnect";
 
 import Trick from "../../../models/Trick";
-import Cors from "cors";
 
-const cors = initMiddleware(
-  Cors({
-    // Only allow requests with GET, POST , OPTIONS,DELETE, AND PUT
-    methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
-  })
-);
 
 export default async function handler(req, res) {
-  await cors(req, res);
   const { method } = req;
 
   await dbConnect();

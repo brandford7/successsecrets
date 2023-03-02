@@ -1,26 +1,28 @@
 import dbConnect from "../../../lib/dbConnect";
 import Prediction from "../../../models/Prediction";
-import Cors from "cors";
+import Cors from 'cors'
+
 
 const cors = initMiddleware(
+
   Cors({
-    // Only allow requests with GET, POST , OPTIONS,DELETE, AND PUT
-    methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
+    // Only allow requests with GET, POST and OPTIONS
+    methods: ["GET"POST", "OPTIONS","DELETE","PUT"],
   })
 );
 
+
 export default async function handler(req, res) {
 
-await cors(req,res)
   const {
-    query: { id },
+    query:{ id },
     method,
   } = req;
 
   await dbConnect();
 
   switch (method) {
-    case "GET":
+    case "GET" :
       try {
         const prediction = await Prediction.findById(id);
         if (!prediction) {
@@ -32,7 +34,7 @@ await cors(req,res)
       }
       break;
 
-    case "PUT":
+    case "PUT" :
       try {
         const prediction = await Prediction.findByIdAndUpdate(
           id,
@@ -58,7 +60,7 @@ await cors(req,res)
       }
       break;
 
-    case "DELETE":
+    case "DELETE" :
       try {
         const deletedPrediction = await Prediction.deleteOne({ _id: id });
         if (!deletedPrediction) {

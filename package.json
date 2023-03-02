@@ -15,6 +15,7 @@
     "@fontsource/roboto": "^4.5.5",
     "@next-auth/mongodb-adapter": "^1.0.3",
     "@reduxjs/toolkit": "^1.8.1",
+    "cors": "^2.8.5",
     "date-fns": "^2.28.0",
     "formik": "^2.2.9",
     "framer-motion": "^6.2.8",

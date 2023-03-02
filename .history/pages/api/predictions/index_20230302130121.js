@@ -3,7 +3,7 @@ import dbConnect from "../../../lib/dbConnect";
 import Prediction from "../../../models/Prediction";
 import Cors from 'cors'
 
-const cors = initMiddleware(
+onst cors = initMiddleware(
   Cors({
     // Only allow requests with GET, POST , OPTIONS,DELETE, AND PUT
     methods: ["GET", "POST", "OPTIONS", "DELETE", "PUT"],
