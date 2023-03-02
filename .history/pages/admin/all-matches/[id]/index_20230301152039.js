@@ -14,7 +14,7 @@ const ViewMatch = ({ prediction }) => {
     const id = router.query.id;
 
     try {
-      await fetch(`https://successsecretsbet.com/api/predictions/${id}`, {
+      await fetch(`https://successsecrets.vercel.app/api/predictions/${id}`, {
         method: "Delete",
       });
       router.push("/");
@@ -22,6 +22,7 @@ const ViewMatch = ({ prediction }) => {
       setMessage("Failed to delete the match.");
     }
   };
+  console.log(prediction);
 
   return (
     <Box overflow="hidden" h="100vh">

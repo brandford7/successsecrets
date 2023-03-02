@@ -5,7 +5,10 @@ import UpdateMatchForm from "../../../../components/forms/UpdateMatchForm";
 import dbConnect from "../../../../lib/dbConnect";
 import Prediction from "../../../../models/Prediction";
 
-const UpdateMatch = ({ prediction }) => {
+
+
+const UpdateMatch = ({prediction}) => {
+ 
   if (!prediction) return <p>Loading...</p>;
 
   const predictionForm = {
@@ -15,8 +18,10 @@ const UpdateMatch = ({ prediction }) => {
     odd: prediction.odd,
     start_date: format(new Date(prediction.start_date), "yyyy do MMMM"),
     result: prediction.result,
+    
   };
 
+  
   return (
     <>
       <Box h="100vh">

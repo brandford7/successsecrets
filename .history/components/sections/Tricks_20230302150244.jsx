@@ -8,7 +8,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Tricks = () => {
   const { data: tricks, error } = useSWR(
-    "https://successsecretsbet.com/api/tricks",
+    "https://successsecretsbet/api/tricks",
     fetcher
   );
   if (error)

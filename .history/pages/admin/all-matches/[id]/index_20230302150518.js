@@ -22,6 +22,7 @@ const ViewMatch = ({ prediction }) => {
       setMessage("Failed to delete the match.");
     }
   };
+  console.log(prediction);
 
   return (
     <Box overflow="hidden" h="100vh">

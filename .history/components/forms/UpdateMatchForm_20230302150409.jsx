@@ -42,7 +42,7 @@ const UpdateMatchForm = ({ Values }) => {
           setTimeout(async () => {
             try {
               const res = await fetch(
-                `https://successsecretsbet.com/api/predictions/${id}`,
+                `https://successsecretsbet.co/api/predictions/${id}`,
                 {
                   method: "PUT",
                   headers: {
