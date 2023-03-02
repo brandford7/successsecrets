@@ -1,7 +1,7 @@
 import dbConnect from "../../../lib/dbConnect";
 import Trick from "../../../models/Trick";
 import Cors from "cors";
-
+import initMiddleware from "../../../lib/inti-cors-middleware";
 
 const cors = initMiddleware(
   Cors({

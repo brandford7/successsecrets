@@ -8,7 +8,7 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const Tricks = () => {
   const { data: tricks, error } = useSWR(
-    "https://successsecrets.vercel.app/api/tricks",
+    "http://successsecrets.vercel.app/api/tricks",
     fetcher
   );
   if (error)

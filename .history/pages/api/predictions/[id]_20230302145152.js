@@ -1,7 +1,7 @@
 import dbConnect from "../../../lib/dbConnect";
-import Trick from "../../../models/Trick";
+import Prediction from "../../../models/Prediction";
 import Cors from "cors";
-import initMiddleware from "../../../lib/initMiddleware";
+import initMiddleware from '../../../lib/inti-cors-middleware'
 
 const cors = initMiddleware(
   Cors({
@@ -12,9 +12,8 @@ const cors = initMiddleware(
 );
 
 export default async function handler(req, res) {
-  
-  await cors(req, res)
 
+await cors(req,res)
   const {
     query: { id },
     method,
@@ -23,37 +22,48 @@ export default async function handler(req, res) {
   await dbConnect();
 
   switch (method) {
-    case "GET" :
+    case "GET":
       try {
-        const trick = await Trick.findById(id);
-        if (!trick) {
+        const prediction = await Prediction.findById(id);
+        if (!prediction) {
           return res.status(400).json({ success: false });
         }
-        res.status(200).json({ success: true, data: trick });
+        res.status(200).json({ success: true, data: prediction });
       } catch (error) {
         res.status(400).json({ success: false });
       }
       break;
 
-    case "PUT" :
+    case "PUT":
       try {
-        const trick = await Trick.findByIdAndUpdate(id, req.body, {
-          new: true,
-          runValidators: true,
-        });
-        if (!trick) {
+        const prediction = await Prediction.findByIdAndUpdate(
+          id,
+          {
+            country: req.body.country,
+            match: req.body.match,
+            bet: req.body.bet,
+            odd: req.body.odd,
+            result: req.body.result,
+            start_date: req.body.start_date,
+          },
+          {
+            new: true,
+            runValidators: true,
+          }
+        );
+        if (!prediction) {
           return res.status(400).json({ success: false });
         }
-        res.status(200).json({ success: true, data: trick });
+        res.status(200).json({ success: true, data: prediction });
       } catch (error) {
         res.status(400).json({ success: false });
       }
       break;
 
-    case "DELETE" :
+    case "DELETE":
       try {
-        const deletedTrick = await Trick.deleteOne({ _id: id });
-        if (!deletedTrick) {
+        const deletedPrediction = await Prediction.deleteOne({ _id: id });
+        if (!deletedPrediction) {
           return res.status(400).json({ success: false });
         }
         res.status(200).json({ success: true, data: {} });
