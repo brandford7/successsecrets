@@ -42,7 +42,7 @@ const UpdateMatchForm = ({ Values }) => {
           setTimeout(async () => {
             try {
               const res = await fetch(
-                `https://successsecrets.vercel.app/api/predictions/${id}`,
+                `httpssuccesssecretsbet.com/api/predictions/${id}`,
                 {
                   method: "PUT",
                   headers: {
