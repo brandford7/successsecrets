@@ -25,7 +25,7 @@ const PredictionSchema = new mongoose.Schema(
       required: [true, "please provide a bet"],
       trim: true,
     },
-    start_date: { type: Date, required: true },
+    start_date: { type: Date, required: true, default: Date.now, expires: "5d" },
 
     result: {
       type: String,
@@ -34,6 +34,8 @@ const PredictionSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
+PredictionSchema.index({ start_date: 1 }, { expireAfterSeconds: 0 });
 
 export default mongoose.models.Prediction ||
   mongoose.model("Prediction", PredictionSchema);
