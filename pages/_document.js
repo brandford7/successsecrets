@@ -2,6 +2,8 @@
 
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 import AdsterraSocialBar from "../components/adverts/SocialBarAd";
+import AdsterraNative from "../components/adverts/NativeAds";
+import AdsterraPopUnder from "../components/adverts/PopUnderAds";
 
 export default class Document extends NextDocument {
   render() {
@@ -14,7 +16,8 @@ export default class Document extends NextDocument {
             crossOrigin="anonymous"
           ></script>
           <AdsterraSocialBar />
-          
+          {/*<AdsterraNative/>*/}
+          <AdsterraPopUnder />
         </Head>
         <body>
           <Main />
