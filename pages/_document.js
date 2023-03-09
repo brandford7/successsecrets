@@ -1,6 +1,7 @@
 // pages/_document.js
 
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+import AdsterraSocialBar from "../components/adverts/SocialBarAd";
 
 export default class Document extends NextDocument {
   render() {
@@ -12,6 +13,8 @@ export default class Document extends NextDocument {
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`}
             crossOrigin="anonymous"
           ></script>
+          <AdsterraSocialBar />
+          
         </Head>
         <body>
           <Main />
