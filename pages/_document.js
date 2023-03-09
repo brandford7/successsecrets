@@ -11,7 +11,7 @@ export default class Document extends NextDocument {
             async
             src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`}
             crossOrigin="anonymous"
-          />
+          ></script>
         </Head>
         <body>
           <Main />
