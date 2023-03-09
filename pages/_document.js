@@ -8,12 +8,12 @@ export default class Document extends NextDocument {
     return (
       <Html lang="en">
         <Head>
-          <script
+          <link rel="ads.txt" href="/ads.txt" />
+          {/* <script
+            data-ad-client="YOUR_AD_CLIENT_ID"
             async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADSENSE}`}
-            crossOrigin="anonymous"
-          ></script>
-         
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>*/}
         </Head>
         <body>
           <Main />
