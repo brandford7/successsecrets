@@ -15,17 +15,16 @@ import AdsterraPopUnder from "../components/adverts/PopUnderAds";
 import GoogleAds from "../components/adverts/GoogelAds";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
-
-const router = useRouter();
-useEffect(() => {
-  const handleRouteChange = (url) => {
-    gtag.pageview(url);
-  };
-  router.events.on("routeChangeComplete", handleRouteChange);
-  return () => {
-    router.events.off("routeChangeComplete", handleRouteChange);
-  };
-}, [router.events]);
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   if (Component.getLayout) {
     return Component.getLayout(
@@ -82,11 +81,15 @@ useEffect(() => {
           `,
               }}
             />
-            <GoogleAds/>
-              <AdsterraSocialBar />
-              {/*<AdsterraNative/>*/}
-              <AdsterraPopUnder />
-            
+            {/* <GoogleAds/>*/}
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825617756167561"
+              crossOrigin="anonymous"
+            ></script>
+            <AdsterraSocialBar />
+            {/*<AdsterraNative/>*/}
+            <AdsterraPopUnder />
 
             <Layout>
               <Component {...pageProps} />
