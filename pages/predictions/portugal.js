@@ -12,7 +12,7 @@ const Portugal = ({ predictions }) => {
     <>
       <Head>
         <title>Portugal</title>
-        <meta name="description" content="Predicitions for France" />
+        <meta name="description" content="Predicitions for Portugal" />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
