@@ -89,7 +89,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             ></script>
             <AdsterraSocialBar />
             {/*<AdsterraNative/>*/}
-            <AdsterraPopUnder />
+            {/* <AdsterraPopUnder />*/}
 
             <Layout>
               <Component {...pageProps} />
