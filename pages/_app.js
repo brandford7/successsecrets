@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import AdsterraSocialBar from "../components/adverts/SocialBarAd";
 import AdsterraPopUnder from "../components/adverts/PopUnderAds";
+import AdsterraNative from "../components/adverts/NativeAds";
 import GoogleAds from "../components/adverts/GoogelAds";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
@@ -88,7 +89,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               crossOrigin="anonymous"
             ></script>
             <AdsterraSocialBar />
-            {/*<AdsterraNative/>*/}
+            <AdsterraNative />
             {/* <AdsterraPopUnder />*/}
 
             <Layout>
