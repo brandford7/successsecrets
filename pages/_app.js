@@ -10,6 +10,9 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
+import AdsterraSocialBar from "../components/adverts/SocialBarAd";
+import AdsterraPopUnder from "../components/adverts/PopUnderAds";
+import GoogleAds from "../components/adverts/GoogelAds";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
 
@@ -78,9 +81,13 @@ useEffect(() => {
             });
           `,
               }}
-              
             />
-           
+            <GoogleAds/>
+              <AdsterraSocialBar />
+              {/*<AdsterraNative/>*/}
+              <AdsterraPopUnder />
+            
+
             <Layout>
               <Component {...pageProps} />
             </Layout>
