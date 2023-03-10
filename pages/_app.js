@@ -82,18 +82,23 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           `,
               }}
             />
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825617756167561"
+              crossOrigin="anonymous"
+            ></script>
             {/* <GoogleAds/>*/}
-          
 
+            <AdsterraSocialBar />
+            {/* <AdsterraNative />*/}
+            <AdsterraPopUnder />
             <Layout>
               <script
                 async
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825617756167561"
                 crossOrigin="anonymous"
               ></script>
-              <AdsterraSocialBar />
-              {/* <AdsterraNative />*/}
-              <AdsterraPopUnder />
+
               <Component {...pageProps} />
             </Layout>
           </ChakraProvider>
