@@ -12,8 +12,9 @@ import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import AdsterraSocialBar from "../components/adverts/SocialBarAd";
 import AdsterraPopUnder from "../components/adverts/PopUnderAds";
-import AdsterraNative from "../components/adverts/NativeAds";
+import AdsterraNative from "../components/adverts/InterstitialAd";
 import GoogleAds from "../components/adverts/GoogelAds";
+import PropellerInterstitial from "../components/adverts/InterstitialAd";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
@@ -90,8 +91,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             {/* <GoogleAds/>*/}
 
             <AdsterraSocialBar />
-            {/* <AdsterraNative />*/}
-            <AdsterraPopUnder />
+            <PropellerInterstitial />
+            {/* <AdsterraPopUnder />*/}
             <Layout>
             
 
