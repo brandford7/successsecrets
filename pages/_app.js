@@ -89,8 +89,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               crossOrigin="anonymous"
             ></script>
             <AdsterraSocialBar />
-            {/* <AdsterraNative />*/}
-            <AdsterraPopUnder />
+            {/* <AdsterraNative />
+            <AdsterraPopUnder />*/}
 
             <Layout>
               <Component {...pageProps} />
