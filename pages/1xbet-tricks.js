@@ -3,6 +3,7 @@ import Head from "next/head";
 import React from "react";
 import Advert from "../components/adverts/Advert";
 import Tricks from "../components/sections/Tricks";
+import DirectLinkButton from "../components/adverts/DirectLinkButton";
 
 const OneXbet = () => {
   return (
@@ -27,6 +28,7 @@ const OneXbet = () => {
           Mini Games Tricks
         </Heading>
         <Tricks />
+        <DirectLinkButton/>
       </Box>
     </>
   );

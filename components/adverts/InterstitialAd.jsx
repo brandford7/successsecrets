@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 const PropellerInterstitial = () => {
   useEffect(() => {
     const adScript = document.createElement("script");
-    adScript.src = "//ophoacit.com/1?z=5785741";
+    adScript.src = "https://atshroomisha.com/pfe/current/tag.min.js?z=5785768";
     adScript.async = true;
     document.getElementById("propeller-interstitial").appendChild(adScript);
   }, []);
@@ -11,9 +11,9 @@ const PropellerInterstitial = () => {
   return (
     <div id="propeller-interstitial">
       <script
-        async="async"
+        src="https://atshroomisha.com/pfe/current/tag.min.js?z=5785768"
         data-cfasync="false"
-        src="//ophoacit.com/1?z=5785741"
+        async
       ></script>
       <div id="container-aa9a1ddaac86dddb1551a5896b3513cc"></div>
     </div>
