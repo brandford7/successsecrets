@@ -28,7 +28,7 @@ const OneXbet = () => {
           Mini Games Tricks
         </Heading>
         <Tricks />
-        <DirectLinkButton/>
+        {/* <DirectLinkButton/>*/}
       </Box>
     </>
   );
