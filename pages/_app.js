@@ -91,8 +91,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             {/* <GoogleAds/>*/}
 
           {/*  <AdsterraSocialBar />*/}
-            <PropellerInterstitial />
-            {/* <AdsterraPopUnder />*/}
+           {/* <PropellerInterstitial />*/}
+            <AdsterraPopUnder />
             <Layout>
             
 
