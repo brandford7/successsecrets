@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 
           <main>{children}</main>
           <Footer />
-          <div id="ezoic-pub-ad-placeholder-102"> </div>
+          {/*<div id="ezoic-pub-ad-placeholder-102"> </div>*/}
         </Container>
         <ScrollToTop />
       </Box>
