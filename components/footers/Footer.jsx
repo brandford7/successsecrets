@@ -1,5 +1,5 @@
 import React from "react";
-import { chakra, Text, Stack,  } from "@chakra-ui/react";
+import { chakra, Text, Stack } from "@chakra-ui/react";
 import MainLogo from "../sections/MainLogo";
 import Image from "next/image";
 
@@ -39,9 +39,6 @@ const Footer = () => {
               />
             </a>
           </Stack>
-         
-
-
         </Stack>
       </chakra.footer>
     </>
