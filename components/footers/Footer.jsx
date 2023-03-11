@@ -40,7 +40,7 @@ const Footer = () => {
             </a>
           </Stack>
          
-<div id="ezoic-pub-ad-placeholder-102"> </div>
+
 
         </Stack>
       </chakra.footer>
