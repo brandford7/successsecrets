@@ -1,9 +1,9 @@
 import { Box, Heading,Flex,Img,Link } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
-import Advert from "../components/adverts/Advert";
+//import Advert from "../components/adverts/Advert";
 import Tricks from "../components/sections/Tricks";
-import DirectLinkButton from "../components/adverts/DirectLinkButton";
+//import DirectLinkButton from "../components/adverts/DirectLinkButton";
 
 const OneXbet = () => {
   return (

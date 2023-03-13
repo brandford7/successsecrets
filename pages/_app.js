@@ -90,12 +90,10 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             ></script>
             {/* <GoogleAds/>*/}
 
-          {/* <AdsterraSocialBar />
+            {/* <AdsterraSocialBar />
             <PropellerInterstitial />
             <AdsterraPopUnder />*/}
             <Layout>
-            
-
               <Component {...pageProps} />
             </Layout>
           </ChakraProvider>
