@@ -2,7 +2,7 @@ import { Box, Button } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 
-const Advert = ({ src, width, height, title }) => {
+const Advert = ({ src, width, height, title,id }) => {
   return (
     <>
       <Box
@@ -20,6 +20,7 @@ const Advert = ({ src, width, height, title }) => {
             border: "0px",
             borderStyle: "none",
           }}
+          id={id}
           width={width}
           height={height}
           title={title}
