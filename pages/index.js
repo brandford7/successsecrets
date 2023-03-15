@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import Head from "next/head";
-import Script from "next/script";
+
 import TopSection from "../components/sections/TopSection";
 import MidSection from "../components/sections/MidSection";
 import dbConnect from "../lib/dbConnect";
@@ -12,11 +12,12 @@ export default function Home({ predictions }) {
     <Box overflow="hidden" h="auto">
       <Head>
         <title>
-          Success Secrets bet- Best football predictions site, and tricks
+          Success Secrets bet- Best football predictions site, and tricks.
         </title>
         <meta
           name="description"
-          content="The best site for football predictions"
+          content="The best site for football predictions. English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
+          Nations League, World Cup, European ChampionShip"
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>

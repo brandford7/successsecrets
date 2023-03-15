@@ -15,6 +15,7 @@ import AdsterraPopUnder from "../components/adverts/PopUnderAds";
 import AdsterraNative from "../components/adverts/InterstitialAd";
 import GoogleAds from "../components/adverts/GoogelAds";
 import PropellerInterstitial from "../components/adverts/InterstitialAd";
+import EzoicAd from "../components/adverts/EzoicAd";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
@@ -88,7 +89,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825617756167561"
               crossOrigin="anonymous"
             ></script>
-            {/* <GoogleAds/>*/}
+            
+            {/*  <GoogleAds/>*/}
 
             {/* <AdsterraSocialBar />
             <PropellerInterstitial />
