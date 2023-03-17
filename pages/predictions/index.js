@@ -28,17 +28,11 @@ const Predictions = ({ predictions }) => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Flex justify="center">
-        <NavBarThree />
-      </Flex>
-      <Heading p="10" color="white">
-        Predictions for {todayDate}
-      </Heading>
-      <Text p="10" mb="10">
-        Welcome to our page dedicated to soccer predictions! Here, you will find
-        expert analysis, insights, and predictions for upcoming soccer matches
-        from leagues around the world. Our team of experienced analysts and
-        soccer enthusiasts work tirelessly to provide accurate and reliable
+      <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">
+        Welcome to our page dedicated to soccer predictions! Here, you can sort
+        predictions for upcoming soccer matches from leagues around the world
+        according to date. Our team of experienced analysts and soccer
+        enthusiasts work tirelessly to provide accurate and reliable
         predictions, taking into account factors such as team form, player
         availability, head-to-head statistics, and other relevant data. We cover
         major leagues such as the English Premier League, La Liga, Serie A,
@@ -51,6 +45,14 @@ const Predictions = ({ predictions }) => {
         soccer predictions and increase your chances of success, be sure to
         bookmark our page and check back regularly for the latest updates.
       </Text>
+      <Flex justify="center">
+        <NavBarThree />
+      </Flex>
+
+      <Heading p="10" color="white">
+        Predictions for {todayDate}
+      </Heading>
+
       <PredictionTable predictions={predictions} />
     </Box>
   );

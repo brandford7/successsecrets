@@ -23,7 +23,7 @@ const England = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="England" />
-        <Text p="10" mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to our England predictions page. Here, you will find expert
           analysis and predictions for all the top football matches in England,
           including the Premier League, FA Cup,Community Shield, and Carabao

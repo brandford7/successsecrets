@@ -20,7 +20,7 @@ const Italy = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Italy" />
-        <Text p="10" mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to our Italy predictions page. Here, you will find expert
           predictions for all the top football matches in Italy, including Serie
           A,Serie B, Coppa Italia, and Supercoppa Italiana. Our team of experts

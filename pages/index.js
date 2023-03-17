@@ -23,7 +23,7 @@ export default function Home({ predictions }) {
       </Head>
 
       <TopSection />
-      <Text p="10" mb="10">
+      <Text fontSize='2xl' p="10" mb="10">
         Success Secrets Bet is the ultimate destination for soccer enthusiasts
         looking to stay ahead of the game. Our website offers comprehensive
         soccer predictions and analysis to help our users make informed betting

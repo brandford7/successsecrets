@@ -23,7 +23,7 @@ const Spain = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Spain" />
-        <Text p='10' mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to our Spain predictions page. This is your ultimate
           destination for accurate and insightful predictions on the most
           popular football leagues in Spain. La Liga, Copa del Rey,Spanish Super

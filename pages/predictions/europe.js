@@ -23,7 +23,7 @@ const Europe = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
-        <Text p="10" mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to our page dedicated to UEFA predictions! On this page, you
           will find expert predictions and analysis for upcoming UEFA matches,
           including the Champions League, Europa League, Conference League and

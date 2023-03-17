@@ -32,7 +32,7 @@ const OneXbet = () => {
         <Heading color="white" p="10px">
           Mini Games Tricks
         </Heading>
-        <Text p="10" mb="10"></Text>
+        <Text fontSize="2xl" color="white" p="10" mb="10"></Text>
         Welcome to our page on mini tricks! Here, we provide you with a
         comprehensive guide on how to maximize your winnings on the popular
         online betting platforms, 1xbet,888starzbet, betwinner,melbet, amd more.

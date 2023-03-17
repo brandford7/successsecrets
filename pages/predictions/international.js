@@ -22,7 +22,7 @@ const International = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="International" />
-        <Text p="10" mb="10">
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           International predictions page is the ultimate destination for soccer
           enthusiasts who are looking to stay updated on the latest predictions,
           and insights about international soccer. Whether your are a casual fan

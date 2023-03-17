@@ -22,7 +22,7 @@ const Germany = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Germany" />
-        <Text p="10" mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to Germany predictions page. On this page, you will find
           expert Germany soccer predictions.Our team of soccer experts has years
           of experience analyzing the German leagues, including the Bundesliga,

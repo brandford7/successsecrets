@@ -23,7 +23,7 @@ const France = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="France" />
-        <Text p="10" mb='10'>
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to the France Soccer Predictions page, where you can find
           expert analysis, insights, and predictions on all things related to
           soccer in France. Our team of experienced sports analysts and

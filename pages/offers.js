@@ -32,7 +32,7 @@ const Offers = () => {
         <Heading color="white" p="10px">
           Bet Offers
         </Heading>
-        <Text p="10" mb="10">
+        <Text fontSize="2xl" color="white" p="10" mb="10">
           Welcome to our page dedicated to the latest and greatest betting
           offers from top bookmakers around the world. Here, you will find a
           comprehensive list of the best promotions and bonuses available,
