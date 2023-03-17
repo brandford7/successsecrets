@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { endOfDay, startOfDay } from "date-fns";
 import React from "react";
 import Title from "../../components/titles/Title";
@@ -11,15 +11,28 @@ const Europe = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Europe</title>
+        <title>UEFA</title>
         <meta
           name="description"
-          content="Predictions for champions league, europa league, conference league, and other european matches"
+          content="  Welcome to our page dedicated to UEFA predictions. On this page, you
+          will find expert predictions and analysis for upcoming UEFA matches,
+          including the Champions League, Europa League, Conference League and
+          European Championship, and Nations League."
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
-        <Title name="Europe" />
+        <Title name="UEFA" />
+        <Text p="10" mb='10'>
+          Welcome to our page dedicated to UEFA predictions! On this page, you
+          will find expert predictions and analysis for upcoming UEFA matches,
+          including the Champions League, Europa League, Conference League and
+          European Championship, and Nations League. Our team of experienced
+          analysts and sports enthusiasts use a combination of statistical
+          models, team and player performance data, and in-depth knowledge of
+          the game to provide you with the most accurate and up-to-date
+          predictions for each match.
+        </Text>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

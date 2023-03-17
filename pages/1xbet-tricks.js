@@ -1,4 +1,4 @@
-import { Box, Heading,Flex,Img,Link } from "@chakra-ui/react";
+import { Box, Heading, Flex, Img, Link, Text } from "@chakra-ui/react";
 import Head from "next/head";
 import React from "react";
 //import Advert from "../components/adverts/Advert";
@@ -10,7 +10,12 @@ const OneXbet = () => {
     <>
       <Head>
         <title>Free Video tricks</title>
-        <meta name="description" content="Free Video Tricks" />
+        <meta
+          name="description"
+          content=" Welcome to our page on mini tricks! Here, we provide you with a
+        comprehensive guide on how to maximize your winnings on the popular
+        online betting platforms, 1xbet,888starzbet, betwinner,melbet, amd more."
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h="auto">
@@ -27,6 +32,17 @@ const OneXbet = () => {
         <Heading color="white" p="10px">
           Mini Games Tricks
         </Heading>
+        <Text p="10" mb="10"></Text>
+        Welcome to our page on mini tricks! Here, we provide you with a
+        comprehensive guide on how to maximize your winnings on the popular
+        online betting platforms, 1xbet,888starzbet, betwinner,melbet, amd more.
+        Our collection of tips and tricks will help you make smarter bets,
+        manage your bankroll effectively, and increase your chances of winning
+        big. Our team of experienced bettors has put together a variety of
+        strategies in video form that have been tested and proven to be
+        effective. On this page, you will find everything from basic betting
+        principles to advanced techniques that will help you stay ahead of the
+        competition.
         <Tricks />
         {/* <DirectLinkButton/>*/}
       </Box>

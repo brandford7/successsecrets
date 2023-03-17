@@ -3,7 +3,7 @@ import { Box, Container } from "@chakra-ui/react";
 import Header from "../headers/Header";
 import Footer from "../footers/Footer";
 import ScrollToTop from "../footers/ScrollToTop";
-import EzoicAd from "../adverts/EzoicAd";
+
 
 const Layout = ({ children }) => {
   return (
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
           <Header />
 
           <main>{children}</main>
-          {/*<EzoicAd />*/}
+         
           <div id="ezoic-pub-ad-placeholder-102"> </div>
           <Footer />
         </Container>

@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { endOfDay, startOfDay, format } from "date-fns";
 import Head from "next/head";
 import React from "react";
@@ -10,12 +10,22 @@ import Prediction from "../../models/Prediction";
 
 const Predictions = ({ predictions }) => {
   const todayDate = format(new Date(), "do MMMM");
-  
+
   return (
-    <Box overflow="hidden" h={["auto", "auto", "auto",]} bg="bg.200">
+    <Box overflow="hidden" h={["auto", "auto", "auto"]} bg="bg.200">
       <Head>
-        <title>Today</title>
-        <meta name="description" content="Today's Predictions" />
+        <title>Predictions</title>
+        <meta
+          name="description"
+          content="  Welcome to our page dedicated to soccer predictions! Here, you will find
+        expert analysis, insights, and predictions for upcoming soccer matches
+        from leagues around the world. Our team of experienced analysts and
+        soccer enthusiasts work tirelessly to provide accurate and reliable
+        predictions, taking into account factors such as team form, player
+        availability, head-to-head statistics, and other relevant data. We cover
+        major leagues such as the English Premier League, La Liga, Serie A,
+        Bundesliga, Champions League, World Cup and many more."
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Flex justify="center">
@@ -24,6 +34,23 @@ const Predictions = ({ predictions }) => {
       <Heading p="10" color="white">
         Predictions for {todayDate}
       </Heading>
+      <Text p="10" mb="10">
+        Welcome to our page dedicated to soccer predictions! Here, you will find
+        expert analysis, insights, and predictions for upcoming soccer matches
+        from leagues around the world. Our team of experienced analysts and
+        soccer enthusiasts work tirelessly to provide accurate and reliable
+        predictions, taking into account factors such as team form, player
+        availability, head-to-head statistics, and other relevant data. We cover
+        major leagues such as the English Premier League, La Liga, Serie A,
+        Bundesliga, and many more. Whether you are an avid soccer fan looking to
+        enhance your viewing experience or a bettor seeking valuable insights to
+        inform your wagers, our soccer predictions page is the perfect resource
+        for you. Our aim is to provide you with the most comprehensive and
+        insightful predictions to help you make informed decisions and stay
+        ahead of the game. So, if you want to stay up-to-date with the latest
+        soccer predictions and increase your chances of success, be sure to
+        bookmark our page and check back regularly for the latest updates.
+      </Text>
       <PredictionTable predictions={predictions} />
     </Box>
   );

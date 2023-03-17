@@ -1,29 +1,44 @@
-import { Box } from '@chakra-ui/react';
-import { endOfDay, startOfDay } from 'date-fns';
-import React from 'react'
-import Title from '../../components/titles/Title';
-import PredictionTable from '../../components/tables/PredictionTable';
-import dbConnect from '../../lib/dbConnect';
-import Prediction from '../../models/Prediction';
-import Head from 'next/head';
+import { Box, Text } from "@chakra-ui/react";
+import { endOfDay, startOfDay } from "date-fns";
+import React from "react";
+import Title from "../../components/titles/Title";
+import PredictionTable from "../../components/tables/PredictionTable";
+import dbConnect from "../../lib/dbConnect";
+import Prediction from "../../models/Prediction";
+import Head from "next/head";
 
-const Germany = ({predictions}) => {
+const Germany = ({ predictions }) => {
   return (
     <>
       <Head>
         <title>Germany</title>
-        <meta name="description" content="Predicitions for Germany" />
+        <meta
+          name="description"
+          content="Welcome to our Germany predictions page. Here, you will find expert
+          analysis and predictions for all the top football matches in Germany,
+          including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup."
+        />
         <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Germany" />
+        <Text p="10" mb='10'>
+          Welcome to Germany predictions page. On this page, you will find
+          expert Germany soccer predictions.Our team of soccer experts has years
+          of experience analyzing the German leagues, including the Bundesliga,
+          Bundesliga 2,DFB Pokal, and German Super Cup and more. We use a
+          combination of statistical analysis and insider knowledge to make our
+          predictions, giving you the best chance of making informed bets on
+          Germany soccer matches. Make sure to bookmark this page and check back
+          regularly for the latest analysis, and predictions on Germany soccer.
+        </Text>
         <PredictionTable predictions={predictions} />
       </Box>
     </>
   );
-}
+};
 
-export default Germany
+export default Germany;
 
 export async function getStaticProps() {
   await dbConnect();
