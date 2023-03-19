@@ -1,0 +1,8 @@
+User-agent: *
+
+
+Disallow: /admin/
+
+Allow: /
+
+Sitemap: https://successsecretsbet.com/sitemap.xml
