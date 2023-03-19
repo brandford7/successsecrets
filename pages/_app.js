@@ -90,11 +90,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               crossOrigin="anonymous"
             ></script>
            
-            {/*  <GoogleAds/>*/}
-
-            {/* <AdsterraSocialBar />
-            <PropellerInterstitial />
-            <AdsterraPopUnder />*/}
+           
             <Layout>
               <Component {...pageProps} />
             </Layout>
