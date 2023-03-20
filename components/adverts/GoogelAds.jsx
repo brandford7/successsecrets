@@ -8,7 +8,7 @@ const GoogleAds = ({props}) => {
   }, []);
 
   return (
-    <div key={currentPath}>
+    <div >
       <ins
         className="adsbygoogle"
         style="display:block"

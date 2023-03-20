@@ -10,11 +10,8 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
-import AdsterraSocialBar from "../components/adverts/SocialBarAd";
-import AdsterraPopUnder from "../components/adverts/PopUnderAds";
 
-import GoogleAds from "../components/adverts/GoogelAds";
-import PropellerInterstitial from "../components/adverts/InterstitialAd";
+
 
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
@@ -89,8 +86,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825617756167561"
               crossOrigin="anonymous"
             ></script>
-           
-           
+
             <Layout>
               <Component {...pageProps} />
             </Layout>
