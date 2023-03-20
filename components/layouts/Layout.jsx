@@ -15,8 +15,8 @@ const Layout = ({ children }) => {
 
           <main>{children}</main>
 
-          <GoogleAds />
           <Footer />
+          <GoogleAds />
         </Container>
 
         <ScrollToTop />
