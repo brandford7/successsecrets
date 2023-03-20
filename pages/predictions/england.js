@@ -12,7 +12,7 @@ const England = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions from England</title>
+        <title>Football Predictions for England</title>
         <meta
           name="description"
           content="  Welcome to our England predictions page. Here, you will find expert

@@ -11,7 +11,7 @@ const Europe = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions from UEFA</title>
+        <title>Football Predictions for UEFA matches</title>
         <meta
           name="description"
           content="  Welcome to our page dedicated to UEFA predictions. On this page, you

@@ -14,7 +14,7 @@ const Predictions = ({ predictions }) => {
   return (
     <Box overflow="hidden" h={["auto", "auto", "auto"]} bg="bg.200">
       <Head>
-        <title>Predictions on football</title>
+        <title>Predictions on football for today</title>
         <meta
           name="description"
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find

@@ -11,7 +11,7 @@ const International = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>International</title>
+        <title>Football predictions for International matches</title>
         <meta
           name="description"
           content="Welcome to our International predictions page. Here, you will find expert

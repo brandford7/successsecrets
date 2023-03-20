@@ -15,7 +15,7 @@ const Tomorrow = ({ predictions }) => {
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
-        <title>Football Predictions For Yesterday</title>
+        <title>Football Predictions for yesterday</title>
         <meta name="description" content="Yesterday's Predictions" />
         <meta
           name="keywords"

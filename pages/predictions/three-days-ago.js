@@ -15,7 +15,7 @@ const ThreeDaysAgo = ({ predictions }) => {
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
-        <title>Football Preditions Three Days Ago</title>
+        <title>Football Preditions for 3 days Ago</title>
         <meta name="description" content="Predictions for 3 days ago" />
         <meta
           name="keywords"
