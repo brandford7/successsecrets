@@ -19,6 +19,10 @@ const England = ({ predictions }) => {
           analysis and predictions for all the top football matches in England,
           including the Premier League, Championship, FA Cup,Community Shield, and League Cup."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions,england football predictions "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

@@ -17,7 +17,11 @@ const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="g.200">
       <Head>
         <title>Tomorrow</title>
-        <meta name="description" content="Tomorrow's Predictions" />
+        <meta name="description" content="Tomorrow's football Predictions" />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">

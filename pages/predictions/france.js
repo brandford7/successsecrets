@@ -19,6 +19,10 @@ const France = ({ predictions }) => {
           including the Ligue 1,
           Ligue 2, Coupe de la ligue, Coupe de France, and French Super Cup ."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, france football predictions"
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

@@ -17,6 +17,10 @@ const Tomorrow = ({ predictions }) => {
       <Head>
         <title>Yesterday</title>
         <meta name="description" content="Yesterday's Predictions" />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Flex justify="center">

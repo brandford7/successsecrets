@@ -19,6 +19,10 @@ const Spain = ({ predictions }) => {
           popular football leagues in Spain, La Liga, Copa del Rey,Spanish Super
           Cup and the Segunda division,"
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, spain football predictions"
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

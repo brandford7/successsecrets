@@ -19,6 +19,10 @@ const Europe = ({ predictions }) => {
           including the Champions League, Europa League, Conference League and
           European Championship, and Nations League."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions,uefa champions league "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

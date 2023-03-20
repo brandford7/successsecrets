@@ -18,6 +18,10 @@ const International = ({ predictions }) => {
           analysis and predictions for all the top international football matches ,
           including the World Cup, Club World Cup, Olympics, U17 and U20 World Cups"
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions,world cup,fifa club world cup "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

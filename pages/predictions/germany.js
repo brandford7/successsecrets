@@ -18,6 +18,10 @@ const Germany = ({ predictions }) => {
           analysis and predictions for all the top football matches in Germany,
           including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions,germany football predictions "
+        />
         <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

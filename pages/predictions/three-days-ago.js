@@ -17,6 +17,10 @@ const ThreeDaysAgo = ({ predictions }) => {
       <Head>
         <title>Three Days Ago</title>
         <meta name="description" content="Predictions for 3 days ago" />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">

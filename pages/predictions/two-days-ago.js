@@ -18,6 +18,10 @@ const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
       <Head>
         <title>Two Days Ago</title>
         <meta name="description" content="Predictions for 2 days ago" />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Flex justify="center">

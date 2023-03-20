@@ -16,6 +16,10 @@ const Italy = ({ predictions }) => {
           name="description"
           content="Welcome to our Italy predictions page. Here, you'll find expert analysis and predictions for all the top football matches in Italy, including Serie A, Serie B, Coppa Italia, and Supercoppa Italiana."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, italy football predictions"
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

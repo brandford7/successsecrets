@@ -26,6 +26,10 @@ const Predictions = ({ predictions }) => {
         major leagues such as the English Premier League, La Liga, Serie A,
         Bundesliga, Champions League, World Cup and many more."
         />
+        <meta
+          name="keywords"
+          content="prediction on football ,predictz, football predictions, bet predictions, "
+        />
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">
