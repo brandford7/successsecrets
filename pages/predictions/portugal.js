@@ -11,7 +11,7 @@ const Portugal = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Portugal</title>
+        <title>Football Predictions from Portugal</title>
         <meta
           name="description"
           content="Welcome to our page dedicated to Portugal predictions. On this page, you

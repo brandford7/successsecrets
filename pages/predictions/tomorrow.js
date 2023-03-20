@@ -16,7 +16,7 @@ const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="g.200">
       <Head>
-        <title>Tomorrow</title>
+        <title> Football predictions for tomorrow</title>
         <meta name="description" content="Tomorrow's football Predictions" />
         <meta
           name="keywords"

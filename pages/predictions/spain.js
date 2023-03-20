@@ -11,7 +11,7 @@ const Spain = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Spain</title>
+        <title>Football Predictions from Spain</title>
         <meta
           name="description"
           content="   Welcome to our Spain predictions page. This is your ultimate

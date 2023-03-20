@@ -11,7 +11,7 @@ const Italy = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Italy</title>
+        <title>Football Predictions from Italy</title>
         <meta
           name="description"
           content="Welcome to our Italy predictions page. Here, you'll find expert analysis and predictions for all the top football matches in Italy, including Serie A, Serie B, Coppa Italia, and Supercoppa Italiana."

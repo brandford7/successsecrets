@@ -11,7 +11,7 @@ const Germany = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Germany</title>
+        <title>Football Predictions from Germany</title>
         <meta
           name="description"
           content="Welcome to our Germany predictions page. Here, you will find expert
