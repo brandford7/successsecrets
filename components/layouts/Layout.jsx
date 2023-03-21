@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <>
       <Box bg="gray.100" h="auto" p="0" minH="800px">
         <Container bg="bg.200" maxW="container.xl" textAlign="center" p="0">
-          <GoogleAds />
+          
           <Header />
 
           <main>{children}</main>
