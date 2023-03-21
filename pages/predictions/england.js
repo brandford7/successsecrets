@@ -16,7 +16,7 @@ const England = ({ predictions }) => {
         <meta
           name="description"
           content="  Welcome to our England predictions page. Here, you will find expert
-          analysis and predictions for all the top football matches in England,
+         football  analysis and football predictions for all the top football matches in England,
           including the Premier League, Championship, FA Cup,Community Shield, and League Cup."
         />
         <meta
@@ -27,8 +27,8 @@ const England = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="England" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
-          Welcome to our England predictions page. Here, you will find expert
+        <Text fontSize="2xl" color="white" p="10" textAlign="justify" mb="10">
+          Welcome to our England football predictions page. Here, you will find expert football
           analysis and predictions for all the top football matches in England,
           including the Premier League, FA Cup,Community Shield, and Carabao
           Cup. whether you are looking to stay on top of the latest predictions

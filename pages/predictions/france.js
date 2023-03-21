@@ -14,7 +14,7 @@ const France = ({ predictions }) => {
         <title>Football Predictions for France</title>
         <meta
           name="description"
-          content="Welcome to our France predictions page. Here, you will find expert
+          content="Welcome to our France football predictions page. Here, you will find expert
           analysis and predictions for all the top football matches in France,
           including the Ligue 1,
           Ligue 2, Coupe de la ligue, Coupe de France, and French Super Cup ."
@@ -27,10 +27,10 @@ const France = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="France" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
+        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
           Welcome to the France Soccer Predictions page, where you can find
-          expert analysis, insights, and predictions on all things related to
-          soccer in France. Our team of experienced sports analysts and
+          expertfootball  analysis, insights, and football predictions on all things related to
+          football in France. Our team of experienced sports analysts and
           enthusiasts are passionate about the game and are committed to
           providing you with the most accurate and up-to-date information
           possible. Whether you are a fan of Ligue 1, or any other soccer league

@@ -16,14 +16,17 @@ const ThreeDaysAgo = ({ predictions }) => {
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
         <title>Football Preditions for 3 days Ago</title>
-        <meta name="description" content="Predictions for 3 days ago" />
+        <meta
+          name="description"
+          content="Football Predictions for 3 days ago"
+        />
         <meta
           name="keywords"
           content="prediction on football ,predictz, football predictions, bet predictions, "
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">
+      <Text color="white" fontSize="2xl" textAlign="justify" p="10" mb="10">
         Welcome to our page dedicated to soccer predictions! Here, you can sort
         predictions for upcoming soccer matches from leagues around the world
         according to date. Our team of experienced analysts and soccer

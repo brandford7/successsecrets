@@ -24,7 +24,7 @@ const Predictions = ({ predictions }) => {
         predictions, taking into account factors such as team form, player
         availability, head-to-head statistics, and other relevant data. We cover
         major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, Champions League, World Cup and many more."
+        Bundesliga, UEFA Champions League, World Cup and many more, predictz"
         />
         <meta
           name="keywords"
@@ -32,7 +32,14 @@ const Predictions = ({ predictions }) => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">
+      <Text
+        color="white"
+        textAlign="justify"
+        fontSize="2xl"
+        
+        p="10"
+        mb="10"
+      >
         Welcome to our page dedicated to soccer predictions! Here, you can sort
         predictions for upcoming soccer matches from leagues around the world
         according to date. Our team of experienced analysts and soccer

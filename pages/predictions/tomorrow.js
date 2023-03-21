@@ -1,5 +1,5 @@
-import { Box, Flex, Heading,Text } from "@chakra-ui/react";
-import { startOfDay, addDays,format} from "date-fns";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { startOfDay, addDays, format } from "date-fns";
 import Head from "next/head";
 import React from "react";
 import NavBarThree from "../../components/navbars/NavBarThree";
@@ -9,12 +9,11 @@ import dbConnect from "../../lib/dbConnect";
 import Prediction from "../../models/Prediction";
 
 const Tomorrow = ({ predictions }) => {
+  const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
 
-const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
-
-   console.log(predictions);
+  console.log(predictions);
   return (
-    <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="g.200">
+    <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
         <title> Football predictions for tomorrow</title>
         <meta name="description" content="Tomorrow's football Predictions" />
@@ -59,13 +58,11 @@ export async function getStaticProps() {
 
   const predictions = await Prediction.find({
     start_date: {
- $gt: startOfDay(new Date()),
-     $lte: addDays(new Date(),1), 
-  
+      $gt: startOfDay(new Date()),
+      $lte: addDays(new Date(), 1),
     },
   });
 
- 
   return {
     props: { predictions: JSON.parse(JSON.stringify(predictions)) },
     revalidate: 10,

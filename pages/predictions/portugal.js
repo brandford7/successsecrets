@@ -26,9 +26,9 @@ const Portugal = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Portugal" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
-          Welcome to the Portugal Soccer Predictions page, where you can find
-          expert analysis and predictions for all the major soccer matches
+        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+          Welcome to the Portugal football Predictions page, where you can find
+          expert analysis and predictions for all the major football matches
           featuring top teams from Portugal . Whether you are a die-hard fan of
           Benfica, Porto, or Sporting Lisbon, or just a casual follower of
           Portuguese soccer, our team of experienced analysts has got you

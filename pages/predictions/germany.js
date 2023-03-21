@@ -14,7 +14,7 @@ const Germany = ({ predictions }) => {
         <title>Football Predictions for Germany</title>
         <meta
           name="description"
-          content="Welcome to our Germany predictions page. Here, you will find expert
+          content="Welcome to our Germany predictions page. Here, you will find expert football
           analysis and predictions for all the top football matches in Germany,
           including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup."
         />
@@ -26,15 +26,16 @@ const Germany = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Germany" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
+        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
           Welcome to Germany predictions page. On this page, you will find
-          expert Germany soccer predictions.Our team of soccer experts has years
-          of experience analyzing the German leagues, including the Bundesliga,
-          Bundesliga 2,DFB Pokal, and German Super Cup and more. We use a
-          combination of statistical analysis and insider knowledge to make our
-          predictions, giving you the best chance of making informed bets on
-          Germany soccer matches. Make sure to bookmark this page and check back
-          regularly for the latest analysis, and predictions on Germany soccer.
+          expert Germany football predictions.Our team of football experts has
+          years of experience analyzing the German football leagues, including
+          the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup and more.
+          We use a combination of statistical analysis and insider knowledge to
+          make our predictions, giving you the best chance of making informed
+          bets on Germany soccer matches. Make sure to bookmark this page and
+          check back regularly for the latest analysis, and predictions on
+          Germany soccer.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

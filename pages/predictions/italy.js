@@ -24,13 +24,13 @@ const Italy = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Italy" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
-          Welcome to our Italy predictions page. Here, you will find expert
+        <Text fontSize="2xl" textAlign="justify" color="white" p="10" mb="10">
+          Welcome to our Italy football predictions page. Here, you will find expert
           predictions for all the top football matches in Italy, including Serie
           A,Serie B, Coppa Italia, and Supercoppa Italiana. Our team of experts
           use a variety of statistical tools, historical data, and other factors
           to arrive at their predictions. Whether you are a die-hard Italian
-          soccer fan or simply looking to make informed bets, our Italy Soccer
+          soccer fan or simply looking to make informed bets, our Italy football
           Predictions page has got you covered. We update our predictions
           regularly, so be sure to check back often for the latest insights and
           information on Italian soccer matches.

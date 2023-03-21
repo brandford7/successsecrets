@@ -15,7 +15,7 @@ const Europe = ({ predictions }) => {
         <meta
           name="description"
           content="  Welcome to our page dedicated to UEFA predictions. On this page, you
-          will find expert predictions and analysis for upcoming UEFA matches,
+          will find expert predictions and analysis for upcoming UEFA football matches,
           including the Champions League, Europa League, Conference League and
           European Championship, and Nations League."
         />
@@ -27,11 +27,11 @@ const Europe = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
-        <Text fontSize="2xl" color="white" p="10" mb="10">
+        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
           Welcome to our page dedicated to UEFA predictions! On this page, you
-          will find expert predictions and analysis for upcoming UEFA matches,
+          will find expert football predictions and analysis for upcoming UEFA matches,
           including the Champions League, Europa League, Conference League and
-          European Championship, and Nations League. Our team of experienced
+          European Championship, and UEFA Nations League. Our team of experienced football
           analysts and sports enthusiasts use a combination of statistical
           models, team and player performance data, and in-depth knowledge of
           the game to provide you with the most accurate and up-to-date
