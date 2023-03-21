@@ -42,7 +42,7 @@ const Footer = () => {
             <Link href="/privacy">
               <a>
                 
-                <Text>Privacy policy</Text>
+                <Text color='white'>Privacy policy</Text>
               </a>
             </Link>
           </Stack>
