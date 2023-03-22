@@ -12,16 +12,18 @@ const International = ({ predictions }) => {
     <>
       <Head>
         <title>Football predictions for International matches</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/international"
+          key="canonical"
+        />
         <meta
           name="description"
           content="Welcome to our International predictions page. Here, you will find expert
           analysis and predictions for all the top international football matches ,
           including the World Cup, Club World Cup, Olympics, U17 and U20 World Cups"
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions,world cup,fifa club world cup "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

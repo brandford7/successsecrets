@@ -12,16 +12,18 @@ const Germany = ({ predictions }) => {
     <>
       <Head>
         <title>Football Predictions for Germany</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/germany"
+          key="canonical"
+        />
         <meta
           name="description"
           content="Welcome to our Germany predictions page. Here, you will find expert football
           analysis and predictions for all the top football matches in Germany,
           including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup."
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions,germany football predictions "
-        />
+
         <link rel="icon" href="/success-image.jpg" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

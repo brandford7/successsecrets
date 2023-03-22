@@ -12,16 +12,18 @@ const Portugal = ({ predictions }) => {
     <>
       <Head>
         <title>Football Predictions for Portugal</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/portugal"
+          key="canonical"
+        />
         <meta
           name="description"
           content="Welcome to our page dedicated to Portugal predictions. On this page, you
           will find expert predictions and analysis for upcoming matches in Portugal,
           including the Primeira Liga, Segunda Liga, Taca de Liga ,Taca de Portugal, and Portuguese Super Cup."
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions, portugal football predictions"
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

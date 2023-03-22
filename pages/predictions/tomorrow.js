@@ -16,11 +16,13 @@ const Tomorrow = ({ predictions }) => {
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
         <title> Football predictions for tomorrow</title>
-        <meta name="description" content="Tomorrow's football Predictions" />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions, "
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/tomorrow"
+          key="canonical"
         />
+        <meta name="description" content="Tomorrow's football Predictions" />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">

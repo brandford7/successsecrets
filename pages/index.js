@@ -15,15 +15,17 @@ export default function Home({ predictions }) {
           Success Secrets bet- Best Site for bet predictions on football, and
           1xbet tricks.
         </title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com"
+          key="canonical"
+        />
         <meta
           name="description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with prediction on football. Our website offers comprehensive soccer bet predictions and analysis to help our users make informed betting decisions. Predictions from The best site for football predictions. English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
           Nations League, World Cup, European ChampionShip,Premier League, Serie A , La Liga, Bundesliga, Ligue1 , Eredivisie, Portuguese League, and more."
         />
-        <meta
-          name="keywords"
-          content=" bet prediction on football ,predictz, football predictions, bet predictions,1xbet "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
 

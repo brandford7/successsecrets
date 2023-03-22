@@ -10,6 +10,11 @@ const OneXbet = () => {
     <>
       <Head>
         <title>Free Video tricks</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/1xbet-tricks"
+          key="canonical"
+        />
         <meta
           name="description"
           content=" Welcome to our page on mini tricks! Here, we provide you with a
@@ -19,7 +24,6 @@ const OneXbet = () => {
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h="auto">
-       
         <Heading color="white" p="10px">
           Mini Games Tricks
         </Heading>
@@ -41,7 +45,6 @@ const OneXbet = () => {
         principles to advanced techniques that will help you stay ahead of the
         competition.
         <Tricks />
-        
       </Box>
     </>
   );

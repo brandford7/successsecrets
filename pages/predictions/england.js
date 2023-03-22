@@ -13,28 +13,30 @@ const England = ({ predictions }) => {
     <>
       <Head>
         <title>Football Predictions for England</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/england"
+          key="canonical"
+        />
         <meta
           name="description"
           content="  Welcome to our England predictions page. Here, you will find expert
          football  analysis and football predictions for all the top football matches in England,
           including the Premier League, Championship, FA Cup,Community Shield, and League Cup."
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions,england football predictions "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="England" />
         <Text fontSize="2xl" color="white" p="10" textAlign="justify" mb="10">
-          Welcome to our England football predictions page. Here, you will find expert football
-          analysis and predictions for all the top football matches in England,
-          including the Premier League, FA Cup,Community Shield, and Carabao
-          Cup. whether you are looking to stay on top of the latest predictions
-          or just want to know more about the game, join us as we explore the
-          exciting world of football in England and make our predictions for the
-          biggest matches of the season!
+          Welcome to our England football predictions page. Here, you will find
+          expert football analysis and predictions for all the top football
+          matches in England, including the Premier League, FA Cup,Community
+          Shield, and Carabao Cup. whether you are looking to stay on top of the
+          latest predictions or just want to know more about the game, join us
+          as we explore the exciting world of football in England and make our
+          predictions for the biggest matches of the season!
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

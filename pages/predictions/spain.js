@@ -12,6 +12,11 @@ const Spain = ({ predictions }) => {
     <>
       <Head>
         <title>Football Predictions for Spain</title>
+         <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/spain"
+          key="canonical"
+        />
         <meta
           name="description"
           content="   Welcome to our Spain predictions page. This is your ultimate
@@ -19,10 +24,7 @@ const Spain = ({ predictions }) => {
           popular football leagues in Spain, La Liga, Copa del Rey,Spanish Super
           Cup and the Segunda division,"
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions, spain football predictions"
-        />
+      
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>

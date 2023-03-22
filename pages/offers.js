@@ -2,8 +2,7 @@ import Advert from "../components/adverts/Advert";
 import Head from "next/head";
 import {
   Box,
-  Button,
-  Flex,
+  
   Heading,
   Img,
   Link,
@@ -17,6 +16,11 @@ const Offers = () => {
       <Box>
         <Head>
           <title>Offers</title>
+          <link
+            rel="canonical"
+            href="https://www.successsecretsbet.com/offers"
+            key="canonical"
+          />
           <meta
             name="description"
             content="  Welcome to our page dedicated to the latest and greatest betting

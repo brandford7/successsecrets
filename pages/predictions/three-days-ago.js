@@ -1,4 +1,4 @@
-import { Box, Flex, Heading,Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { subDays, format } from "date-fns";
 import Head from "next/head";
 import React from "react";
@@ -11,19 +11,20 @@ import Prediction from "../../models/Prediction";
 const ThreeDaysAgo = ({ predictions }) => {
   const threeDaysAgoDate = format(subDays(new Date(), 3), "do MMMM");
 
-  
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
         <title>Football Preditions for 3 days Ago</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/three-days-ago"
+          key="canonical"
+        />
         <meta
           name="description"
           content="Football Predictions for 3 days ago"
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions, "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Text color="white" fontSize="2xl" textAlign="justify" p="10" mb="10">

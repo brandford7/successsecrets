@@ -14,6 +14,11 @@ const Results = ({ predictions }) => {
       <Box overflow="hidden" h={["auto", "auto,", "100vh"]} bg="bg.200">
         <Head>
           <title>Results</title>
+          <link
+            rel="canonical"
+            href="https://www.successsecretsbet.com/results"
+            key="canonical"
+          />
           <meta
             name="description"
             content="The best site for football predictions"

@@ -15,6 +15,11 @@ const Predictions = ({ predictions }) => {
     <Box overflow="hidden" h={["auto", "auto", "auto"]} bg="bg.200">
       <Head>
         <title>Predictions on football for today</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions"
+          key="canonical"
+        />
         <meta
           name="description"
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find
@@ -26,20 +31,10 @@ const Predictions = ({ predictions }) => {
         major leagues such as the English Premier League, La Liga, Serie A,
         Bundesliga, UEFA Champions League, World Cup and many more, predictz"
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions, "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text
-        color="white"
-        textAlign="justify"
-        fontSize="2xl"
-        
-        p="10"
-        mb="10"
-      >
+      <Text color="white" textAlign="justify" fontSize="2xl" p="10" mb="10">
         Welcome to our page dedicated to soccer predictions! Here, you can sort
         predictions for upcoming soccer matches from leagues around the world
         according to date. Our team of experienced analysts and soccer

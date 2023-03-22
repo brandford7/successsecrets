@@ -12,6 +12,11 @@ const Europe = ({ predictions }) => {
     <>
       <Head>
         <title>Football Predictions for UEFA matches</title>
+        <link
+          rel="canonical"
+          href="https://www.successsecretsbet.com/predictions/europe"
+          key="canonical"
+        />
         <meta
           name="description"
           content="  Welcome to our page dedicated to UEFA predictions. On this page, you
@@ -19,23 +24,20 @@ const Europe = ({ predictions }) => {
           including the Champions League, Europa League, Conference League and
           European Championship, and Nations League."
         />
-        <meta
-          name="keywords"
-          content="prediction on football ,predictz, football predictions, bet predictions,uefa champions league "
-        />
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
         <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
           Welcome to our page dedicated to UEFA predictions! On this page, you
-          will find expert football predictions and analysis for upcoming UEFA matches,
-          including the Champions League, Europa League, Conference League and
-          European Championship, and UEFA Nations League. Our team of experienced football
-          analysts and sports enthusiasts use a combination of statistical
-          models, team and player performance data, and in-depth knowledge of
-          the game to provide you with the most accurate and up-to-date
-          predictions for each match.
+          will find expert football predictions and analysis for upcoming UEFA
+          matches, including the Champions League, Europa League, Conference
+          League and European Championship, and UEFA Nations League. Our team of
+          experienced football analysts and sports enthusiasts use a combination
+          of statistical models, team and player performance data, and in-depth
+          knowledge of the game to provide you with the most accurate and
+          up-to-date predictions for each match.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>
