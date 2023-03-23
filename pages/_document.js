@@ -18,7 +18,7 @@ export default class Document extends NextDocument {
              ezstandalone.enable()
             ezstandalone.display()});
             </script>*/}
-           
+        
         </Head>
 
         <body>
