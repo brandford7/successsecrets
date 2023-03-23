@@ -54,7 +54,7 @@ export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    country: { $regex: ["Internatinal", "Friendlies", "FIFA"] },
+    country: { $in: ["International", "Friendlies", "FIFA"] },
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),

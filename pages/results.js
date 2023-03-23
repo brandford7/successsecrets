@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import { endOfDay, startOfDay } from "date-fns";
 import Head from "next/head";
 import React from "react";
