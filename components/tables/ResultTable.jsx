@@ -4,7 +4,7 @@ import React from 'react'
 const ResultTable = ({predictions}) => {
   return (
     <>
-      {predictions.length>0 && (
+      {predictions.length > 0 && (
         <TableContainer bg="bg.200" maxW="100%">
           <Table
             fontSize={["12px", "12px", "16px"]}
@@ -26,7 +26,8 @@ const ResultTable = ({predictions}) => {
                   <Td>{prediction.country}</Td>
 
                   <Td>{prediction.match}</Td>
-                  <Td>{prediction.result !== null && prediction.result}</Td>
+                  <Td>{prediction.bet}</Td>
+                  <Td>{prediction.result}</Td>
                 </Tr>
               ))}
             </Tbody>

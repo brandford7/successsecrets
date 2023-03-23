@@ -2,7 +2,7 @@ import { Box, Flex, Heading } from "@chakra-ui/react";
 import { endOfDay, startOfDay } from "date-fns";
 import Head from "next/head";
 import React from "react";
-import PredictionTable from "../components/tables/PredictionTable";
+
 import ResultTable from "../components/tables/ResultTable";
 import dbConnect from "../lib/dbConnect";
 import Prediction from "../models/Prediction";
