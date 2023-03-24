@@ -1,4 +1,4 @@
-import { Text, } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import Head from "next/head";
 
 const PrivacyPolicy = () => {
@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text p="20" textAlign="justify">
+      <Text p="20" color='white' textAlign="justify">
         Success secretsbet Privacy Policy This Privacy Policy describes how your
         personal information is collected, used, and shared when you visit or
         https://successsecretsbet.com . When you visit the Site, we
