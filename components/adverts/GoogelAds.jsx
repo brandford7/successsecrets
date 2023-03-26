@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const GoogleAds = ({...props}) => {
+const GoogleAds = (...props) => {
  const { currentPath } = props;
 
   useEffect(() => {

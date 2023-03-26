@@ -3,7 +3,7 @@ import { Box, Container } from "@chakra-ui/react";
 import Header from "../headers/Header";
 import Footer from "../footers/Footer";
 import ScrollToTop from "../footers/ScrollToTop";
-//import GoogleAds from "../adverts/GoogelAds";
+import GoogleAds from "../adverts/GoogelAds";
 
 const Layout = ({ children }) => {
   return (
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <Container bg="bg.200" maxW="container.xl" textAlign="center" p="0">
           <Header />
           <main>{children}</main>
-          {/*<GoogleAds />*/}
+          <GoogleAds />
           <Footer />
         </Container>
 
