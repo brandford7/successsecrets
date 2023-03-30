@@ -66,6 +66,6 @@ export async function getStaticProps() {
     props: {
       predictions: JSON.parse(JSON.stringify(predictions)),
     },
-    revalidate: 10,
+    revalidate: 5,
   };
 }

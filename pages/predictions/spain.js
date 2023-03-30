@@ -51,7 +51,7 @@ export async function getStaticProps() {
   await dbConnect();
 
   const predictions = await Prediction.find({
-    country: "Spain",
+    country: { $regex: /Spain/i },
     start_date: {
       $gte: startOfDay(new Date()),
       $lte: endOfDay(new Date()),
@@ -63,6 +63,6 @@ export async function getStaticProps() {
     props: {
       predictions: JSON.parse(JSON.stringify(predictions)),
     },
-    revalidate: 10,
+    revalidate: 5,
   };
 }
