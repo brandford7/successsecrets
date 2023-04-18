@@ -10,7 +10,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
-import { Analytics } from "@vercel/analytics/react";
+//import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
@@ -118,7 +118,7 @@ window.__h82AlnkH6D91__("WyJwdWItMzgyNTYxNzc1NjE2NzU2MSIsW251bGwsbnVsbCxudWxsLCJ
 
             <Layout>
               <Component {...pageProps} />
-              <Analytics />
+             
             </Layout>
           </ChakraProvider>
         </SessionProvider>

@@ -24,12 +24,9 @@ const Predictions = ({ predictions }) => {
           name="description"
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find
         expert analysis, insights, and predictions for upcoming soccer matches
-        from leagues around the world. Our team of experienced analysts and
-        soccer enthusiasts work tirelessly to provide accurate and reliable
-        predictions, taking into account factors such as team form, player
-        availability, head-to-head statistics, and other relevant data. We cover
-        major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, UEFA Champions League, World Cup and many more, predictz"
+        from leagues around the world. We cover major leagues such as the English Premier League, La Liga, Serie A,
+        Bundesliga, UEFA Champions League, World Cup and many more, predictz.  Find all your sure predictions here."
+         
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -42,14 +39,8 @@ const Predictions = ({ predictions }) => {
         predictions, taking into account factors such as team form, player
         availability, head-to-head statistics, and other relevant data. We cover
         major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, and many more. Whether you are an avid soccer fan looking to
-        enhance your viewing experience or a bettor seeking valuable insights to
-        inform your wagers, our soccer predictions page is the perfect resource
-        for you. Our aim is to provide you with the most comprehensive and
-        insightful predictions to help you make informed decisions and stay
-        ahead of the game. So, if you want to stay up-to-date with the latest
-        soccer predictions and increase your chances of success, be sure to
-        bookmark our page and check back regularly for the latest updates.
+        Bundesliga, and many more. Find all your sure predictions here.
+         
       </Text>
       <Flex justify="center">
         <NavBarThree />

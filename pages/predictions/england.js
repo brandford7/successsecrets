@@ -22,7 +22,8 @@ const England = ({ predictions }) => {
           name="description"
           content="  Welcome to our England predictions page. Here, you will find expert
          football  analysis and football predictions for all the top football matches in England,
-          including the Premier League, Championship, FA Cup,Community Shield, and League Cup."
+          including the Premier League, Championship, FA Cup,Community Shield, and League Cup. Find all your sure predictions here."
+         
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -33,10 +34,7 @@ const England = ({ predictions }) => {
           Welcome to our England football predictions page. Here, you will find
           expert football analysis and predictions for all the top football
           matches in England, including the Premier League, FA Cup,Community
-          Shield, and Carabao Cup. whether you are looking to stay on top of the
-          latest predictions or just want to know more about the game, join us
-          as we explore the exciting world of football in England and make our
-          predictions for the biggest matches of the season!
+          Shield, and Carabao Cup. Find all your sure and accurate predictions here.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

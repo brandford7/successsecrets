@@ -23,7 +23,8 @@ export default function Home({ predictions }) {
         <meta
           name="description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with prediction on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
-          Nations League, World Cup, European ChampionShip,Premier League, Serie A , La Liga, Bundesliga, Ligue1 , Eredivisie, Portuguese League, and more."
+          Nations League, World Cup, European ChampionShip,Premier League, Serie A , La Liga, Bundesliga, Ligue1 , Eredivisie, Portuguese League, and more. Find all your sure predictions here.
+         "
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -38,10 +39,8 @@ export default function Home({ predictions }) {
         provide accurate and reliable predictions for a wide range of soccer
         leagues and tournaments around the world. Our predictions are based on a
         combination of statistical analysis, team and player form, as well as
-        the latest news and updates from the world of soccer.So whether you are
-        a seasoned soccer bettor or just getting started, Success Secrets Bet
-        has everything you need to take your betting to the next level. Join us
-        today and start winning big!
+        the latest news and updates from the world of soccer. Find all your sure
+        predictions here.
       </Text>
       <MidSection predictions={predictions} />
     </Box>
