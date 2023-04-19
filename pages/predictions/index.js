@@ -20,12 +20,13 @@ const Predictions = ({ predictions }) => {
           href="https://www.successsecretsbet.com/predictions"
           key="canonical"
         />
+        
         <meta
           name="description"
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find
         expert analysis, insights, and predictions for upcoming soccer matches
         from leagues around the world. We cover major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, UEFA Champions League, World Cup and many more, predictz.  Find all your sure predictions here."
+        Bundesliga, UEFA Champions League, World Cup and many more, predictz.  Find all your sure predictions here.You can also find all your Mathematical football predictions and statistics for more than 700 leagues. Match previews,stat trends and live scores."
          
         />
 
@@ -39,7 +40,7 @@ const Predictions = ({ predictions }) => {
         predictions, taking into account factors such as team form, player
         availability, head-to-head statistics, and other relevant data. We cover
         major leagues such as the English Premier League, Spanish La Liga,  Italian Serie A,
-       Germany Bundesliga,CAF Champions League, Saudi Arabian League and many more. Find all your sure predictions here.
+       Germany Bundesliga,CAF Champions League, Saudi Arabian League and many more. Find all your sure predictions here, and Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier lEAGUE stat trends and live scores..
          
       </Text>
       <Flex justify="center">
