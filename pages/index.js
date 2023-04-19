@@ -13,7 +13,7 @@ export default function Home({ predictions }) {
       <Head>
         <title>
           Success Secrets bet- Best Site for bet predictions on football, and
-          1xbet tricks.
+          1xbet tricks.From English Premier League to UEFA Champions League
         </title>
         <link
           rel="canonical"
