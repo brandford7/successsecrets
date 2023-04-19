@@ -32,7 +32,7 @@ const Germany = ({ predictions }) => {
           Welcome to Germany predictions page. On this page, you will find
           expert Germany football predictions.Our team of football experts has
           years of experience analyzing the German football leagues, including
-          the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup and more.
+          the German Bundesliga,German Bundesliga 2, German DFB Pokal, and German Super Cup and more.
           We use a combination of statistical analysis and insider knowledge to
           make our predictions, giving you the best chance of making informed
           bets on Germany soccer matches. Make sure to bookmark this page and

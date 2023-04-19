@@ -37,7 +37,7 @@ const International = ({ predictions }) => {
           team of experienced analysts and are dedicated to providing
           accurate predictions and in-depth analysis of international soccer
           matches across various tournaments. We cover all major soccer events
-          including the World Cup, Club World Cup, Olympics, U17 and U20 World
+          including the FIFA World Cup,FIFA WOMEN'S WORLD CUP, FIFA Club World Cup, Olympics Games,FIFA U17 World Cup and FIFA U20 World
           Cups and more. We also provide expert opinions and statistical
           analysis to help you make informed decisions when placing bets on
           soccer matches.

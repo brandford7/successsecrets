@@ -37,12 +37,12 @@ const France = ({ predictions }) => {
           committed to providing you with the most accurate and up-to-date
           information possible. Whether you are a fan of Ligue 1, or any other
           soccer league in France, our page is the go-to destination for all
-          your soccer predictions. We cover the Ligue 1, Ligue 2, Coupe de la
+          your soccer predictions. We cover the France Ligue 1, Ligue 2, France Coupe de la
           ligue, Coupe de France, and French Super Cup. So whether you are a
           seasoned bettor or a casual fan, make sure to bookmark our page for
           all your France soccer predictions and analysis. With our team of
           experts on your side, you can stay one step ahead of the game and
-          maximize your winnings.
+          maximize your winnings with the sure soccer predictions.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

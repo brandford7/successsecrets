@@ -29,7 +29,7 @@ const Italy = ({ predictions }) => {
         <Text fontSize="2xl" textAlign="justify" color="white" p="10" mb="10">
           Welcome to our Italy football predictions page. Here, you will find
           expert predictions for all the top football matches in Italy,
-          including Serie A,Serie B, Coppa Italia, and Supercoppa Italiana. Our
+          including Italian Serie A,Italian Serie B, Coppa Italia, and Supercoppa Italiana. Our
           team of experts use a variety of statistical tools, historical data,
           and other factors to arrive at their predictions. Whether you are a
           die-hard Italian soccer fan or simply looking to make informed bets,
