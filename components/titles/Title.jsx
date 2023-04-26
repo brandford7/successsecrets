@@ -4,7 +4,7 @@ import React from 'react'
 const Title = ({name}) => {
   return (
     <>
-          <Heading color="whitesmoke" p="20px">{name}</Heading>
+          <Heading as='h1' color="whitesmoke" p="20px">{name}</Heading>
           
     </>
   );

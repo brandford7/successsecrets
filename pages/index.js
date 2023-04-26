@@ -13,7 +13,8 @@ export default function Home({ predictions }) {
       <Head>
         <title>
           Success Secrets bet- Best Site for bet predictions on football, and
-          1xbet tricks.From English Premier League to UEFA Champions League
+          1xbet tricks.From English Premier League,MLS,FIFA World Cup, to UEFA
+          Champions League
         </title>
         <link
           rel="canonical"
@@ -23,8 +24,23 @@ export default function Home({ predictions }) {
         <meta
           name="description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful prediction on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
-          Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) , Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
-         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier lEAGUE stat trends and live scores."
+          Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
+         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier league,forebet stat trends and live scores."
+        />
+        <meta
+          property="og:title"
+          content="Success Secrets bet- Best Site for bet predictions on football, and
+          1xbet tricks.From English Premier League,MLS,FIFA World Cup, to UEFA
+          Champions League"
+        />
+
+        <meta property="og:image" content="/success-image.webp" />
+
+        <meta
+          property="og:description"
+          content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful prediction on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
+          Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
+         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier league,forebet stat trends and live scores."
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -33,14 +49,19 @@ export default function Home({ predictions }) {
       <TopSection />
       <Text fontSize="2xl" color="white" p="10" textAlign="justify" mb="10">
         Success Secrets Bet is the ultimate destination for soccer enthusiasts
-        looking to stay ahead of the game with sure tips and sure predictions fROm the English Premier League, Italian Footbal Predictions(Serie A, Serie B), Spain Football Predictions, Germany Football Predictions, Saudi Arabian League, France Ligue1 . Our website offers sure
-        soccer predictions and analysis to help our users make informed betting
+        looking to stay ahead of the game with sure tips and sure predictions
+        from the English Premier League, Italian Footbal Predictions(Serie A,
+        Serie B), Spain Football Predictions, Germany Football Predictions,
+        Saudi Arabian League, France Ligue1 . Our website offers sure soccer
+        predictions and analysis to help our users make informed betting
         decisions. With our expert team of analysts and data scientists, we
         provide accurate and reliable predictions for a wide range of soccer
         leagues and tournaments around the world. Our predictions are based on a
         combination of statistical analysis, team and player form, as well as
         the latest news and updates from the world of soccer. Find all your sure
-        predictions here,and Mathematical football predictions and statistics for more than 700 leagues. Match previews,stat trends and live scores. American NBA tips will be included soon.
+        predictions here,and Mathematical football predictions and statistics
+        for more than 700 leagues. Match previews,stat trends and live scores.
+        American NBA tips will be included soon.
       </Text>
       <MidSection predictions={predictions} />
     </Box>

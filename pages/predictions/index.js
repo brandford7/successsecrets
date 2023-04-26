@@ -26,7 +26,7 @@ const Predictions = ({ predictions }) => {
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find
         expert analysis, insights, and predictions for upcoming soccer matches
         from leagues around the world. We cover major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, UEFA Champions League, World Cup and many more, predictz.  Find all your sure predictions here.You can also find all your Mathematical football predictions and statistics for more than 700 leagues. Match previews,stat trends and live scores."
+        Bundesliga, UEFA Champions League, World Cup,MLS,NBA and many more, predictz.  Find all your sure predictions here.You can also find all your Mathematical football predictions and statistics for more than 700 leagues. Match previews, forebet,stat trends and live scores."
          
         />
 
