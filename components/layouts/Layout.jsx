@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <Container bg="bg.200" maxW="container.xl" textAlign="center" p="0">
           <Header />
           <main>{children}</main>
-          <GoogleAds />
+          {/*<GoogleAds />*/}
           <Footer />
         </Container>
 
