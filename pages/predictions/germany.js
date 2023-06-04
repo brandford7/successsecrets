@@ -21,7 +21,7 @@ const Germany = ({ predictions }) => {
           name="description"
           content="Welcome to our Germany predictions page. Here, you will find expert football
           analysis and predictions for all the top football matches in Germany,
-          including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup."
+          including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup. Get all zulubet predictions forebet"
         />
 
         <link rel="icon" href="/success-image.jpg" />

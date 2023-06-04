@@ -25,7 +25,7 @@ export default function Home({ predictions }) {
           name="description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful prediction on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
           Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
-         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier league,forebet stat trends and live scores."
+         You can also find Mathematical football predictions and statistics for more than 700 leagues. zulubet predictions forebet,English Premier league,forebet stat trends and live scores."
         />
         <meta
           property="og:title"
@@ -40,7 +40,7 @@ export default function Home({ predictions }) {
           property="og:description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful prediction on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
           Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
-         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,English Premier league,forebet stat trends and live scores."
+         You can also find Mathematical football predictions and statistics for more than 700 leagues. Match previews,z prediction today English Premier league,forebet stat trends and live scores."
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -53,15 +53,16 @@ export default function Home({ predictions }) {
         from the English Premier League, Italian Footbal Predictions(Serie A,
         Serie B), Spain Football Predictions, Germany Football Predictions,
         Saudi Arabian League, France Ligue1 . Our website offers sure soccer
-        predictions and analysis to help our users make informed betting
-        decisions. With our expert team of analysts and data scientists, we
-        provide accurate and reliable predictions for a wide range of soccer
-        leagues and tournaments around the world. Our predictions are based on a
-        combination of statistical analysis, team and player form, as well as
-        the latest news and updates from the world of soccer. Find all your sure
-        predictions here,and Mathematical football predictions and statistics
-        for more than 700 leagues. Match previews,stat trends and live scores.
-        American NBA tips will be included soon.
+        predictions,z prediction today and analysis to help our users make
+        informed betting decisions. With our expert team of analysts and data
+        scientists, we provide accurate and reliable predictions for a wide
+        range of soccer leagues and tournaments around the world. Our
+        predictions are based on a combination of statistical analysis, team and
+        player form, as well as the latest news and updates from the world of
+        soccer. Find all your sure predictions here,and Mathematical football
+        predictions and statistics for more than 700 leagues. Match
+        previews,stat trends and live scores. American NBA tips will be included
+        soon.
       </Text>
       <MidSection predictions={predictions} />
     </Box>

@@ -22,7 +22,7 @@ const Europe = ({ predictions }) => {
           content="  Welcome to our page dedicated to UEFA predictions. On this page, you
           will find expert predictions and analysis for upcoming UEFA football matches,
           including the Champions League, Europa League, Conference League and
-          European Championship, and Nations League."
+          European Championship, and Nations League.zulubet predictions forebet"
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -37,7 +37,8 @@ const Europe = ({ predictions }) => {
           experienced football analysts and sports enthusiasts use a combination
           of statistical models, team and player performance data, and in-depth
           knowledge of the game to provide you with the most accurate and
-          up-to-date predictions for each match.
+          up-to-date predictions for each match.Find all zulubet predictions
+          forebet.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>
