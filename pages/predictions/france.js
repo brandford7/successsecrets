@@ -11,7 +11,7 @@ const France = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions for France</title>
+        <title>Betting tips for France</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/france"
@@ -20,7 +20,7 @@ const France = ({ predictions }) => {
         <meta
           name="description"
           content="Welcome to our France football predictions page. Here, you will find expert
-          analysis and predictions for all the top football matches in France,
+          analysis, betting tips, and predictions for all the top football matches in France,
           including the Ligue 1,
           Ligue 2, Coupe de la ligue, Coupe de France, and French Super Cup ."
         />
@@ -37,12 +37,12 @@ const France = ({ predictions }) => {
           committed to providing you with the most accurate and up-to-date
           information possible. Whether you are a fan of Ligue 1, or any other
           soccer league in France, our page is the go-to destination for all
-          your soccer predictions. We cover the France Ligue 1, Ligue 2, France Coupe de la
-          ligue, Coupe de France, and French Super Cup. So whether you are a
-          seasoned bettor or a casual fan, make sure to bookmark our page for
-          all your France soccer predictions and analysis. With our team of
-          experts on your side, you can stay one step ahead of the game and
-          maximize your winnings with the sure soccer predictions.
+          your soccer predictions. We cover the France Ligue 1, Ligue 2, France
+          Coupe de la ligue, Coupe de France, and French Super Cup. So whether
+          you are a seasoned bettor or a casual fan, make sure to bookmark our
+          page for all your France soccer predictions and analysis. With our
+          team of experts on your side, you can stay one step ahead of the game
+          and maximize your winnings with the sure soccer predictions.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

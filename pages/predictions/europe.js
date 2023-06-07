@@ -11,7 +11,7 @@ const Europe = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions for UEFA matches</title>
+        <title>Betting tips for UEFA matches</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/europe"
@@ -19,8 +19,8 @@ const Europe = ({ predictions }) => {
         />
         <meta
           name="description"
-          content="  Welcome to our page dedicated to UEFA predictions. On this page, you
-          will find expert predictions and analysis for upcoming UEFA football matches,
+          content="  Welcome to our page dedicated to UEFA predictions. This page provides
+          you with betting tips for upcoming UEFA football matches,
           including the Champions League, Europa League, Conference League and
           European Championship, and Nations League.zulubet predictions forebet"
         />
@@ -30,15 +30,14 @@ const Europe = ({ predictions }) => {
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
         <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to our page dedicated to UEFA predictions! On this page, you
-          will find expert football predictions and analysis for upcoming UEFA
-          matches, including the Champions League, Europa League, Conference
-          League and European Championship, and UEFA Nations League. Our team of
-          experienced football analysts and sports enthusiasts use a combination
-          of statistical models, team and player performance data, and in-depth
-          knowledge of the game to provide you with the most accurate and
-          up-to-date predictions for each match.Find all zulubet predictions
-          forebet.
+          Welcome to our page dedicated to UEFA predictions. This page provides
+          you with betting tips for upcoming UEFA football matches, including
+          the Champions League, Europa League, Conference League and European
+          Championship, and Nations League. Our team of experienced football
+          analysts and sports enthusiasts use a combination of statistical
+          models, team and player performance data, and in-depth knowledge of
+          the game to provide you with the most accurate and up-to-date
+          predictions for each match.Find all zulubet predictions forebet.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

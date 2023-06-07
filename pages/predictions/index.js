@@ -41,16 +41,16 @@ const Predictions = ({ predictions }) => {
         data. We cover major leagues such as the English Premier League, Spanish
         La Liga, Italian Serie A, Germany Bundesliga,CAF Champions League, Saudi
         Arabian League and many more. Find all your sure predictions here, and
-        Mathematical football predictions, z prediction today,zulu predictions and statistics for more than 700
-        leagues. Match previews,English Premier lEAGUE stat trends and live
-        scores..
+        Mathematical football predictions, z prediction today,zulu predictions
+        and statistics for more than 700 leagues. Match previews,English Premier
+        lEAGUE stat trends and live scores..
       </Text>
       <Flex justify="center">
         <NavBarThree />
       </Flex>
 
       <Heading p="10" color="white">
-        Predictions for {todayDate}
+        Betting tips for {todayDate}
       </Heading>
 
       <PredictionTable predictions={predictions} />

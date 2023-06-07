@@ -11,7 +11,7 @@ const Portugal = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions for Portugal</title>
+        <title>Betting tips for Portugal</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/portugal"
@@ -19,21 +19,21 @@ const Portugal = ({ predictions }) => {
         />
         <meta
           name="description"
-          content="Welcome to our page dedicated to Portugal predictions. On this page, you
-          will find expert predictions and analysis for upcoming matches in Portugal,
-          including the Primeira Liga, Segunda Liga, Taca de Liga ,Taca de Portugal, and Portuguese Super Cup."
+          content="Welcome to the Portugal football Predictions page, where we make it easy for you to select matches to bet on
+           with the help of our expert analysis, betting tips, and predictions for all the major football matches
+          featuring top teams from Portugal ."
         />
-
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Portugal" />
         <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to the Portugal football Predictions page, where you can find
-          expert analysis and predictions for all the major football matches
-          featuring top teams from Portugal . Whether you are a die-hard fan of
-          Benfica, Porto, or Sporting Lisbon, or just a casual follower of
-          Portuguese soccer, our team of experienced analysts has got you
+          Welcome to the Portugal football Predictions page, where we make it
+          easy for you to select matches to bet on with the help of our expert
+          analysis, betting tips, and predictions for all the major football
+          matches featuring top teams from Portugal . Whether you are a die-hard
+          fan of Benfica, Porto, or Sporting Lisbon, or just a casual follower
+          of Portuguese soccer, our team of experienced analysts has got you
           covered. We use the latest data and statistical models to provide
           accurate and insightful predictions for upcoming matches, taking into
           account factors such as team form, injuries, and head-to-head records.

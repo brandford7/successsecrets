@@ -48,7 +48,7 @@ const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
       </Flex>
 
       <Heading p="10" color="white">
-        Predictions for {twoDaysAgoDate}
+        Betting tips for {twoDaysAgoDate}
       </Heading>
 
       <PredictionTable predictions={predictions} />

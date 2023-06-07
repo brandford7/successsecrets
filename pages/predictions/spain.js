@@ -11,8 +11,8 @@ const Spain = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football Predictions for Spain</title>
-         <link
+        <title>Betting tips for Spain</title>
+        <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/spain"
           key="canonical"
@@ -20,20 +20,20 @@ const Spain = ({ predictions }) => {
         <meta
           name="description"
           content="   Welcome to our Spain predictions page. This is your ultimate
-          destination for accurate and insightful predictions on the most
+          destination for accurate and insightful betting tips, and predictions on the most
           popular football leagues in Spain, La Liga, Copa del Rey,Spanish Super
           Cup and the Segunda division,"
         />
-      
+
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Spain" />
         <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
           Welcome to our Spain football predictions page. This is your ultimate
-          destination for sure and insightful spanish football predictions 
-          . La Liga, Copa del Rey,Spanish Super
-          Cup and the Segunda division. Our team of expert analysts and writers
+          destination for sure and insightful spanish football and betting tips,
+          predictions . La Liga, Copa del Rey,Spanish Super Cup and the Segunda
+          division are all included. Our team of expert analysts and writers
           closely follow the Spanish football scene to provide you with reliable
           predictions and tips that you can count on.So why wait? Join us today
           and start winning big on the Spanish football scene with our expert

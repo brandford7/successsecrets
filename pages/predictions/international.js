@@ -11,7 +11,7 @@ const International = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Football predictions for International matches</title>
+        <title>Betting tips for International matches</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/international"
@@ -34,13 +34,13 @@ const International = ({ predictions }) => {
           predictions, and insights about international soccer. Whether your are
           a casual fan or a seasoned follower of football, our page has
           everything you need to stay informed and make informed decisions. Our
-          team of experienced analysts and are dedicated to providing
-          accurate predictions and in-depth analysis of international soccer
-          matches across various tournaments. We cover all major soccer events
-          including the FIFA World Cup,FIFA WOMEN WORLD CUP, FIFA Club World Cup, Olympics Games,FIFA U17 World Cup and FIFA U20 World
-          Cups and more. We also provide expert opinions and statistical
-          analysis to help you make informed decisions when placing bets on
-          soccer matches.
+          team of experienced analysts and are dedicated to providing accurate
+          predictions and in-depth analysis of international soccer matches
+          across various tournaments. We cover all major soccer events including
+          the FIFA World Cup,FIFA WOMEN WORLD CUP, FIFA Club World Cup, Olympics
+          Games,FIFA U17 World Cup and FIFA U20 World Cups and more. We also
+          provide expert opinions and statistical analysis to help you make
+          informed decisions when placing bets on soccer matches.
         </Text>
         <PredictionTable predictions={predictions} />
       </Box>

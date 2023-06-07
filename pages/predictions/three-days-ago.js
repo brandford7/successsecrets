@@ -48,7 +48,7 @@ const ThreeDaysAgo = ({ predictions }) => {
         <NavBarThree />
       </Flex>
       <Heading p="10" color="white">
-        Predictions for {threeDaysAgoDate}
+        Betting tips for {threeDaysAgoDate}
       </Heading>
       <PredictionTable predictions={predictions} />
     </Box>

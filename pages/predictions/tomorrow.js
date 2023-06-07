@@ -46,7 +46,7 @@ const Tomorrow = ({ predictions }) => {
         <NavBarThree />
       </Flex>
       <Heading p="10" color="white">
-        Predictions for {tomorrowDate}
+        Betting tips for {tomorrowDate}
       </Heading>
       <PredictionTable predictions={predictions} />
     </Box>
