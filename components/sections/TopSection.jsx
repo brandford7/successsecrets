@@ -17,21 +17,7 @@ const TopSection = () => {
         bgSize="cover"
         h="auto"
       >
-        {/* <Flex align="center" justify="center" pt="5">
-          <Link href="https://bit.ly/3fQPzA0">
-            <Image
-              src="/melbetAd.jpg"
-              width="500px"
-              height="500px"
-              alt="melbetAd"
-            />
-          </Link>
-        </Flex>
-
-         <Advert
-          src="https://refbanners.com/I?tag=d_1532459m_47237c_&site=1532459&ad=47237"
-          title="1xbet ad"
-  />*/}
+       
       </Box>
     </>
   );

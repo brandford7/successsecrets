@@ -34,9 +34,7 @@ const AuthPredictionTable = ({ predictions }) => {
         <Tbody>
           {predictions?.map((prediction) => (
             <Tr key={prediction._id}>
-              <Td>
-               {prediction.country}
-              </Td>
+              <Td>{prediction.country}</Td>
 
               <Td>{prediction.match}</Td>
               <Td>{prediction.bet}</Td>

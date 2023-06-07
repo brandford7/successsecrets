@@ -15,7 +15,7 @@ const MidSection = ({ predictions }) => {
   return (
     <>
       <Box bg='bg.200' color='white'>
-        <Title  name="Today's tips" />
+        <Title  name="Betting tips today" />
        <PredictionTable predictions={predictions}/>
       </Box>
     </>
