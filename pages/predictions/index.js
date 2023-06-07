@@ -49,7 +49,7 @@ const Predictions = ({ predictions }) => {
         <NavBarThree />
       </Flex>
 
-      <Heading p="10" color="white">
+      <Heading as="h2" p="10" color="white">
         Betting tips for {todayDate}
       </Heading>
 

@@ -9,7 +9,7 @@ const MainLogo = () => {
       <Flex align="center">
         <Link href="/" passHref>
           <a>
-            <Heading fontSize={["xl", "xl", "3xl"]} color="brand.700">
+            <Heading as='h1' fontSize={["xl", "xl", "3xl"]} color="brand.700">
               Success Secrets
             </Heading>
           </a>

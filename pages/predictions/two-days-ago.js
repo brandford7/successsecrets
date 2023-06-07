@@ -47,7 +47,7 @@ const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
         <NavBarThree />
       </Flex>
 
-      <Heading p="10" color="white">
+      <Heading as='h2' p="10" color="white">
         Betting tips for {twoDaysAgoDate}
       </Heading>
 
