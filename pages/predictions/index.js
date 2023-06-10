@@ -34,20 +34,23 @@ const Predictions = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" textAlign="justify" fontSize="2xl" p="10" mb="10">
-        Welcome to our page dedicated to sure today soccer betting tips Here,
-        you can sort sure win prediction for upcoming soccer matches from
-        leagues around the world according to date. Our team of experienced
-        analysts and soccer enthusiasts work tirelessly to provide accurate,
-        reliable and sure win prediction today, taking into account factors such
-        as team form, player availability, head-to-head statistics, and other
-        relevant data. We cover major leagues such as the English Premier
-        League, Spanish La Liga, Italian Serie A, Germany Bundesliga,CAF
-        Champions League, Saudi Arabian League and many more. Find all your sure
-        predictions here, and Mathematical football predictions, z prediction
-        today,zulu predictions and statistics for more than 700 leagues. Match
-        previews,English Premier lEAGUE stat trends and live scores..
-      </Text>
+      <article>
+        <Text color="white" textAlign="justify" fontSize="2xl" p="10" mb="10">
+          Welcome to our page dedicated to sure today soccer betting tips Here,
+          you can sort sure win prediction for upcoming soccer matches from
+          leagues around the world according to date. Our team of experienced
+          analysts and soccer enthusiasts work tirelessly to provide accurate,
+          reliable and sure win prediction today, taking into account factors
+          such as team form, player availability, head-to-head statistics, and
+          other relevant data. We cover major leagues such as the English
+          Premier League, Spanish La Liga, Italian Serie A, Germany
+          Bundesliga,CAF Champions League, Saudi Arabian League and many more.
+          Find all your sure predictions here, and Mathematical football
+          predictions, z prediction today,zulu predictions and statistics for
+          more than 700 leagues. Match previews,English Premier lEAGUE stat
+          trends and live scores..
+        </Text>
+      </article>
       <Flex justify="center">
         <NavBarThree />
       </Flex>

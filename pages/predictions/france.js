@@ -29,21 +29,24 @@ const France = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="France" />
-        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to the France Soccer Predictions page, where you can find
-          expertfootball analysis, insights, and football predictions on all
-          things related to football in France. Our team of experienced sports
-          analysts and enthusiasts are passionate about the game and are
-          committed to providing you with the most accurate and up-to-date
-          information possible. Whether you are a fan of Ligue 1, or any other
-          soccer league in France, our page is the go-to destination for all
-          your soccer predictions. We cover the France Ligue 1, Ligue 2, France
-          Coupe de la ligue, Coupe de France, and French Super Cup. So whether
-          you are a seasoned bettor or a casual fan, make sure to bookmark our
-          page for all your France soccer predictions and analysis. With our
-          team of experts on your side, you can stay one step ahead of the game
-          and maximize your winnings with the sure soccer predictions.
-        </Text>
+        <article>
+          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+            Welcome to the France Soccer Predictions page, where you can find
+            expertfootball analysis, insights, and football predictions on all
+            things related to football in France. Our team of experienced sports
+            analysts and enthusiasts are passionate about the game and are
+            committed to providing you with the most accurate and up-to-date
+            information possible. Whether you are a fan of Ligue 1, or any other
+            soccer league in France, our page is the go-to destination for all
+            your soccer predictions. We cover the France Ligue 1, Ligue 2,
+            France Coupe de la ligue, Coupe de France, and French Super Cup. So
+            whether you are a seasoned bettor or a casual fan, make sure to
+            bookmark our page for all your France soccer predictions and
+            analysis. With our team of experts on your side, you can stay one
+            step ahead of the game and maximize your winnings with the sure
+            soccer predictions.
+          </Text>
+        </article>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

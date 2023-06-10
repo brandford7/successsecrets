@@ -11,7 +11,10 @@ const International = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>International Matches-All international competitions, and friendly matches are available here.</title>
+        <title>
+          International Matches-All international competitions, and friendly
+          matches are available here.
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/international"
@@ -28,20 +31,23 @@ const International = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="International" />
-        <Text fontSize="2xl" textAlign="justify" color="white" p="10" mb="10">
-          International football predictions page is the ultimate destination
-          for soccer enthusiasts who are looking to stay updated on the latest
-          predictions, and insights about international soccer. Whether your are
-          a casual fan or a seasoned follower of football, our page has
-          everything you need to stay informed and make informed decisions. Our
-          team of experienced analysts and are dedicated to providing accurate
-          predictions and in-depth analysis of international soccer matches
-          across various tournaments. We cover all major soccer events including
-          the FIFA World Cup,FIFA WOMEN WORLD CUP, FIFA Club World Cup, Olympics
-          Games,FIFA U17 World Cup and FIFA U20 World Cups and more. We also
-          provide expert opinions and statistical analysis to help you make
-          informed decisions when placing bets on soccer matches.
-        </Text>
+        <article>
+          <Text fontSize="2xl" textAlign="justify" color="white" p="10" mb="10">
+            International football predictions page is the ultimate destination
+            for soccer enthusiasts who are looking to stay updated on the latest
+            predictions, and insights about international soccer. Whether your
+            are a casual fan or a seasoned follower of football, our page has
+            everything you need to stay informed and make informed decisions.
+            Our team of experienced analysts and are dedicated to providing
+            accurate predictions and in-depth analysis of international soccer
+            matches across various tournaments. We cover all major soccer events
+            including the FIFA World Cup,FIFA WOMEN WORLD CUP, FIFA Club World
+            Cup, Olympics Games,FIFA U17 World Cup and FIFA U20 World Cups and
+            more. We also provide expert opinions and statistical analysis to
+            help you make informed decisions when placing bets on soccer
+            matches.
+          </Text>
+        </article>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

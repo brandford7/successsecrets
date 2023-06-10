@@ -28,17 +28,19 @@ const Germany = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Germany" />
-        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to Germany predictions page. On this page, you will find
-          accurate German football betting tips.Our team of football experts has
-          years of experience analyzing the German football leagues, including
-          the German Bundesliga,German Bundesliga 2, German DFB Pokal, and
-          German Super Cup and more. We use a combination of statistical
-          analysis and insider knowledge to make our predictions, giving you the
-          best chance of making informed bets on Germany soccer matches. Make
-          sure to bookmark this page and check back regularly for the latest
-          analysis, and predictions on Germany soccer.
-        </Text>
+        <article>
+          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+            Welcome to Germany predictions page. On this page, you will find
+            accurate German football betting tips.Our team of football experts
+            has years of experience analyzing the German football leagues,
+            including the German Bundesliga,German Bundesliga 2, German DFB
+            Pokal, and German Super Cup and more. We use a combination of
+            statistical analysis and insider knowledge to make our predictions,
+            giving you the best chance of making informed bets on Germany soccer
+            matches. Make sure to bookmark this page and check back regularly
+            for the latest analysis, and predictions on Germany soccer.
+          </Text>
+        </article>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

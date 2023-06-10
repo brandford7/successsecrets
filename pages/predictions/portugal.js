@@ -12,7 +12,8 @@ const Portugal = ({ predictions }) => {
     <>
       <Head>
         <title>
-          Portugal - Find the best betting tips for football matches in Portugal.
+          Portugal - Find the best betting tips for football matches in
+          Portugal.
         </title>
         <link
           rel="canonical"
@@ -29,21 +30,23 @@ const Portugal = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Portugal" />
-        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to the Portugal football Predictions page, where we make it
-          easy for you to select matches to bet on with the help of our expert
-          analysis, betting tips, and predictions for all the major football
-          matches featuring top teams from Portugal . Whether you are a die-hard
-          fan of Benfica, Porto, or Sporting Lisbon, or just a casual follower
-          of Portuguese soccer, our team of experienced analysts has got you
-          covered. We use the latest data and statistical models to provide
-          accurate and insightful predictions for upcoming matches, taking into
-          account factors such as team form, injuries, and head-to-head records.
-          From the Primeira Liga to the Taca de Portugal, our predictions cover
-          all the major domestic competitions. Be sure to bookmark our Portugal
-          Soccer Predictions page and check back regularly for the latest
-          insights and predictions
-        </Text>
+        <article>
+          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+            Welcome to the Portugal football Predictions page, where we make it
+            easy for you to select matches to bet on with the help of our expert
+            analysis, betting tips, and predictions for all the major football
+            matches featuring top teams from Portugal . Whether you are a
+            die-hard fan of Benfica, Porto, or Sporting Lisbon, or just a casual
+            follower of Portuguese soccer, our team of experienced analysts has
+            got you covered. We use the latest data and statistical models to
+            provide accurate and insightful predictions for upcoming matches,
+            taking into account factors such as team form, injuries, and
+            head-to-head records. From the Primeira Liga to the Taca de
+            Portugal, our predictions cover all the major domestic competitions.
+            Be sure to bookmark our Portugal Soccer Predictions page and check
+            back regularly for the latest insights and predictions
+          </Text>
+        </article>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

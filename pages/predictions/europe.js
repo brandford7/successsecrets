@@ -31,16 +31,19 @@ const Europe = ({ predictions }) => {
       </Head>
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
-        <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
-          Welcome to our page dedicated to UEFA predictions. This page provides
-          you with betting tips for upcoming UEFA football matches, including
-          the Champions League, Europa League, Conference League and European
-          Championship, and Nations League. Our team of experienced football
-          analysts and sports enthusiasts use a combination of statistical
-          models, team and player performance data, and in-depth knowledge of
-          the game to provide you with the most accurate and up-to-date
-          predictions for each match.Find all zulubet predictions forebet.
-        </Text>
+        <article>
+          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+            Welcome to our page dedicated to UEFA predictions. This page
+            provides you with betting tips for upcoming UEFA football matches,
+            including the Champions League, Europa League, Conference League and
+            European Championship, and Nations League. Our team of experienced
+            football analysts and sports enthusiasts use a combination of
+            statistical models, team and player performance data, and in-depth
+            knowledge of the game to provide you with the most accurate and
+            up-to-date predictions for each match.Find all zulubet predictions
+            forebet.
+          </Text>
+        </article>
         <PredictionTable predictions={predictions} />
       </Box>
     </>

@@ -27,27 +27,31 @@ const ThreeDaysAgo = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="2xl" textAlign="justify" p="10" mb="10">
-        Welcome to our page dedicated to soccer predictions! Here, you can sort
-        predictions for upcoming soccer matches from leagues around the world
-        according to date. Our team of experienced analysts and soccer
-        enthusiasts work tirelessly to provide accurate and reliable
-        predictions, taking into account factors such as team form, player
-        availability, head-to-head statistics, and other relevant data. We cover
-        major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, and many more. Whether you are an avid soccer fan looking to
-        enhance your viewing experience or a bettor seeking valuable insights to
-        inform your wagers, our soccer predictions page is the perfect resource
-        for you. Our aim is to provide you with the most comprehensive and
-        insightful predictions to help you make informed decisions and stay
-        ahead of the game. So, if you want to stay up-to-date with the latest
-        soccer predictions and increase your chances of success, be sure to
-        bookmark our page and check back regularly for the latest updates.
-      </Text>
+      <article>
+        <Text
+          as="p"
+          color="white"
+          fontSize="2xl"
+          textAlign="justify"
+          p="10"
+          mb="10"
+        >
+          Welcome to our website page featuring betting tips for events that
+          took place three days ago. We understand that sometimes you may have
+          missed out on betting opportunities or want to analyze past matches
+          for learning purposes. That is why we provide you with valuable
+          insights and tips on sporting events that occurred three days ago. Our
+          team of experienced analysts meticulously studies historical data,
+          match statistics, team performances, and other relevant factors to
+          provide accurate and reliable betting tips. By reviewing events that
+          have already taken place, we aim to help you make informed decisions
+          based on past outcomes.
+        </Text>
+      </article>
       <Flex justify="center">
         <NavBarThree />
       </Flex>
-      <Heading as='h2' p="10" color="white">
+      <Heading as="h2" p="10" color="white">
         Betting tips for {threeDaysAgoDate}
       </Heading>
       <PredictionTable predictions={predictions} />
