@@ -11,7 +11,9 @@ const Italy = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for Italy</title>
+        <title>
+          Italy- Your destination betting tips for Italian football matches
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/italy"

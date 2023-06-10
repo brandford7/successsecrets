@@ -11,7 +11,7 @@ const International = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for International matches</title>
+        <title>International Matches-All international competitions, and friendly matches are available here.</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/international"

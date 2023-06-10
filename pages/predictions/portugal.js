@@ -11,7 +11,9 @@ const Portugal = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for Portugal</title>
+        <title>
+          Portugal - Find the best betting tips for football matches in Portugal.
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/portugal"

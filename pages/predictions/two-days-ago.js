@@ -16,7 +16,7 @@ const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
   return (
     <Box h={["auto", "auto", "100vh"]} bg="bg.200">
       <Head>
-        <title>Football for 2 days Ago</title>
+        <title>Two Days Ago-Football predictions for two days Ago</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/two-days-ago"

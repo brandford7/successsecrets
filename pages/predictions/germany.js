@@ -11,7 +11,7 @@ const Germany = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for Germany</title>
+        <title>Germany-Betting tips for German football competitions</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/germany"
@@ -21,7 +21,7 @@ const Germany = ({ predictions }) => {
           name="description"
           content="Welcome to our Germany predictions page. Here, you will find expert football
           betting tips and predictions for all the top football matches in Germany,
-          including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup. Get all zulubet predictions forebet"
+          including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup. Get all zulubet predictions, windraw win sure matches, forebet"
         />
 
         <link rel="icon" href="/success-image.jpg" />

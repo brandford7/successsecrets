@@ -11,7 +11,9 @@ const Europe = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for UEFA matches</title>
+        <title>
+          UEFA-Betting tips for all UEFA matches are available here.
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/europe"

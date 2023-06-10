@@ -12,7 +12,10 @@ const England = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for England</title>
+        <title>
+          England-Your destination for sure football predictions for England
+          football.
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/england"
@@ -22,7 +25,7 @@ const England = ({ predictions }) => {
           name="description"
           content="  Welcome to our England predictions page. Here, you will find betting tips
           and football predictions for all the top football matches in England,
-          including the Premier League, Championship, FA Cup,Community Shield, and League Cup. Find all your sure predictions here."
+          including the Premier League, Championship, FA Cup,Community Shield, and League Cup. Find all your sure  betting tips, and accurate predictions here."
         />
 
         <link rel="icon" href="/success-image.webp" />

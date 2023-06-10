@@ -15,7 +15,7 @@ const Tomorrow = ({ predictions }) => {
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
-        <title> Football predictions for tomorrow</title>
+        <title> Tomorrow-Football predictions for tomorrow</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/tomorrow"

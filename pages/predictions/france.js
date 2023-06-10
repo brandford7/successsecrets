@@ -11,7 +11,7 @@ const France = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for France</title>
+        <title>France-Uncover secret betting tips on France football</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/france"

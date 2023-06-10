@@ -11,7 +11,9 @@ const Spain = ({ predictions }) => {
   return (
     <>
       <Head>
-        <title>Betting tips for Spain</title>
+        <title>
+          Spain-Betting tips for all the exciting football competitions in Spain
+        </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/spain"

@@ -1,4 +1,4 @@
-import { Box, Flex, Heading,Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { startOfDay, subDays, format } from "date-fns";
 import Head from "next/head";
 import React from "react";
@@ -15,7 +15,7 @@ const Tomorrow = ({ predictions }) => {
   return (
     <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
       <Head>
-        <title>Football Predictions for yesterday</title>
+        <title>Yesterday-Football Predictions for yesterday </title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/yesterday"
@@ -45,7 +45,7 @@ const Tomorrow = ({ predictions }) => {
       <Flex justify="center">
         <NavBarThree />
       </Flex>
-      <Heading as='h2' p="10" color="white">
+      <Heading as="h2" p="10" color="white">
         Betting tips for {yesterdayDate}{" "}
       </Heading>
       <PredictionTable predictions={predictions} />
