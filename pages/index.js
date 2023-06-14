@@ -59,7 +59,7 @@ export default function Home({ predictions }) {
           Success Secrets Bet is the ultimate, and best betting site for soccer
           enthusiasts looking to stay ahead of the game with sure betting tips
           and sure win prediction today from the English Premier League, Italian
-          Footbal Predictions(Serie A, Serie B), Spain Football Predictions,
+          Football Predictions(Serie A, Serie B), Spain Football Predictions,
           Germany Football Predictions, Saudi Arabian League, France Ligue 1 .
           Our website offers sure soccer best predictions, ranging from soccer
           predictions over and under, 1x2 tips, correct scores, both teams to

@@ -7,7 +7,9 @@ const Offers = () => {
     <>
       <Box>
         <Head>
-          <title>Offers</title>
+          <title>
+            Offers- Discover the best and lucrative offers from bookmakers
+          </title>
           <link
             rel="canonical"
             href="https://www.successsecretsbet.com/offers"
@@ -26,7 +28,7 @@ const Offers = () => {
           <link rel="icon" href="/success-image.webp" />
         </Head>
         <Heading color="white" p="10px">
-          Offers- Discover the best and lucrative betting offers from bookmakers
+          Offers from bookmakers
         </Heading>
         <article>
           <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
