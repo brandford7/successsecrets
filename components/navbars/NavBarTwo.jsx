@@ -15,7 +15,7 @@ const NavBarTwo = () => {
         h="auto"
         align="center"
       >
-        <Link href="/predictions/europe" passHref>
+        <Link href="/predictions/uefa-matches" passHref>
           <chakra.a _hover={{ color: "yellow.400" }}>UEFA</chakra.a>
         </Link>
         <Link href="/predictions/england" passHref>
