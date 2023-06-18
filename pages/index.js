@@ -39,8 +39,8 @@ export default function Home({ predictions }) {
           property="og:description"
           content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful soccer predictions on football. Our website offers comprehensive soccer betting predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
           Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
-         You can also find soccer predictions over and under, 1x2 tips,
-        correct scores, both teams to score, Mathematical football predictions 100 sure and betting tips for more than 700 leagues. Highly accurate betting tips, football predictions 100 sure, sure win prediction today,forebet soccer prediction , great odds, and offers from 1xbet, bet winner, 888starzbet, melbet, and 22bet."
+         You can also find soccer predictions over and under, 1x2, tips 180 1x2,
+        correct scores, both teams to score, Mathematical football predictions 100 sure, 90 tips prediction ,and betting tips for more than 700 leagues. Highly accurate betting tips,  football predictions 100 sure,tips 180 best football predictions site sure win prediction today,forebet soccer prediction , great odds, and offers from 1xbet, bet winner, 888starzbet, melbet, and 22bet."
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -56,24 +56,25 @@ export default function Home({ predictions }) {
           textAlign="justify"
           mb="10"
         >
-          Success Secrets Bet is the ultimate, and best betting site for soccer
-          enthusiasts looking to stay ahead of the game with sure betting tips
-          and sure win prediction today from the English Premier League, Italian
-          Football Predictions(Serie A, Serie B), Spain Football Predictions,
-          Germany Football Predictions, Saudi Arabian League, France Ligue 1 .
-          Our website offers sure soccer best predictions, ranging from soccer
-          predictions over and under, 1x2 tips, correct scores, both teams to
-          score, and player to score today and analysis to help our users make
-          informed betting decisions. With our expert team of analysts and data
-          scientists, we provide accurate and footbal predictions 100 sure for a
-          wide range of soccer leagues and tournaments around the world. Find
-          all your sure predictions here,and Mathematical football predictions
-          and statistics for more than 700 leagues. Predicting the outcome of a
-          soccer match accurately is no easy feat. It requires a deep
-          understanding of the game, knowledge of the teams and players
-          involved, and a bit of luck. On sucess secrets bet, we do our best to
-          make this simple for you. So if you are looking for site that predict
-          football matches, here is your ultimate destination.
+          Success Secrets Bet is the ultimate, and best football predictions
+          site for bet enthusiasts looking to stay ahead of the game with sure
+          betting tips and sure win prediction today from the English Premier
+          League, Italian Football Predictions;Serie A, Serie B, Spain Football
+          Predictions, Germany Football Predictions, Saudi Arabian League,
+          France Ligue 1 . Our website offers sure soccer best predictions,
+          ranging from soccer predictions over and under, 1x2 tips, correct
+          scores, both teams to score, and player to score today and analysis to
+          help our users make informed betting decisions. With our expert team
+          of analysts and data scientists, we provide accurate and football
+          predictions 100 sure for a wide range of soccer leagues and
+          tournaments around the world. Find all your sure predictions here,and
+          Mathematical football predictions and statistics for more than 700
+          leagues. Predicting the outcome of a soccer match accurately is no
+          easy feat. It requires a deep understanding of the game, knowledge of
+          the teams and players involved, and a bit of luck. On sucess secrets
+          bet, we do our best to make this simple for you. So if you are looking
+          for site that predict football matches, here is your ultimate
+          destination.
         </Text>
       </article>
       <MidSection predictions={predictions} />
