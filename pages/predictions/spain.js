@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Box, Text } from "@chakra-ui/react";
 import { endOfDay, startOfDay } from "date-fns";
 import Head from "next/head";
@@ -32,7 +33,7 @@ const Spain = ({ predictions }) => {
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="Spain" />
         <article>
-          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
             Welcome to our Spain football predictions page. This is your
             ultimate destination for sure and insightful spanish football and
             betting tips, predictions . La Liga, Copa del Rey,Spanish Super Cup
@@ -44,6 +45,56 @@ const Spain = ({ predictions }) => {
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
+        <section className="page_details">
+          <Box p="10" border="1px solid white">
+            <Title name="La Liga: The Epitome of Spanish Football" />
+            <article>
+              <Text as="p">
+                La Liga, also known as LaLiga Santander, stands as the pinnacle
+                of Spanish football. It showcases some of the world's most
+                talented players and globally recognized clubs. Success Secrets
+                Bet's team of expert analysts diligently study each team's
+                performances, scrutinize player statistics, assess tactical
+                approaches, and consider historical data to deliver precise
+                predictions for every La Liga match. Whether you're interested
+                in predicting over/under outcomes, home or away wins, draws, or
+                1st half results, our platform offers a diverse range of
+                prediction options to cater to your preferences.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="Copa del Rey: The Thrill of Cup Competitions" />
+            <article>
+              <Text as="p">
+                The Copa del Rey, Spain's prestigious knockout tournament,
+                provides a unique platform for teams from various divisions to
+                compete against each other. Success Secrets Bet extends its
+                predictions to cover the Copa del Rey, ensuring that you stay
+                informed about the exciting cup clashes. Our analysts delve into
+                the historical performance of teams, assess their recent form,
+                and consider factors such as squad depth and motivation to
+                provide accurate predictions. Be it the early rounds or the
+                exhilarating final, Success Secrets Bet enables you to make
+                strategic betting decisions throughout the Copa del Rey journey.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="Spanish Football Leagues and Beyond" />
+            <article>
+              <Text as="p">
+                Success Secrets Bet recognizes the charm and excitement beyond
+                the top-tier competitions. We extend our predictions and
+                insights to various Spanish football leagues, including the
+                Segunda División, Segunda División B, and Tercera División. By
+                delving into these leagues, we aim to cater to football
+                enthusiasts who appreciate the passion and competitive nature of
+                Spanish football beyond the spotlight.
+              </Text>
+            </article>
+          </Box>
+        </section>
       </Box>
     </>
   );

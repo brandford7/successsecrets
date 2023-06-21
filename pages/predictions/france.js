@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Box, Text } from "@chakra-ui/react";
 import { endOfDay, startOfDay } from "date-fns";
 import React from "react";
@@ -30,7 +31,7 @@ const France = ({ predictions }) => {
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="France" />
         <article>
-          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
             Welcome to the France Soccer Predictions page, where you can find
             expertfootball analysis, insights, and football predictions on all
             things related to football in France. Our team of experienced sports
@@ -48,6 +49,58 @@ const France = ({ predictions }) => {
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
+        <section className="page_details">
+          <Box p="10" border="1px solid white">
+            <Title name="The French Ligue 1" />
+            <article>
+              <Text as="p">
+                Ligue 1, the top-tier football league in France, showcases the
+                nation's footballing excellence and captivates fans with its
+                flair and competitive spirit. Featuring renowned clubs like
+                Paris Saint-Germain, Lyon, Marseille, and many more, Ligue 1
+                boasts top talents from around the world. At Success Secrets
+                Bet, our expert team of analysts delves into each team's
+                performances, scrutinizes player statistics, studies tactical
+                approaches, and considers historical data to deliver precise
+                predictions for every Ligue 1 match. From over/under
+                predictions, home or away wins, draws, or insights into first
+                half outcomes, our platform provides various prediction options
+                to cater to your preferences.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="Coupe de France and Coupe de la ligue" />
+            <article>
+              <Text as="p">
+                The Coupe de France ad Coupe de la ligue, France's prestigious
+                knockout cup competitions, add an extra layer of excitement and
+                drama to the footballing landscape. Success Secrets Bet extends
+                its predictions to cover this thrilling tournament, ensuring
+                that you stay informed about the intense clashes between clubs
+                from various divisions. We thoroughly analyze team histories,
+                assess recent form, and consider factors such as squad depth and
+                motivation to provide accurate predictions throughout the Coupe
+                de France and Coupe de la ligue journey. From the early rounds
+                to the highly anticipated final, Success Secrets Bet equips you
+                with insights to make informed betting decisions.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="Ligue 2" />
+            <article>
+              <Text as="p">
+                Success Secrets Bet acknowledges the allure of French football
+                beyond Ligue 1 and the Coupe de France. We extend our
+                predictions and insights to other French leagues, including
+                Ligue 2 and lower divisions, where football enthusiasts can
+                witness the passion and competitiveness of the sport at various
+                levels.
+              </Text>
+            </article>
+          </Box>
+        </section>
       </Box>
     </>
   );

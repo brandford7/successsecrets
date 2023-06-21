@@ -31,7 +31,7 @@ const ThreeDaysAgo = ({ predictions }) => {
         <Text
           as="p"
           color="white"
-          fontSize="2xl"
+          fontSize="xl"
           textAlign="justify"
           p="10"
           mb="10"

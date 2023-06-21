@@ -35,7 +35,7 @@ const Predictions = ({ predictions }) => {
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <article>
-        <Text color="white" textAlign="justify" fontSize="2xl" p="10" mb="10">
+        <Text color="white" textAlign="justify" fontSize="xl" p="10" mb="10">
           Welcome to our page dedicated to sure today soccer betting tips Here,
           you can sort sure win prediction for upcoming soccer matches from
           leagues around the world according to date. Our team of experienced

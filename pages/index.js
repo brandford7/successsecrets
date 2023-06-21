@@ -6,6 +6,7 @@ import MidSection from "../components/sections/MidSection";
 import dbConnect from "../lib/dbConnect";
 import Prediction from "../models/Prediction";
 import { endOfDay, startOfDay } from "date-fns";
+import CardList from "../components/cards/CardList";
 
 export default function Home({ predictions }) {
   return (
@@ -50,7 +51,7 @@ export default function Home({ predictions }) {
       <article>
         <Text
           as="p"
-          fontSize="2xl"
+          fontSize="xl"
           color="white"
           p="10"
           textAlign="justify"
@@ -59,7 +60,7 @@ export default function Home({ predictions }) {
           Success Secrets Bet is the ultimate, and best football predictions
           site for bet enthusiasts looking to stay ahead of the game with sure
           betting tips and sure win prediction today from the English Premier
-          League, Italian Football Predictions;Serie A, Serie B, Spain Football
+          League, Italian Football Predictions; Serie A, Serie B, Spain Football
           Predictions, Germany Football Predictions, Saudi Arabian League,
           France Ligue 1.Our website offers sure soccer best predictions,
           ranging from soccer predictions over and under, 1x2 tips, correct
@@ -78,6 +79,7 @@ export default function Home({ predictions }) {
         </Text>
       </article>
       <MidSection predictions={predictions} />
+      <CardList/>
     </Box>
   );
 }

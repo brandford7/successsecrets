@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Box, Text } from "@chakra-ui/react";
 import React from "react";
 import { endOfDay, startOfDay } from "date-fns";
@@ -32,7 +33,7 @@ const International = ({ predictions }) => {
       <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
         <Title name="International" />
         <article>
-          <Text fontSize="2xl" textAlign="justify" color="white" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify" color="white" p="10" mb="10">
             International football predictions page is the ultimate destination
             for soccer enthusiasts who are looking to stay updated on the latest
             predictions, and insights about international soccer. Whether your
@@ -49,6 +50,65 @@ const International = ({ predictions }) => {
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
+        <section className="page_details">
+          <Box p="10" border="1px solid white">
+            <Title name="FIFA Competitions: The Pinnacle of International Football " />
+            <article>
+              <Text as="p">
+                FIFA competitions stand as the pinnacle of international
+                football, where nations compete for glory on the grandest stage.
+                From the prestigious FIFA World Cup, the ultimate showcase of
+                footballing talent and national pride, to regional tournaments
+                like the FIFA Club World Cup,FIFA U17 World Cup,FIFA U20 World
+                Cup, CONMEBOL Copa America, and AFC Asian Cup, these
+                competitions capture the imagination of millions worldwide.
+                Success Secrets Bet covers these tournaments with meticulous
+                precision, employing a team of expert analysts who delve into
+                team histories, assess recent form, analyze player performances,
+                and consider a myriad of factors that influence match outcomes.
+                Whether it's predicting group stage results, knockout stage
+                battles, or even the eventual tournament winners, our platform
+                provides accurate insights to enhance your understanding and
+                enjoyment of these spectacular competitions.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="International Friendlies: Exhibitions of Footballing Excellence" />
+            <article>
+              <Text as="p">
+                International friendlies serve as platforms for teams to
+                fine-tune their strategies, test new formations, and showcase
+                emerging talents. While the competitive element may be relaxed,
+                these matches often offer a glimpse into the future and can
+                surprise with unexpected outcomes. Success Secrets Bet extends
+                its predictions to international friendlies, analyzing team
+                dynamics, assessing player form, and considering various factors
+                such as squad rotations, tactical experimentation, and the
+                motivation of both teams involved. Our platform equips you with
+                valuable insights to navigate the intricacies of these
+                exhibition matches and make informed betting decisions.
+              </Text>
+            </article>
+          </Box>
+          <Box p="10" border="1px solid white">
+            <Title name="Unleashing the Secrets of International Football" />
+            <article>
+              <Text as="p">
+                At Success Secrets Bet, our predictions for international
+                matches are fueled by a combination of expert analysis and
+                advanced algorithms. Our team of football analysts closely
+                follows the international scene, studying team dynamics,
+                assessing player performances, and considering external factors
+                that influence match outcomes. By leveraging extensive data and
+                our analysts' deep understanding of the game, Success Secrets
+                Bet empowers you with valuable insights to enhance your betting
+                strategies and make informed decisions in the unpredictable
+                realm of international football.
+              </Text>
+            </article>
+          </Box>
+        </section>
       </Box>
     </>
   );

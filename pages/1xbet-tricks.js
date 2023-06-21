@@ -33,7 +33,7 @@ const OneXbet = () => {
         <article>
           <Text
             as="p"
-            fontSize="2xl"
+            fontSize="xl"
             color="white"
             textAlign="justify"
             p="10"

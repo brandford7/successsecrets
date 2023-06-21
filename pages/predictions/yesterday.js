@@ -25,7 +25,7 @@ const Tomorrow = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="2xl" textAlign="justify" p="10" mb="10">
+      <Text color="white" fontSize="xl" textAlign="justify" p="10" mb="10">
         Welcome to our website page, Betting Tips for Yesterday. We understand
         the importance of having access to up-to-date and reliable information
         when making betting decisions. That is why we provide a dedicated

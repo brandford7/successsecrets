@@ -25,7 +25,7 @@ const Tomorrow = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="2xl" textAlign="center" p="10" mb="10">
+      <Text color="white" fontSize="xl" textAlign="center" p="10" mb="10">
         Welcome to our page dedicated to soccer predictions! Here, you can sort
         predictions for upcoming soccer matches from leagues around the world
         according to date. Our team of experienced analysts and soccer
