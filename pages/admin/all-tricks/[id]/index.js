@@ -22,7 +22,7 @@ const ViewTrick = ({ trick }) => {
       setMessage("Failed to delete the trick.");
     }
   };
-  console.log(trick);
+
 
   return (
     <Box h="100vh">

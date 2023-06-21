@@ -11,9 +11,8 @@ import Prediction from "../../models/Prediction";
 const Tomorrow = ({ predictions }) => {
   const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
 
-  console.log(predictions);
   return (
-    <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
+    <Box h={["auto", "auto", "auto"]} bg="bg.200">
       <Head>
         <title> Tomorrow-Football predictions for tomorrow</title>
         <link
@@ -25,27 +24,30 @@ const Tomorrow = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Text color="white" fontSize="xl" textAlign="center" p="10" mb="10">
-        Welcome to our page dedicated to soccer predictions! Here, you can sort
-        predictions for upcoming soccer matches from leagues around the world
-        according to date. Our team of experienced analysts and soccer
-        enthusiasts work tirelessly to provide accurate and reliable
-        predictions, taking into account factors such as team form, player
-        availability, head-to-head statistics, and other relevant data. We cover
-        major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, and many more. Whether you are an avid soccer fan looking to
-        enhance your viewing experience or a bettor seeking valuable insights to
-        inform your wagers, our soccer predictions page is the perfect resource
-        for you. Our aim is to provide you with the most comprehensive and
-        insightful predictions to help you make informed decisions and stay
-        ahead of the game. So, if you want to stay up-to-date with the latest
-        soccer predictions and increase your chances of success, be sure to
-        bookmark our page and check back regularly for the latest updates.
-      </Text>
+      <article>
+        <Text color="white" fontSize="xl" textAlign="justify" p="10" mb="10">
+          Welcome to our page dedicated to soccer predictions! Here, you can
+          sort predictions for upcoming soccer matches from leagues around the
+          world according to date. Our team of experienced analysts and soccer
+          enthusiasts work tirelessly to provide accurate and reliable
+          predictions, taking into account factors such as team form, player
+          availability, head-to-head statistics, and other relevant data. We
+          cover major leagues such as the English Premier League, La Liga, Serie
+          A, Bundesliga, and many more. Whether you are an avid soccer fan
+          looking to enhance your viewing experience or a bettor seeking
+          valuable insights to inform your wagers, our soccer predictions page
+          is the perfect resource for you. Our aim is to provide you with the
+          most comprehensive and insightful predictions to help you make
+          informed decisions and stay ahead of the game. So, if you want to stay
+          up-to-date with the latest soccer predictions and increase your
+          chances of success, be sure to bookmark our page and check back
+          regularly for the latest updates.
+        </Text>
+      </article>
       <Flex justify="center">
         <NavBarThree />
       </Flex>
-      <Heading as='h2' p="10" color="white">
+      <Heading as="h2" p="10" color="white">
         Betting tips for {tomorrowDate}
       </Heading>
       <PredictionTable predictions={predictions} />

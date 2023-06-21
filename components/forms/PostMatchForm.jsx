@@ -47,7 +47,7 @@ const PostMatchForm = () => {
           result: Yup.string().max(20, "Must be 20 characters or less"),
         })}
         onSubmit={(values, { setSubmitting }) => {
-          console.log(values);
+         
           setTimeout(async () => {
             try {
               const res = await fetch('https://www.successsecretsbet.com/api/predictions', {

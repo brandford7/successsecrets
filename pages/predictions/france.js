@@ -119,7 +119,7 @@ export async function getStaticProps() {
     },
   });
 
-  console.log(predictions);
+  
   return {
     props: {
       predictions: JSON.parse(JSON.stringify(predictions)),

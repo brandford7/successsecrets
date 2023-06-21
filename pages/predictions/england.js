@@ -9,7 +9,7 @@ import Prediction from "../../models/Prediction";
 import Head from "next/head";
 
 const England = ({ predictions }) => {
-  console.log(predictions);
+  
   return (
     <>
       <Head>
