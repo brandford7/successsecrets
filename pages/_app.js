@@ -81,10 +81,9 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               }}
             />
 
-            <script
-              async="async"
-              data-cfasync="false"
-              src="//ophoacit.com/1?z=6066210"
+            <script async
+              type="text/javascript"
+              src="//pl18716003.highrevenuegate.com/2e/25/22/2e252234bfdeb8c535c64cf478156cd9.js"
             ></script>
 
             <Script
