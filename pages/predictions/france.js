@@ -28,10 +28,10 @@ const France = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="France" />
         <article>
-          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl"  textAlign="justify" p="10" mb="10">
             Welcome to the France Soccer Predictions page, where you can find
             expertfootball analysis, insights, and football predictions on all
             things related to football in France. Our team of experienced sports

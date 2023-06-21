@@ -28,10 +28,10 @@ const Italy = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="Italy" />
         <article>
-          <Text fontSize="xl" textAlign="justify" color="white" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify"  p="10" mb="10">
             Welcome to our Italy football predictions page. We help you discover
             a lot of betting tips, and accurate predictions for all the top
             football matches in Italy, including Italian Serie A,Italian Serie
@@ -59,8 +59,8 @@ const Italy = ({ predictions }) => {
                 scrutinizes player statistics, analyzes tactical approaches, and
                 considers historical data to deliver precise predictions for
                 every Serie A encounter. Whether you seek over/under
-                predictions, home or away wins, draws, or insights into
-                first half betting tips, our platform offers diverse prediction
+                predictions, home or away wins, draws, or insights into first
+                half betting tips, our platform offers diverse prediction
                 options tailored to your preferences.
               </Text>
             </article>

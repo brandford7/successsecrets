@@ -30,10 +30,10 @@ const Spain = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="Spain" />
         <article>
-          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify" p="10" mb="10">
             Welcome to our Spain football predictions page. This is your
             ultimate destination for sure and insightful spanish football and
             betting tips, predictions . La Liga, Copa del Rey,Spanish Super Cup

@@ -29,10 +29,10 @@ const Portugal = ({ predictions }) => {
         />
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="Portugal" />
         <article>
-          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify" p="10" mb="10">
             Welcome to the Portugal football Predictions page, where we make it
             easy for you to select matches to bet on with the help of our expert
             analysis, betting tips, and predictions for all the major football

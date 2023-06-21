@@ -27,10 +27,10 @@ const Germany = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.jpg" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="Germany" />
         <article>
-          <Text fontSize="2xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="2xl" textAlign="justify" p="10" mb="10">
             Welcome to Germany predictions page. On this page, you will find
             accurate German football betting tips.Our team of football experts
             has years of experience analyzing the German football leagues,

@@ -30,10 +30,10 @@ const Europe = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="UEFA" />
         <article>
-          <Text fontSize="xl" color="white" textAlign="justify" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify" p="10" mb="10">
             Welcome to our page dedicated to UEFA predictions. This page
             provides you with betting tips for upcoming UEFA football matches,
             including the Champions League, Europa League, Conference League and

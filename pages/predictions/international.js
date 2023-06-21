@@ -30,10 +30,10 @@ const International = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
         <Title name="International" />
         <article>
-          <Text fontSize="xl" textAlign="justify" color="white" p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify"  p="10" mb="10">
             International football predictions page is the ultimate destination
             for soccer enthusiasts who are looking to stay updated on the latest
             predictions, and insights about international soccer. Whether your
