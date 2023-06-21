@@ -9,15 +9,7 @@ export default class Document extends NextDocument {
       <Html lang="en">
         <Head>
          
-          {/*   <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
-              <script>
-            window.ezstandalone = window.ezstandalone || {}; ezstandalone.cmd =
-            ezstandalone.cmd || [];
-            ezstandalone.cmd.push(function() {
-              ezstandalone.define(102, 103)
-             ezstandalone.enable()
-            ezstandalone.display()});
-            </script>*/}
+         
         
         </Head>
 

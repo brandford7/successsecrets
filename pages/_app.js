@@ -80,6 +80,13 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           `,
               }}
             />
+
+            <script
+              async="async"
+              data-cfasync="false"
+              src="//ophoacit.com/1?z=6066210"
+            ></script>
+
             <Script
               id="show-ad"
               async
@@ -118,7 +125,6 @@ window.__h82AlnkH6D91__("WyJwdWItMzgyNTYxNzc1NjE2NzU2MSIsW251bGwsbnVsbCxudWxsLCJ
 
             <Layout>
               <Component {...pageProps} />
-             
             </Layout>
           </ChakraProvider>
         </SessionProvider>
