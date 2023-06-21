@@ -16,7 +16,7 @@ const Europe = ({ predictions }) => {
         </title>
         <link
           rel="canonical"
-          href="https://www.successsecretsbet.com/predictions/europe"
+          href="https://www.successsecretsbet.com/predictions/uefa-matches"
           key="canonical"
         />
         <meta
@@ -24,7 +24,7 @@ const Europe = ({ predictions }) => {
           content="  Welcome to our page dedicated to UEFA predictions. This page provides
           you with betting tips for upcoming UEFA football matches,
           including the Champions League, Europa League, Conference League and
-          European Championship, and Nations League.zulubet predictions forebet"
+          European Championship, and Nations League.zulubet, predixtc,tips180 1x2, predictions forebet"
         />
 
         <link rel="icon" href="/success-image.webp" />

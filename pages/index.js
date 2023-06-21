@@ -61,7 +61,7 @@ export default function Home({ predictions }) {
           betting tips and sure win prediction today from the English Premier
           League, Italian Football Predictions;Serie A, Serie B, Spain Football
           Predictions, Germany Football Predictions, Saudi Arabian League,
-          France Ligue 1 . Our website offers sure soccer best predictions,
+          France Ligue 1.Our website offers sure soccer best predictions,
           ranging from soccer predictions over and under, 1x2 tips, correct
           scores, both teams to score, and player to score today and analysis to
           help our users make informed betting decisions. With our expert team
@@ -69,8 +69,8 @@ export default function Home({ predictions }) {
           predictions 100 sure for a wide range of soccer leagues and
           tournaments around the world. Find all your sure predictions here,and
           Mathematical football predictions and statistics for more than 700
-          leagues. Predicting the outcome of a soccer match accurately is no
-          easy feat. It requires a deep understanding of the game, knowledge of
+          leagues.Predicting the outcome of a soccer match accurately is no
+          easy feat.It requires a deep understanding of the game, knowledge of
           the teams and players involved, and a bit of luck. On sucess secrets
           bet, we do our best to make this simple for you. So if you are looking
           for site that predict football matches, here is your ultimate
