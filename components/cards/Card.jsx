@@ -4,7 +4,7 @@ import Title from "../titles/Title";
 
 const Card = ({ card }) => {
   return (
-    <Box p="10" border="1px solid white">
+    <Box p="10" color="white" border="1px solid white">
       <Title name={card.title} />
       <article>
         <Text as="p">{card.content}</Text>
