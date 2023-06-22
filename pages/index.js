@@ -20,9 +20,7 @@ export default function Home({ predictions }) {
         />
         <meta
           name="description"
-          content="Success Secrets Bet is the ultimate destination for soccer enthusiasts looking to stay ahead of the game with  successful predictions, and betting tips on football. Our website offers comprehensive soccer bet predictions and analysis for the  English Premier League, La Liga, Ligue 1, Serie A, FA Cup League Cup, UEFA Champions League, Europa League Conference League CAF Champions League, UEFA
-          Nations League, World Cup, European ChampionShip,English Premier League,England Championship, England FA Cup, Italian Football Predictions(Serie A,Serie B) ,MLS,NBA, Spain Football Predictions(La Liga,Segunda Liga), Saudi Arabian League, German Football Predictions(Bundesliga), France Ligue1 , Netherlands Eredivisie, Portuguese League, and more. Find all your sure predictions here.
-         You can also find Mathematical football predictions and statistics for more than 700 leagues. zulubet predictions forebet,English Premier league,forebet stat trends and live scores."
+          content="Want to make successful soccer predictions? Look no further than success secrets bet, Forebet! Discover the secrets to their accurate predictions and start winning today."
         />
         <meta
           property="og:title"
