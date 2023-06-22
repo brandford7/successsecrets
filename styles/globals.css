@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.page_details {
+  margin-top: 50px;
+}
+
+.page_details div {
+  margin-top: 30px;
+  background: gray;
+}

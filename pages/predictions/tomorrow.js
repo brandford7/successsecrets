@@ -12,7 +12,7 @@ const Tomorrow = ({ predictions }) => {
   const tomorrowDate = format(addDays(new Date(), 1), "do MMMM");
 
   return (
-    <Box h={["auto", "auto", "auto"]} bg="bg.200">
+    <Box h={["auto", "auto", ]} bg="bg.200">
       <Head>
         <title> Tomorrow-Football predictions for tomorrow</title>
         <link

@@ -12,11 +12,7 @@ export default function Home({ predictions }) {
   return (
     <Box overflow="hidden" h="auto">
       <Head>
-        <title>
-          Success Secrets bet- Best Site for betting tips, and predictions on
-          football,NBA, and 1xbet tricks.From English Premier League,MLS,FIFA
-          World Cup, to UEFA Champions League
-        </title>
+        <title>Success Secrets bet- Best Site for betting tips.</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com"
@@ -70,16 +66,15 @@ export default function Home({ predictions }) {
           predictions 100 sure for a wide range of soccer leagues and
           tournaments around the world. Find all your sure predictions here,and
           Mathematical football predictions and statistics for more than 700
-          leagues.Predicting the outcome of a soccer match accurately is no
-          easy feat.It requires a deep understanding of the game, knowledge of
-          the teams and players involved, and a bit of luck. On sucess secrets
-          bet, we do our best to make this simple for you. So if you are looking
-          for site that predict football matches, here is your ultimate
-          destination.
+          leagues.Predicting the outcome of a soccer match accurately is no easy
+          feat.It requires a deep understanding of the game, knowledge of the
+          teams and players involved, and a bit of luck. On sucess secrets bet,
+          we do our best to make this simple for you. So if you are looking for
+          site that predict football matches, here is your ultimate destination.
         </Text>
       </article>
       <MidSection predictions={predictions} />
-      <CardList/>
+      <CardList />
     </Box>
   );
 }

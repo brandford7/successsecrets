@@ -30,7 +30,7 @@ const International = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", ]}>
         <Title name="International" />
         <article>
           <Text fontSize="xl" textAlign="justify"  p="10" mb="10">

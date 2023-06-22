@@ -28,10 +28,10 @@ const Italy = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto"]}>
         <Title name="Italy" />
         <article>
-          <Text fontSize="xl" textAlign="justify"  p="10" mb="10">
+          <Text fontSize="xl" textAlign="justify" p="10" mb="10">
             Welcome to our Italy football predictions page. We help you discover
             a lot of betting tips, and accurate predictions for all the top
             football matches in Italy, including Italian Serie A,Italian Serie

@@ -12,7 +12,7 @@ const TwoDaysAgo = ({ predictions }) => {
   const twoDaysAgoDate = format(subDays(new Date(), 2), "do MMMM");
 
   return (
-    <Box h={["auto", "auto", "100vh"]} bg="bg.200">
+    <Box h={["auto", "auto", ]} bg="bg.200">
       <Head>
         <title>Two Days Ago-Football predictions for two days Ago</title>
         <link

@@ -31,10 +31,10 @@ const England = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto",]}>
         <Title name="England" />
         <article>
-          <Text fontSize="xl"  p="10" textAlign="justify" mb="10">
+          <Text  p="10" textAlign="justify" mb="10">
             Welcome to our England football predictions page. We provide you
             with the most accurate betting tips and football predictions for all
             the top football matches in England, including the Premier League,
@@ -44,7 +44,7 @@ const England = ({ predictions }) => {
         </article>
         <PredictionTable predictions={predictions} />
         
-        <section className="page_details">
+        <section className="page_details ">
           <Box p="10" border="1px solid white">
             <Title name="Premier League Predictions" />
             <article>

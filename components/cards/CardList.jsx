@@ -5,7 +5,7 @@ import Card from "./Card";
 
 const CardList = () => {
   return (
-    <Stack spacing="5" mt="5">
+    <Stack spacing="10" mt="20">
       {cardData.map((card) => (
         <Card key={card.title} card={card} />
       ))}

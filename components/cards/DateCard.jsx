@@ -13,7 +13,7 @@ const DateCard = ({ children, day }) => {
         <Box display="flex" px="2" flexDirection="column" bg="brand.700">
           {children}
         </Box>
-        <Box bg="white" pt="5">
+        <Box bg="white" color="black" pt="5">
           {day}
         </Box>
       </Flex>

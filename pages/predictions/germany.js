@@ -27,7 +27,7 @@ const Germany = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.jpg" />
       </Head>
-      <Box overflow="hidden" color="white" h={["auto", "auto", "100vh"]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto", ]}>
         <Title name="Germany" />
         <article>
           <Text fontSize="2xl" textAlign="justify" p="10" mb="10">

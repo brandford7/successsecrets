@@ -11,9 +11,8 @@ import Prediction from "../../models/Prediction";
 const Tomorrow = ({ predictions }) => {
   const yesterdayDate = format(subDays(new Date(), 1), "do MMMM");
 
-  
   return (
-    <Box h={["auto", "auto", "100vh"]} overflow="hidden" bg="bg.200">
+    <Box h={["auto", "auto"]} overflow="hidden" bg="bg.200">
       <Head>
         <title>Yesterday-Football Predictions for yesterday </title>
         <link
