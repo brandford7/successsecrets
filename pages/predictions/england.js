@@ -21,8 +21,8 @@ const England = ({ predictions }) => {
         <meta
           name="description"
           content="  Welcome to our England predictions page. Here, you will find betting tips
-          and football predictions for all the top football matches in England,
-          including the Premier League, Championship, FA Cup,Community Shield, and League Cup. Find all your sure  betting tips, and accurate predictions here."
+          and football predictions for all the top football matches in England.
+           Find all your sure  forebet betting tips, and accurate predictions here."
         />
 
         <link rel="icon" href="/success-image.webp" />
