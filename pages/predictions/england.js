@@ -14,8 +14,8 @@ const England = ({ predictions }) => {
     <>
       <Head>
         <title>
-          England-Your destination for sure football predictions for England
-          football.
+          England Football Predictions 
+         
         </title>
         <link
           rel="canonical"

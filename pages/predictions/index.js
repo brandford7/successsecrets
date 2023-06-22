@@ -12,12 +12,9 @@ const Predictions = ({ predictions }) => {
   const todayDate = format(new Date(), "do MMMM");
 
   return (
-    <Box overflow="hidden" h={["auto", "auto",]} bg="bg.200">
+    <Box overflow="hidden" h={["auto", "auto"]} bg="bg.200">
       <Head>
-        <title>
-          Today- Find sure and accurate predictions, and betting tips on
-          football matches for today.
-        </title>
+        <title>Sure and accurate predictions Today.</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions"

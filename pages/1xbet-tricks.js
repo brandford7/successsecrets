@@ -9,10 +9,7 @@ const OneXbet = () => {
   return (
     <>
       <Head>
-        <title>
-          Betting tricks-Free Video tricks for 1xbet, betwinner, and other
-          bookmakers.
-        </title>
+        <title>Betting tricks-Discover Free 1xbet tricks</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/1xbet-tricks"

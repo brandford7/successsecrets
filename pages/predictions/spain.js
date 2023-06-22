@@ -13,7 +13,7 @@ const Spain = ({ predictions }) => {
     <>
       <Head>
         <title>
-          Spain-Betting tips for all the exciting football competitions in Spain
+          Spain-Betting tips for football competitions in Spain
         </title>
         <link
           rel="canonical"

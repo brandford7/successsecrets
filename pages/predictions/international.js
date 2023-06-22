@@ -13,8 +13,7 @@ const International = ({ predictions }) => {
     <>
       <Head>
         <title>
-          International Matches-All international competitions, and friendly
-          matches are available here.
+          International Matches
         </title>
         <link
           rel="canonical"

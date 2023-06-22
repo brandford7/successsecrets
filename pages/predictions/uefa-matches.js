@@ -13,7 +13,7 @@ const Europe = ({ predictions }) => {
     <>
       <Head>
         <title>
-          UEFA-Betting tips for all UEFA matches are available here.
+          UEFA-Betting tips for all UEFA matches.
         </title>
         <link
           rel="canonical"

@@ -13,7 +13,7 @@ const Italy = ({ predictions }) => {
     <>
       <Head>
         <title>
-          Italy- Your destination betting tips for Italian football matches
+          Italy- Italian football predictions
         </title>
         <link
           rel="canonical"

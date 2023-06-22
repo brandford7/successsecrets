@@ -13,7 +13,7 @@ const Portugal = ({ predictions }) => {
     <>
       <Head>
         <title>
-          Portugal - Find the best betting tips for football matches in
+          Portugal-Betting tips for football matches in
           Portugal.
         </title>
         <link
