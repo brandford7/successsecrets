@@ -12,7 +12,7 @@ export default function Home({ predictions }) {
   return (
     <Box overflow="hidden" h="auto">
       <Head>
-        <title>Success Secrets bet- Best Site for betting tips.</title>
+        <title>Success Secrets bet- Best Site forbet tips.</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com"
@@ -20,7 +20,7 @@ export default function Home({ predictions }) {
         />
         <meta
           name="description"
-          content="Want to make successful soccer predictions? Look no further than success secrets bet, Forebet! Discover the secrets to their accurate predictions and start winning today."
+          content="Want to make successful soccer predictions? Look no further than success secrets bet, Forebet! Discover the secrets to their accurate forbet predictions and start winning today."
         />
         <meta
           property="og:title"
@@ -62,7 +62,7 @@ export default function Home({ predictions }) {
           help our users make informed betting decisions. With our expert team
           of analysts and data scientists, we provide accurate and football
           predictions 100 sure for a wide range of soccer leagues and
-          tournaments around the world. Find all your sure predictions here,and
+          tournaments around the world. Find all your sure forbet predictions here,and
           Mathematical football predictions and statistics for more than 700
           leagues.Predicting the outcome of a soccer match accurately is no easy
           feat.It requires a deep understanding of the game, knowledge of the

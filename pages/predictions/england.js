@@ -9,14 +9,10 @@ import Prediction from "../../models/Prediction";
 import Head from "next/head";
 
 const England = ({ predictions }) => {
-  
   return (
     <>
       <Head>
-        <title>
-          England Football Predictions 
-         
-        </title>
+        <title>England Football Predictions</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions/england"
@@ -31,10 +27,10 @@ const England = ({ predictions }) => {
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
-      <Box overflow="hidden" color="white" h={["auto", "auto",]}>
+      <Box overflow="hidden" color="white" h={["auto", "auto"]}>
         <Title name="England" />
         <article>
-          <Text  p="10" textAlign="justify" mb="10">
+          <Text p="10" textAlign="justify" mb="10">
             Welcome to our England football predictions page. We provide you
             with the most accurate betting tips and football predictions for all
             the top football matches in England, including the Premier League,
@@ -43,7 +39,7 @@ const England = ({ predictions }) => {
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
-        
+
         <section className="page_details ">
           <Box p="10" border="1px solid white">
             <Title name="Premier League Predictions" />
@@ -51,14 +47,15 @@ const England = ({ predictions }) => {
               <Text as="p">
                 As the most prestigious and widely followed football league in
                 England, the Premier League captivates fans with its
-                electrifying matches, fierce rivalries, and top-class talent. At
-                Success Secrets Bet, we leave no stone unturned in analyzing
-                each teams performance, studying their tactics, player
+                electrifying football matches, fierce rivalries, and top-class
+                talent. At Success Secrets Bet, we leave no stone unturned in
+                analyzing each teams performance, studying their tactics, player
                 statistics, injury reports, and other vital factors that
-                influence outcomes. Our predictions for the Premier League cover
-                a wide range of options, including over/under, home win, away
-                win, draw, and 1st half predictions. By leveraging our insights,
-                you can make informed bets and stay ahead of the game.
+                influence football outcomes. Our predictions for the Premier
+                League cover a wide range of options forbet, including
+                over/under, home win, away win, draw, and 1st half predictions.
+                By leveraging our insights, you can make informed bets and stay
+                ahead of the game.
               </Text>
             </article>
           </Box>
