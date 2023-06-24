@@ -82,10 +82,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
               }}
             />
 
-            <script async
-              type="text/javascript"
-              src="//pl18716003.highrevenuegate.com/2e/25/22/2e252234bfdeb8c535c64cf478156cd9.js"
-            ></script>
+          
 
             <Script
               id="show-ad"
