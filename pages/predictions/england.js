@@ -20,9 +20,9 @@ const England = ({ predictions }) => {
         />
         <meta
           name="description"
-          content="  Welcome to our England predictions page. Here, you will find betting tips
-          and football predictions for all the top football matches in England.
-           Find all your sure  forebet betting tips, and accurate predictions here."
+          content="  Welcome to our England predictions page. Here, you will find soccer betting tips
+          and predictions for all the top football matches in England.
+           Find all your sure  forebet betting tips, and accurate soccer betting tips here."
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -32,10 +32,10 @@ const England = ({ predictions }) => {
         <article>
           <Text p="10" textAlign="justify" mb="10">
             Welcome to our England football predictions page. We provide you
-            with the most accurate betting tips and football predictions for all
+            with the most accurate soccer betting tips for all
             the top football matches in England, including the Premier League,
             FA Cup,Community Shield, and Carabao Cup. Find all your sure and
-            accurate predictions here.
+            accurate predictions here. Find all your soccer betting tips for England here
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
