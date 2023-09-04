@@ -1,7 +1,7 @@
 export const cardData = [
   {
     title:
-      " Introducing Success Secrets Bet: Your Gateway to Sports Predictions",
+      " Introducing Success Secrets Bet: The best site for Soccer Betting Tipss",
     content:
       "Welcome to Success Secrets Bet, your premier sports prediction site designed to elevate your betting experience to new heights. With a team of dedicated experts and cutting-edge algorithms, we provide accurate predictions for a wide range of sports events, empowering you to make informed decisions and increase your chances of success. Our diverse range of prediction options includes over/under, home win, away win, home/away win, draw, and 1st half predictions, catering to all types of sports enthusiasts.",
   },
@@ -21,7 +21,7 @@ export const cardData = [
       "Navigating Success Secrets Bet is a breeze, thanks to our user-friendly interface. Our platform is designed to provide a seamless experience, allowing you to effortlessly explore football predictions, compare odds, and make informed choices. Whether you're a seasoned bettor or a novice just starting your journey, our intuitive interface ensures you can quickly access the information you need without any hassle.",
   },
   {
-    title: "Enhanced Betting Strategies",
+    title: "Enhanced Soccer Betting Strategies",
     content:
       "Success Secrets Bet aims to empower you with the knowledge and insights necessary to develop and refine your soccer betting strategies. By leveraging our predictions forbet, you can gain a deeper understanding of the dynamics of each football match, identify potential upsets, and uncover hidden opportunities. Our goal is to arm you with the tools to make informed decisions that can maximize your chances of success.",
   },

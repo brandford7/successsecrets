@@ -14,7 +14,7 @@ const Predictions = ({ predictions }) => {
   return (
     <Box overflow="hidden" h={["auto", "auto"]} bg="bg.200">
       <Head>
-        <title>Soccer Bet Today.</title>
+        <title>Soccer Predictions For Today.</title>
         <link
           rel="canonical"
           href="https://www.successsecretsbet.com/predictions"
@@ -24,16 +24,15 @@ const Predictions = ({ predictions }) => {
         <meta
           name="description"
           content="  Welcome to our page dedicated to soccer predictions! Here, you will find
-        expert soccer betting analysis, insights, and predictions for upcoming soccer matches
+        expert soccer betting predictions for upcoming soccer matches
         from leagues around the world. We cover major leagues such as the English Premier League, La Liga, Serie A,
-        Bundesliga, UEFA Champions League, World Cup,MLS,NBA and many more,soccer bet today, predictz.  Find all your sure predictions here.You can also find all your Mathematical football predictions,zulubet predictions today,windraw win prediction today, forebet, zprediction today and statistics for more than 700 leagues. Match previews, forebet,stat trends and live scores."
-        />
+        Bundesliga, UEFA Champions League, World Cup,MLS, and many more,soccer bet today.  " />
 
         <link rel="icon" href="/success-image.webp" />
       </Head>
       <article>
         <Text color="white" textAlign="justify" fontSize="xl" p="10" mb="10">
-          Welcome to our page dedicated to sure soccer bet today Here, you can
+          Welcome to our page dedicated to sure soccer predictions for today. Here, you can
           find soccer betting prediction for upcoming soccer matches from
           leagues around the world according to date. Our team of experienced
           analysts and soccer enthusiasts work tirelessly to provide accurate,
@@ -43,8 +42,8 @@ const Predictions = ({ predictions }) => {
           League, Spanish La Liga, Italian Serie A, Germany Bundesliga,CAF
           Champions League, Saudi Arabian League and many more soccer betting
           leagues. Find all your sure soccer betting predictions here, and
-          Mathematical football predictions, soccer bet today,zulu predictions
-          and statistics for more than 700 leagues.
+          soccer predictions for today here.
+          
         </Text>
       </article>
       <Flex justify="center">

@@ -20,9 +20,9 @@ const England = ({ predictions }) => {
         />
         <meta
           name="description"
-          content="  Welcome to our England predictions page. Here, you will find soccer betting tips
+          content="  Welcome to our England football predictions page. Here, you will find the best soccer betting tips
           and predictions for all the top football matches in England.
-           Find all your sure  forebet betting tips, and accurate soccer betting tips here."
+           Find all your sure soccer betting tips here."
         />
 
         <link rel="icon" href="/success-image.webp" />
@@ -32,17 +32,16 @@ const England = ({ predictions }) => {
         <article>
           <Text p="10" textAlign="justify" mb="10">
             Welcome to our England football predictions page. We provide you
-            with the most accurate soccer betting tips for all
+            with the most accurate football betting tips for all
             the top football matches in England, including the Premier League,
-            FA Cup,Community Shield, and Carabao Cup. Find all your sure and
-            accurate predictions here. Find all your soccer betting tips for England here
+            FA Cup,Community Shield, and Carabao Cup. Find all your soccer betting tips for England here
           </Text>
         </article>
         <PredictionTable predictions={predictions} />
 
         <section className="page_details ">
           <Box p="10" border="1px solid white">
-            <Title name="Premier League Predictions" />
+            <Title name="English Premier League Predictions" />
             <article>
               <Text as="p">
                 As the most prestigious and widely followed football league in
@@ -52,7 +51,7 @@ const England = ({ predictions }) => {
                 analyzing each teams performance, studying their tactics, player
                 statistics, injury reports, and other vital factors that
                 influence football outcomes. Our predictions for the Premier
-                League cover a wide range of options forbet, including
+                League cover a wide range of options including
                 over/under, home win, away win, draw, and 1st half predictions.
                 By leveraging our insights, you can make informed bets and stay
                 ahead of the game.
