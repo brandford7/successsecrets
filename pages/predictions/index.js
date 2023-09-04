@@ -51,7 +51,7 @@ const Predictions = ({ predictions }) => {
       </Flex>
 
       <Heading as="h2" p="10" color="white">
-        Betting tips for {todayDate}
+       Soccer Betting tips for {todayDate}
       </Heading>
 
       <PredictionTable predictions={predictions} />

@@ -20,7 +20,7 @@ const Germany = ({ predictions }) => {
         />
         <meta
           name="description"
-          content="Welcome to our Germany predictions page. Here, you will find expert soccer
+          content="Welcome to our Germany Soccer predictions page. Here, you will find expert soccer
           betting tips and predictions for all the top football matches in Germany,
           including the Bundesliga, Bundesliga 2,DFB Pokal, and German Super Cup. Get all zulubet predictions, windraw win sure matches, forebet"
         />
@@ -31,7 +31,7 @@ const Germany = ({ predictions }) => {
         <Title name="Germany" />
         <article>
           <Text fontSize="2xl" textAlign="justify" p="10" mb="10">
-            Welcome to Germany predictions page. On this page, you will find
+            Welcome to Germany Soccer predictions page. On this page, you will find
             accurate German soccer betting tips.Our team of football experts
             has years of experience analyzing the German football leagues,
             including the German Bundesliga,German Bundesliga 2, German DFB

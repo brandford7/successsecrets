@@ -20,7 +20,7 @@ export default function Home({ predictions }) {
         />
         <meta
           name="description"
-          content="Want to make successful soccer predictions? Look no further than success secrets bet, Forebet! Discover the secrets to their accurate forbet predictions and start winning today."
+          content="Want to find successful soccer predictions? Look no further than success secrets bet, Forebet! Discover the secrets to our soccer betting predictions and start winning today."
         />
         <meta
           property="og:title"
